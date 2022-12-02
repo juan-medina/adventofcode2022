@@ -15,2505 +15,2505 @@ Language: Rust
 #### output
 
 ```
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Paper, Draw! Match Points: 5
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Paper, Draw! Match Points: 5
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Paper, Draw! Match Points: 5
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Paper, Draw! Match Points: 5
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Paper, Draw! Match Points: 5
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Paper, Draw! Match Points: 5
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Paper, Draw! Match Points: 5
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Paper, Draw! Match Points: 5
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Paper, Draw! Match Points: 5
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Paper, Draw! Match Points: 5
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Paper, Draw! Match Points: 5
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Paper, Draw! Match Points: 5
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Paper, Draw! Match Points: 5
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Paper, Draw! Match Points: 5
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Paper, Draw! Match Points: 5
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Paper, Draw! Match Points: 5
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Paper, Draw! Match Points: 5
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Paper, Draw! Match Points: 5
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Paper, Draw! Match Points: 5
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Rock, Player wins! Match Points: 7
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Rock, Draw! Match Points: 4
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Scissor - Player: Scissor, Draw! Match Points: 6
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Scissor, Player wins! Match Points: 9
-Adversary: Rock - Player: Paper, Player wins! Match Points: 8
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Rock - Player: Scissor, Player loose! Match Points: 3
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Scissor - Player: Paper, Player loose! Match Points: 2
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Adversary: Paper - Player: Rock, Player loose! Match Points: 1
-Total Points: 9651
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must draw - Player: Paper, Draw! Match Points: 5
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must draw - Player: Paper, Draw! Match Points: 5
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must draw - Player: Paper, Draw! Match Points: 5
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must draw - Player: Paper, Draw! Match Points: 5
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must draw - Player: Paper, Draw! Match Points: 5
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must draw - Player: Paper, Draw! Match Points: 5
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must draw - Player: Paper, Draw! Match Points: 5
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must draw - Player: Paper, Draw! Match Points: 5
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must draw - Player: Paper, Draw! Match Points: 5
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must draw - Player: Paper, Draw! Match Points: 5
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must draw - Player: Paper, Draw! Match Points: 5
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must draw - Player: Paper, Draw! Match Points: 5
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must draw - Player: Paper, Draw! Match Points: 5
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must draw - Player: Paper, Draw! Match Points: 5
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must draw - Player: Paper, Draw! Match Points: 5
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must draw - Player: Paper, Draw! Match Points: 5
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must draw - Player: Paper, Draw! Match Points: 5
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must draw - Player: Paper, Draw! Match Points: 5
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must draw - Player: Paper, Draw! Match Points: 5
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must loose - Player: Paper, Player loose! Match Points: 2
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must loose - Player: Scissor, Player loose! Match Points: 3
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Scissor - Strategy: Player must win - Player: Rock, Player wins! Match Points: 7
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must win - Player: Scissor, Player wins! Match Points: 9
+Adversary: Rock - Strategy: Player must draw - Player: Rock, Draw! Match Points: 4
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Rock - Strategy: Player must win - Player: Paper, Player wins! Match Points: 8
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Scissor - Strategy: Player must draw - Player: Scissor, Draw! Match Points: 6
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Adversary: Paper - Strategy: Player must loose - Player: Rock, Player loose! Match Points: 1
+Total Points: 10560
 ```
