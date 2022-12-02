@@ -5,6 +5,35 @@ use std::{
     str::FromStr,
 };
 
+enum Strategy {
+    PlayerMustWin,
+    PlayerMustLoose,
+    PlayerMustDraw
+}
+
+impl FromStr for Strategy  {
+    type Err = ();
+
+    fn from_str(input: &str) -> Result<Strategy, Self::Err> {
+        match input {
+            "X" => Ok(Strategy::PlayerMustLoose),
+            "Y" => Ok(Strategy::PlayerMustDraw),
+            "Z" => Ok(Strategy::PlayerMustWin),
+            _ => Err(()),
+        }
+    }
+}
+
+impl fmt::Display for Strategy  {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        match self {
+            Strategy::PlayerMustWin => write!(f, "must win"),
+            Strategy::PlayerMustLoose => write!(f, "must loose"),
+            Strategy::PlayerMustDraw => write!(f, "must draw"),
+        }
+    }
+}
+
 enum Moves {
     Rock,
     Paper,
@@ -19,9 +48,6 @@ impl FromStr for Moves {
             "A" => Ok(Moves::Rock),
             "B" => Ok(Moves::Paper),
             "C" => Ok(Moves::Scissor),
-            "X" => Ok(Moves::Rock),
-            "Y" => Ok(Moves::Paper),
-            "Z" => Ok(Moves::Scissor),
             _ => Err(()),
         }
     }
@@ -73,6 +99,26 @@ fn check_match(adversary: &Moves, player: &Moves) -> MatchResult {
     };
 }
 
+fn generate_move(adversary: &Moves, strategy: &Strategy) -> Moves {
+    return match adversary {
+        Moves::Rock => match strategy {
+            Strategy::PlayerMustWin => Moves::Paper,
+            Strategy::PlayerMustLoose => Moves::Scissor,
+            Strategy::PlayerMustDraw => Moves::Rock,
+        },
+        Moves::Paper => match strategy {
+            Strategy::PlayerMustWin => Moves::Scissor,
+            Strategy::PlayerMustLoose => Moves::Rock,
+            Strategy::PlayerMustDraw => Moves::Paper,
+        },
+        Moves::Scissor => match strategy {
+            Strategy::PlayerMustWin => Moves::Rock,
+            Strategy::PlayerMustLoose => Moves::Paper,
+            Strategy::PlayerMustDraw => Moves::Scissor,
+        },
+    };
+}
+
 fn points_per_move(player: &Moves) -> i32 {
     return match player {
         Moves::Rock => 1,
@@ -103,9 +149,14 @@ fn main() {
         let line = line.unwrap();
         let (a, b) = line.split_at(1);
 
-        // get the moves
+        // get the move
         let adversary_move = Moves::from_str(a).unwrap();
-        let player_move = Moves::from_str(b.trim()).unwrap();
+
+        // get the strategy
+        let strategy = Strategy::from_str(b.trim()).unwrap();
+
+        // calculate player move
+        let player_move = generate_move (&adversary_move, &strategy);
 
         // calculate result
         let result = check_match(&adversary_move, &player_move);
@@ -117,8 +168,8 @@ fn main() {
 
         // print stats
         println!(
-            "Adversary: {} - Player: {}, {}! Match Points: {}",
-            adversary_move, player_move, result, player_points
+            "Adversary: {} - Strategy: Player {} - Player: {}, {}! Match Points: {}",
+            adversary_move, strategy, player_move, result, player_points
         );
     }
     println!("Total Points: {}", total_points);
