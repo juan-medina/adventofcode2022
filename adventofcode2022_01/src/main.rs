@@ -37,13 +37,9 @@ fn main() {
             current_elf_total_calories += calories;
         }
     }
+    // sort and get the sum of the 3 higher calories
     calories_per_elf.sort();
-    calories_per_elf.reverse();
+    let sum_of_calories: i32 = calories_per_elf.iter().rev().take(3).sum();
 
-    let mut sum_of_calories = 0;
-    for top_calories in &calories_per_elf[0..3] {
-        sum_of_calories += top_calories;
-    }
-    // print sum of top 3 calories
     println!("sum of top 3 calories {}", sum_of_calories);
 }
