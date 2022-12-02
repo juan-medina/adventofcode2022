@@ -8,10 +8,10 @@ use std::{
 enum Strategy {
     PlayerMustWin,
     PlayerMustLoose,
-    PlayerMustDraw
+    PlayerMustDraw,
 }
 
-impl FromStr for Strategy  {
+impl FromStr for Strategy {
     type Err = ();
 
     fn from_str(input: &str) -> Result<Strategy, Self::Err> {
@@ -24,7 +24,7 @@ impl FromStr for Strategy  {
     }
 }
 
-impl fmt::Display for Strategy  {
+impl fmt::Display for Strategy {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         match self {
             Strategy::PlayerMustWin => write!(f, "must win"),
@@ -156,7 +156,7 @@ fn main() {
         let strategy = Strategy::from_str(b.trim()).unwrap();
 
         // calculate player move
-        let player_move = generate_move (&adversary_move, &strategy);
+        let player_move = generate_move(&adversary_move, &strategy);
 
         // calculate result
         let result = check_match(&adversary_move, &player_move);
