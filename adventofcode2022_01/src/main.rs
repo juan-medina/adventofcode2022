@@ -4,14 +4,12 @@ use std::{
 };
 
 fn main() {
-    // current reindeer number
-    let mut current_reindeer_number = 1;
-    // total calories in the current reindeer
-    let mut current_reindeer_total_calories = 0;
-    // max calories for all the reindeers
-    let mut max_calories_in_all_reindeers = 0;
-    // which reindeer has the most calories
-    let mut reindeer_with_most_calories = 0;
+    // current elf number
+    let mut current_elf_number = 1;
+    // total calories in the current elf
+    let mut current_elf_total_calories = 0;
+    // total calories per elf
+    let mut calories_per_elf: Vec<i32> = Vec::new();
 
     //open the file
     let filename = "data/calories.dat";
@@ -22,29 +20,30 @@ fn main() {
     for (_index, line) in reader.lines().enumerate() {
         let line = line.unwrap();
 
-        // line empty, we handle previous reindeer totals
+        // line empty, we handle previous elf totals
         if line.is_empty() {
-            // print previous reindeer stats
+            // print previous elf stats
             println!(
-                "reindeer number {} has {} total calories",
-                current_reindeer_number, current_reindeer_total_calories
+                "elf number {} has {} total calories",
+                current_elf_number, current_elf_total_calories
             );
-            // if we have more calories that the current max, we set this as the reindeer with most calories
-            if current_reindeer_total_calories > max_calories_in_all_reindeers {
-                reindeer_with_most_calories = current_reindeer_number;
-                max_calories_in_all_reindeers = current_reindeer_total_calories;
-            }
-            // next reindeer stars with 0 calories
-            current_reindeer_number += 1;
-            current_reindeer_total_calories = 0;
+            calories_per_elf.push(current_elf_total_calories);
+            // next elf stars with 0 calories
+            current_elf_number += 1;
+            current_elf_total_calories = 0;
         } else {
-            // add the calories to the current reindeer
+            // add the calories to the current elf
             let calories: i32 = line.parse().unwrap();
-            current_reindeer_total_calories += calories;
+            current_elf_total_calories += calories;
         }
     }
-    println!(
-        "The reindeer with most calories is the number {} with {} calories",
-        reindeer_with_most_calories, max_calories_in_all_reindeers
-    );
+    calories_per_elf.sort();
+    calories_per_elf.reverse();
+
+    let mut sum_of_calories = 0;
+    for top_calories in &calories_per_elf[0..3] {
+        sum_of_calories += top_calories;
+    }
+    // print sum of top 3 calories
+    println!("sum of top 3 calories {}", sum_of_calories);
 }
