@@ -5,6 +5,7 @@ use std::{
     str::FromStr,
 };
 
+#[derive(Clone, Copy)]
 enum Strategy {
     PlayerMustWin,
     PlayerMustLoose,
@@ -34,11 +35,13 @@ impl fmt::Display for Strategy {
     }
 }
 
+#[derive(Clone, Copy)]
 enum Moves {
     Rock,
     Paper,
     Scissor,
 }
+
 
 impl FromStr for Moves {
     type Err = ();
@@ -63,6 +66,7 @@ impl fmt::Display for Moves {
     }
 }
 
+#[derive(Clone, Copy)]
 enum MatchResult {
     PlayerWins,
     PlayerLoose,
@@ -79,7 +83,7 @@ impl fmt::Display for MatchResult {
     }
 }
 
-fn check_match(adversary: &Moves, player: &Moves) -> MatchResult {
+fn check_match(adversary: Moves, player: Moves) -> MatchResult {
     return match player {
         Moves::Rock => match adversary {
             Moves::Rock => MatchResult::Draw,
@@ -99,7 +103,7 @@ fn check_match(adversary: &Moves, player: &Moves) -> MatchResult {
     };
 }
 
-fn generate_move(adversary: &Moves, strategy: &Strategy) -> Moves {
+fn generate_move(adversary: Moves, strategy: Strategy) -> Moves {
     return match adversary {
         Moves::Rock => match strategy {
             Strategy::PlayerMustWin => Moves::Paper,
@@ -119,7 +123,7 @@ fn generate_move(adversary: &Moves, strategy: &Strategy) -> Moves {
     };
 }
 
-fn points_per_move(player: &Moves) -> i32 {
+fn points_per_move(player: Moves) -> i32 {
     return match player {
         Moves::Rock => 1,
         Moves::Paper => 2,
@@ -127,7 +131,7 @@ fn points_per_move(player: &Moves) -> i32 {
     };
 }
 
-fn points_per_result(result: &MatchResult) -> i32 {
+fn points_per_result(result: MatchResult) -> i32 {
     return match result {
         MatchResult::PlayerWins => 6,
         MatchResult::PlayerLoose => 0,
@@ -156,13 +160,13 @@ fn main() {
         let strategy = Strategy::from_str(b.trim()).unwrap();
 
         // calculate player move
-        let player_move = generate_move(&adversary_move, &strategy);
+        let player_move = generate_move(adversary_move, strategy);
 
         // calculate result
-        let result = check_match(&adversary_move, &player_move);
+        let result = check_match(adversary_move, player_move);
 
         // get the points
-        let player_points = points_per_move(&player_move) + points_per_result(&result);
+        let player_points = points_per_move(player_move) + points_per_result(result);
 
         total_points += player_points;
 
