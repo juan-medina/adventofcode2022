@@ -74,10 +74,13 @@ fn get_item_priority(item_type: char) -> u32 {
     // calculate priority
     if item_type.is_lowercase() {
         //for lowercase is 1..26 (a..z)
-        unicode_value - 96
+        const A_LOWER_UNICODE: u32 = 'a' as u32;
+        unicode_value - A_LOWER_UNICODE + 1
     } else {
         // for uppercase is 27..52 (A..Z)
-        unicode_value - 64 + 26
+        const A_UPPER_UNICODE: u32 = 'A' as u32;
+        const TOTAL_LETTERS: u32 = 26;
+        unicode_value - A_UPPER_UNICODE + 1 + TOTAL_LETTERS
     }
 }
 
