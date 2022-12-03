@@ -47,7 +47,7 @@ fn solve_day_1_part_1(filename: &str) -> u32 {
 }
 
 fn solve_day_1_part_2(filename: &str) -> u32 {
-    solve_day_1( filename, 3)
+    solve_day_1(filename, 3)
 }
 
 fn solve_day_1(filename: &str, top: usize) -> u32 {
