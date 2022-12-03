@@ -26,26 +26,31 @@ use std::{
     io::{BufRead, BufReader},
 };
 
+const EXAMPLE_FILE: &str = "data/calories_example.dat";
+const PUZZLE_FILE: &str = "data/calories_puzzle.dat";
+
 fn main() {
     println!("Advent of Code 2022 - Day 1: Calorie Counting");
     println!();
-    solve_day_1_part_1();
-    solve_day_1_part_2();
+    print_result("part 1 [example]", "calories", solve_day_1_part_1(EXAMPLE_FILE));
+    print_result("part 1 [puzzle]", "calories", solve_day_1_part_1(PUZZLE_FILE));
+    print_result("part 2 [example]", "calories", solve_day_1_part_2(EXAMPLE_FILE));
+    print_result("part 2 [puzzle]", "calories", solve_day_1_part_2(PUZZLE_FILE));
 }
 
-const EXAMPLE_FILE : &str =  "data/calories_example.dat";
-const PUZZLE_FILE : &str =  "data/calories_puzzle.dat";
-
-fn solve_day_1_part_1() {
-    solve_day_1("part 1 [example]", EXAMPLE_FILE, 1);
-    solve_day_1("part 1 [puzzle]", PUZZLE_FILE, 1);
-}
-fn solve_day_1_part_2() {
-    solve_day_1("part 2 [example]", EXAMPLE_FILE, 3);
-    solve_day_1("part 2 [puzzle]", PUZZLE_FILE, 3);
+fn print_result(label: &str, name: &str, value: u32) {
+    println!("{label} {name}: {value}");
 }
 
-fn solve_day_1(label: &str, filename: &str, top: usize) {
+fn solve_day_1_part_1(filename: &str) -> u32 {
+    solve_day_1(filename, 1)
+}
+
+fn solve_day_1_part_2(filename: &str) -> u32 {
+    solve_day_1( filename, 3)
+}
+
+fn solve_day_1(filename: &str, top: usize) -> u32 {
     // total calories in the current elf
     let mut current_elf_total_calories = 0;
     // total calories per elf
@@ -70,8 +75,7 @@ fn solve_day_1(label: &str, filename: &str, top: usize) {
         }
     }
     // sort and get the sum of the n calories
-    let total_calories = sum_top_n_calories(calories_per_elf, top);
-    println!("{label} sum of top {top} calories: {total_calories}");
+    sum_top_n_calories(calories_per_elf, top)
 }
 
 // sum the top n calories
@@ -79,4 +83,21 @@ fn sum_top_n_calories(calories: Vec<u32>, top: usize) -> u32 {
     let mut copy = calories.clone();
     copy.sort();
     copy.iter().rev().take(top).sum()
+}
+
+#[cfg(test)]
+mod tests {
+    use crate::*;
+
+    #[test]
+    fn test_part_1() {
+        let total = solve_day_1_part_1(EXAMPLE_FILE);
+        assert_eq!(total, 24000);
+    }
+
+    #[test]
+    fn test_part_2() {
+        let total = solve_day_1_part_2(EXAMPLE_FILE);
+        assert_eq!(total, 45000);
+    }
 }
