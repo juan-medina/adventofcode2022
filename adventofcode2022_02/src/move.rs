@@ -39,6 +39,9 @@ impl FromStr for Move {
             "A" => Ok(Move::Rock),
             "B" => Ok(Move::Paper),
             "C" => Ok(Move::Scissor),
+            "X" => Ok(Move::Rock),
+            "Y" => Ok(Move::Paper),
+            "Z" => Ok(Move::Scissor),
             _ => Err(()),
         }
     }
