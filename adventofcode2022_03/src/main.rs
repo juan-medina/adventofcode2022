@@ -7,8 +7,11 @@ fn main() {
     // sum of all priorities
     let mut sum_all_priorities = 0;
 
-    // the group of 3 rucksacks
+    // the group of rucksacks
     let mut group_of_rucksacks: Vec<String> = Vec::new();
+
+    // group of 3 rucksacks
+    const RUCKSACKS_PER_GROUP: usize = 3;
 
     //open the file
     let filename = "data/rucksacks.dat";
@@ -25,8 +28,8 @@ fn main() {
         // add the rucksack to the group
         group_of_rucksacks.push(line);
 
-        // when we have 3 rucksacks in the group we complete the group
-        if group_of_rucksacks.len() == 3 {
+        // when we have all rucksacks in the group we complete the group
+        if group_of_rucksacks.len() == RUCKSACKS_PER_GROUP {
             // find the repeat type
             let repeated_type = repeated_type(group_of_rucksacks.clone());
 
@@ -47,21 +50,33 @@ fn main() {
 }
 
 fn repeated_type(group_of_rucksacks: Vec<String>) -> char {
-    // get each rucksack
-    let first_rucksack = group_of_rucksacks[0].clone();
-    let second_rucksack = group_of_rucksacks[1].clone();
-    let third_rucksack = group_of_rucksacks[2].clone();
-
     // the repeated type
     let mut repeated_type = ' ';
 
+    // get first rucksack
+    let first_rucksack = group_of_rucksacks[0].clone();
+
+    // must be in this amount of sacks
+    let numbers_of_sacks_to_find = group_of_rucksacks.len();
+
     // iterate the first rucksack and check if found in the others
     for item_type in first_rucksack.chars() {
-        if second_rucksack.find(item_type) != None {
-            if third_rucksack.find(item_type) != None {
-                repeated_type = item_type;
+        // is found in the first sack
+        let mut found_in = 1;
+        // check the remaining sacks
+        for i in 1..numbers_of_sacks_to_find {
+            let sack = group_of_rucksacks[i].clone();
+            // if is found we accumulate one found, if not we continue with the next item
+            if sack.find(item_type) != None {
+                found_in += 1;
+            } else {
                 break;
             }
+        }
+        // if its found in all sacks
+        if found_in == numbers_of_sacks_to_find {
+            repeated_type = item_type;
+            break;
         }
     }
     return repeated_type;
