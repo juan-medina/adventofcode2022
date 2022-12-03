@@ -27,6 +27,8 @@ use std::{
 };
 
 fn main() {
+    println!("Advent of Code 2022 - Day 1: Calorie Counting");
+    println!();
     solve_day_1_part_1();
     solve_day_1_part_2();
 }

@@ -11,16 +11,18 @@ Language: Rust
 #### usage 
 
 ```bash
-> cargo run
+cargo run
 ```
 
 #### output
 
 ```
+Advent of Code 2022 - Day 1: Calorie Counting
+
 part 1 [example] sum of top 1 calories: 24000
-part 1 [puzzle] sum of top 1 calories: 24000
+part 1 [puzzle] sum of top 1 calories: 67622
 part 2 [example] sum of top 3 calories: 45000
-part 2 [puzzle] sum of top 3 calories: 45000
+part 2 [puzzle] sum of top 3 calories: 201491
 ```
 
 #### LICENSE
