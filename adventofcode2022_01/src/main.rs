@@ -40,7 +40,7 @@ fn solve_day_1_part_1() {
 }
 fn solve_day_1_part_2() {
     solve_day_1("part 2 [example]", EXAMPLE_FILE, 3);
-    solve_day_1("part 1 [puzzle]", PUZZLE_FILE, 3);
+    solve_day_1("part 2 [puzzle]", PUZZLE_FILE, 3);
 }
 
 fn solve_day_1(label: &str, filename: &str, top: usize) {

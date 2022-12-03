@@ -20,7 +20,7 @@ Language: Rust
 part 1 [example] sum of top 1 calories: 24000
 part 1 [puzzle] sum of top 1 calories: 24000
 part 2 [example] sum of top 3 calories: 45000
-part 1 [puzzle] sum of top 3 calories: 45000
+part 2 [puzzle] sum of top 3 calories: 45000
 ```
 
 #### LICENSE
