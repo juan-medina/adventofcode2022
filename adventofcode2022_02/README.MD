@@ -19,10 +19,10 @@ cargo run
 ```
 Day 2: Rock Paper Scissors
 
-part 1 [example] Total Points: 15
-part 1 [puzzle] Total Points: 9651
-part 2 [example] Total Points: 12
-part 2 [puzzle] Total Points: 10560
+part 1 [example] points: 15
+part 1 [puzzle] points: 9651
+part 2 [example] points: 12
+part 2 [puzzle] points: 10560
 ```
 
 #### License

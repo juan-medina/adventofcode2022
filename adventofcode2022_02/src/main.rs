@@ -35,29 +35,33 @@ mod r#move;
 mod match_result;
 mod rules;
 
-fn main() {
-    println!("Day 2: Rock Paper Scissors");
-    println!();
-    solve_day_2_part_1();
-    solve_day_2_part_2();
-}
-
 const EXAMPLE_FILE: &str = "data/strategy_example.dat";
 const PUZZLE_FILE: &str = "data/strategy_puzzle.dat";
 
-fn solve_day_2_part_1() {
-    solve_day_2("part 1 [example]", EXAMPLE_FILE, false);
-    solve_day_2("part 1 [puzzle]", PUZZLE_FILE, false);
+fn main() {
+    println!("Day 2: Rock Paper Scissors");
+    println!();
+    print_result("part 1 [example]", "points", solve_day_2_part_1(EXAMPLE_FILE));
+    print_result("part 1 [puzzle]", "points", solve_day_2_part_1(PUZZLE_FILE));
+    print_result("part 2 [example]", "points", solve_day_2_part_2(EXAMPLE_FILE));
+    print_result("part 2 [puzzle]", "points", solve_day_2_part_2(PUZZLE_FILE));
 }
 
-fn solve_day_2_part_2() {
-    solve_day_2("part 2 [example]", EXAMPLE_FILE, true);
-    solve_day_2("part 2 [puzzle]", PUZZLE_FILE, true);
+fn print_result(label: &str, name: &str, value: u32) {
+    println!("{label} {name}: {value}");
 }
 
-fn solve_day_2(label: &str, filename: &str, using_strategy: bool) {
+fn solve_day_2_part_1(filename: &str) -> u32 {
+    solve_day_2(filename, false)
+}
+
+fn solve_day_2_part_2(filename: &str) -> u32 {
+    solve_day_2(filename, true)
+}
+
+fn solve_day_2(filename: &str, using_strategy: bool) -> u32 {
     // total points
-    let mut total_points = 0;
+    let mut total_points: u32 = 0;
 
     //open the file
     let file = File::open(filename).unwrap();
@@ -74,8 +78,7 @@ fn solve_day_2(label: &str, filename: &str, using_strategy: bool) {
         // accumulate points
         total_points += rules::get_points(player_move, match_result);
     }
-    // print final points
-    println!("{label} Total Points: {}", total_points);
+    total_points
 }
 
 // get the turn: adversary move, and strategy (win, loose, draw)
@@ -102,5 +105,22 @@ fn get_moves(line: String, using_strategy: bool) -> (Move, Move) {
         (
             adversary_move, player_move
         )
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use crate::*;
+
+    #[test]
+    fn test_part_1() {
+        let total = solve_day_2_part_1(EXAMPLE_FILE);
+        assert_eq!(total, 15);
+    }
+
+    #[test]
+    fn test_part_2() {
+        let total = solve_day_2_part_2(EXAMPLE_FILE);
+        assert_eq!(total, 12);
     }
 }

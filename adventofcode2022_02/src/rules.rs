@@ -68,7 +68,7 @@ pub fn check_winner(adversary: Move, player: Move) -> MatchResult {
 }
 
 // points per move
-fn points_per_move(player: Move) -> i32 {
+fn points_per_move(player: Move) -> u32 {
     match player {
         Move::Rock => 1,
         Move::Paper => 2,
@@ -77,7 +77,7 @@ fn points_per_move(player: Move) -> i32 {
 }
 
 // points per match result
-fn points_per_match_result(result: MatchResult) -> i32 {
+fn points_per_match_result(result: MatchResult) -> u32 {
     match result {
         MatchResult::PlayerWins => 6,
         MatchResult::PlayerLoose => 0,
@@ -86,6 +86,6 @@ fn points_per_match_result(result: MatchResult) -> i32 {
 }
 
 // get the points from the move and the result
-pub fn get_points(player_move: Move, match_result: MatchResult) -> i32 {
+pub fn get_points(player_move: Move, match_result: MatchResult) -> u32 {
     points_per_move(player_move) + points_per_match_result(match_result)
 }
