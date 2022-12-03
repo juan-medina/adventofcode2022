@@ -15,305 +15,405 @@ Language: Rust
 #### output
 
 ```
-rucksacks: BzRmmzZHzVBzgVQmZLPtqqffPqWqJmPLlL, first compartment BzRmmzZHzVBzgVQmZ - second_compartment LPtqqffPqWqJmPLlL, repeated type m - priority 13
-rucksacks: hpvvTDcrCjhpcrvcGGhfLHMlLtMCqflNlWPJlJ, first compartment hpvvTDcrCjhpcrvcGGh - second_compartment fLHMlLtMCqflNlWPJlJ, repeated type C - priority 29
-rucksacks: hGjhncHhGnhbTHczBBZVVSbRwgSgRV, first compartment hGjhncHhGnhbTHc - second_compartment zBBZVVSbRwgSgRV, repeated type b - priority 2
-rucksacks: rWVQjPQQjGRWNSrWrPjcptwBpqqJBtJBBcZgMdtq, first compartment rWVQjPQQjGRWNSrWrPjc - second_compartment ptwBpqqJBtJBBcZgMdtq, repeated type c - priority 3
-rucksacks: zzmmpzfTCFpTlMlJJwBgMlqMBt, first compartment zzmmpzfTCFpTl - second_compartment MlJJwBgMlqMBt, repeated type l - priority 12
-rucksacks: TvLszpbhhTLmsnRQPDQGWDWRvQSR, first compartment TvLszpbhhTLmsn - second_compartment RQPDQGWDWRvQSR, repeated type v - priority 22
-rucksacks: zGzvLlGlQHLGBQZlhBWhdjRdmdWRcjPj, first compartment zGzvLlGlQHLGBQZl - second_compartment hBWhdjRdmdWRcjPj, repeated type B - priority 28
-rucksacks: fTJNfTfNSRWPhjdjfj, first compartment fTJNfTfNS - second_compartment RWPhjdjfj, repeated type f - priority 6
-rucksacks: pbsbVVnpSnbVTprnbqqrzvLLgQlGLPLHll, first compartment pbsbVVnpSnbVTprnb - second_compartment qqrzvLLgQlGLPLHll, repeated type r - priority 18
-rucksacks: ZCCCsWvNvmsCsCmZLZmgMLRpQMhwQRpQRfphfprpTfpM, first compartment ZCCCsWvNvmsCsCmZLZmgML - second_compartment RpQMhwQRpQRfphfprpTfpM, repeated type M - priority 39
-rucksacks: tlncPjzlndctbzcPPBcjwDphwrfGGDffbDRpDTGG, first compartment tlncPjzlndctbzcPPBcj - second_compartment wDphwrfGGDffbDRpDTGG, repeated type b - priority 2
-rucksacks: cdqnddwzqjNVWVLZZLZq, first compartment cdqnddwzqj - second_compartment NVWVLZZLZq, repeated type q - priority 17
-rucksacks: DTLbDbRrlQbwhhNrmmfwdt, first compartment DTLbDbRrlQb - second_compartment whhNrmmfwdt, repeated type r - priority 18
-rucksacks: zzMJMzjCjJJjvLjMPJpcgPpzfhHdfqWcqddwtwfqdttcNtdN, first compartment zzMJMzjCjJJjvLjMPJpcgPpz - second_compartment fhHdfqWcqddwtwfqdttcNtdN, repeated type c - priority 3
-rucksacks: pJCzVpCvDZBLsVRQ, first compartment pJCzVpCv - second_compartment DZBLsVRQ, repeated type V - priority 48
-rucksacks: STzBBbJzRRBZBRTqCCsfZLtNNLClCsfh, first compartment STzBBbJzRRBZBRTq - second_compartment CCsfZLtNNLClCsfh, repeated type Z - priority 52
-rucksacks: jsQnnQjjHcvQFrcPwCmtLCNlvDfftfff, first compartment jsQnnQjjHcvQFrcP - second_compartment wCmtLCNlvDfftfff, repeated type v - priority 22
-rucksacks: sGFscMQQMMpqzqbMbd, first compartment sGFscMQQM - second_compartment MpqzqbMbd, repeated type M - priority 39
-rucksacks: QlNDWGsjQjgQllWQsbtzqTJczTJcbFmmFJJP, first compartment QlNDWGsjQjgQllWQsb - second_compartment tzqTJczTJcbFmmFJJP, repeated type b - priority 2
-rucksacks: MhLrhgLVndRmzJFzVqqJqP, first compartment MhLrhgLVndR - second_compartment mzJFzVqqJqP, repeated type V - priority 48
-rucksacks: pSLnMdwhwdRZRSwhLZwLhdGWQjlsgWjNQWWSvgBsWDlj, first compartment pSLnMdwhwdRZRSwhLZwLhd - second_compartment GWQjlsgWjNQWWSvgBsWDlj, repeated type S - priority 45
-rucksacks: THjSRFSddTjdBTcPLcVVvVBw, first compartment THjSRFSddTjd - second_compartment BTcPLcVVvVBw, repeated type T - priority 46
-rucksacks: GzWnWfndWfznDfsnsBsPVwVwPPLL, first compartment GzWnWfndWfznDf - second_compartment snsBsPVwVwPPLL, repeated type n - priority 14
-rucksacks: zNflzJWqqzQDdSStHNZNpFFtbj, first compartment zNflzJWqqzQDd - second_compartment SStHNZNpFFtbj, repeated type N - priority 40
-rucksacks: FSzDmsFSFlDlBzqVjqHHjHHpVgHLbp, first compartment FSzDmsFSFlDlBzq - second_compartment VjqHHjHHpVgHLbp, repeated type q - priority 17
-rucksacks: rTrTtTQQntRQnQJQgggHZttVgHLBLhZL, first compartment rTrTtTQQntRQnQJQ - second_compartment gggHZttVgHLBLhZL, repeated type t - priority 20
-rucksacks: WTJJRRQCRRJTRdBCRdvRNDFSWFMPmDlPPSsNPSzS, first compartment WTJJRRQCRRJTRdBCRdvR - second_compartment NDFSWFMPmDlPPSsNPSzS, repeated type W - priority 49
-rucksacks: WQldlMtMVQgVMQHnDGbHGGnRnQmD, first compartment WQldlMtMVQgVMQ - second_compartment HnDGbHGGnRnQmD, repeated type Q - priority 43
-rucksacks: rqcZPrCFjmHlbGjZ, first compartment rqcZPrCF - second_compartment jmHlbGjZ, repeated type Z - priority 52
-rucksacks: zSScchqwchBzTzFzhhSlcCwNtdVWWJgsVdMtWNgNVWTJTd, first compartment zSScchqwchBzTzFzhhSlcCw - second_compartment NtdVWWJgsVdMtWNgNVWTJTd, repeated type T - priority 46
-rucksacks: lMZqjMWllrTTspjprWWSSwgWNSVNDmWGVwFwgN, first compartment lMZqjMWllrTTspjprWW - second_compartment SSwgWNSVNDmWGVwFwgN, repeated type W - priority 49
-rucksacks: cdCCdLHcnndHJnmCRntLBnRzDvFNtNDVzgSgwDgFNVzFVv, first compartment cdCCdLHcnndHJnmCRntLBnR - second_compartment zDvFNtNDVzgSgwDgFNVzFVv, repeated type t - priority 20
-rucksacks: BRLcCCJCmJdcRhfjPPZphrlrPqlZ, first compartment BRLcCCJCmJdcRh - second_compartment fjPPZphrlrPqlZ, repeated type h - priority 8
-rucksacks: GdGqcrrZGDrvDJJqJHcBvmFFgmFMMgMgBtMLTssLmF, first compartment GdGqcrrZGDrvDJJqJHcBv - second_compartment mFFgmFMMgMgBtMLTssLmF, repeated type B - priority 28
-rucksacks: NbPVPDlljPmTmsTj, first compartment NbPVPDll - second_compartment jPmTmsTj, repeated type P - priority 42
-rucksacks: VfQDhflCCRWdcrQwJvvnJv, first compartment VfQDhflCCRW - second_compartment dcrQwJvvnJv, repeated type Q - priority 43
-rucksacks: RLcWgLCqqPQLcqZwzHgwmmrmmtgwTw, first compartment RLcWgLCqqPQLcqZ - second_compartment wzHgwmmrmmtgwTw, repeated type g - priority 7
-rucksacks: DhbhNrMpnJSDJwVTHmmTVnTTVj, first compartment DhbhNrMpnJSDJ - second_compartment wVTHmmTVnTTVj, repeated type n - priority 14
-rucksacks: lrsvblMDlcWcfQPQ, first compartment lrsvblMD - second_compartment lcWcfQPQ, repeated type l - priority 12
-rucksacks: PVldlphHwGwJJGdjZZWsRbbsGsNWrWQbNbQR, first compartment PVldlphHwGwJJGdjZZ - second_compartment WsRbbsGsNWrWQbNbQR, repeated type G - priority 33
-rucksacks: SqcDvTmDLtfmSmtqppfqzTgTQBrRQsbCFWbNNFQFBBrRbLNb, first compartment SqcDvTmDLtfmSmtqppfqzTgT - second_compartment QBrRQsbCFWbNNFQFBBrRbLNb, repeated type L - priority 38
-rucksacks: MgtmTgtfpqVlnVddZMwV, first compartment MgtmTgtfpq - second_compartment VlnVddZMwV, repeated type M - priority 39
-rucksacks: BdmfmPBPSbSNdGSdvWrwcZrccZPPcZnH, first compartment BdmfmPBPSbSNdGSd - second_compartment vWrwcZrccZPPcZnH, repeated type P - priority 42
-rucksacks: jzzLsjsMRlQQVHwswvvZrCHrrT, first compartment jzzLsjsMRlQQV - second_compartment HwswvvZrCHrrT, repeated type s - priority 19
-rucksacks: VqhzVFzplFlpLwpMphLRQQVRmSqgbdGtNJBmNSmgGbtggSgt, first compartment VqhzVFzplFlpLwpMphLRQQVR - second_compartment mSqgbdGtNJBmNSmgGbtggSgt, repeated type q - priority 17
-rucksacks: DHVpNZjdZjFZWVFHpvFvzmlRzPnlfznFRz, first compartment DHVpNZjdZjFZWVFHp - second_compartment vFvzmlRzPnlfznFRz, repeated type F - priority 32
-rucksacks: lrTBTsBwwMbrrwLPPfwGmGzvRf, first compartment lrTBTsBwwMbrr - second_compartment wLPPfwGmGzvRf, repeated type w - priority 23
-rucksacks: scrtMhMCtJBBBclbHdHttWZWDSqDSjHj, first compartment scrtMhMCtJBBBclb - second_compartment HdHttWZWDSqDSjHj, repeated type t - priority 20
-rucksacks: wzqsPmqsbsfqBwPMNRMMZcZmFFNtZM, first compartment wzqsPmqsbsfqBwP - second_compartment MNRMMZcZmFFNtZM, repeated type m - priority 13
-rucksacks: CgCnhlvvLJgcRFNNBdCpWM, first compartment CgCnhlvvLJg - second_compartment cRFNNBdCpWM, repeated type C - priority 29
-rucksacks: QnQrVgHSvVHjbjTGBbbTHb, first compartment QnQrVgHSvVH - second_compartment jbjTGBbbTHb, repeated type H - priority 34
-rucksacks: HdrVrdqFDdZVmHgRmDRFHMnTdTssMGnLnPJLbPTbCs, first compartment HdrVrdqFDdZVmHgRmDRFH - second_compartment MnTdTssMGnLnPJLbPTbCs, repeated type d - priority 4
-rucksacks: SczlScjwcNzplNzQSSfjwQSrTGGsbTsnTCnGTMCMLMGGbN, first compartment SczlScjwcNzplNzQSSfjwQS - second_compartment rTGGsbTsnTCnGTMCMLMGGbN, repeated type N - priority 40
-rucksacks: wQlfjrhfhQFHqZhRZRtD, first compartment wQlfjrhfhQ - second_compartment FHqZhRZRtD, repeated type h - priority 8
-rucksacks: RsfJDGJvzPNcjpddSWJWMd, first compartment RsfJDGJvzPN - second_compartment cjpddSWJWMd, repeated type J - priority 36
-rucksacks: LLCbBCwCrCmVVnrmhQFmbVhdcdlWpjZzSpMdWSpcWczSBj, first compartment LLCbBCwCrCmVVnrmhQFmbVh - second_compartment dcdlWpjZzSpMdWSpcWczSBj, repeated type B - priority 28
-rucksacks: rrLCbTwnHTvzvNGT, first compartment rrLCbTwn - second_compartment HTvzvNGT, repeated type T - priority 46
-rucksacks: wPhPhbCqqSCrtJDlqvlrJr, first compartment wPhPhbCqqSC - second_compartment rtJDlqvlrJr, repeated type q - priority 17
-rucksacks: RVVZddLFRZZcQLvJJtzptlgPJp, first compartment RVVZddLFRZZcQ - second_compartment LvJJtzptlgPJp, repeated type L - priority 38
-rucksacks: TVQRZGVncFdTGWZdCNShHhfPNwwsWPwb, first compartment TVQRZGVncFdTGWZd - second_compartment CNShHhfPNwwsWPwb, repeated type W - priority 49
-rucksacks: dzLVzPSgrgDDDCMSMLLPwFmdTTcsvmwNwjNsHcFF, first compartment dzLVzPSgrgDDDCMSMLLP - second_compartment wFmdTTcsvmwNwjNsHcFF, repeated type d - priority 4
-rucksacks: nWBGntQfGNGBflWBBqlpRQGbWFvjwsbsFswbvTHjjbmHTc, first compartment nWBGntQfGNGBflWBBqlpRQG - second_compartment bWFvjwsbsFswbvTHjjbmHTc, repeated type W - priority 49
-rucksacks: tBNJBnGBflQnDPJrPhDgrPVg, first compartment tBNJBnGBflQn - second_compartment DPJrPhDgrPVg, repeated type J - priority 36
-rucksacks: VtWztWtqpqzWpWzqjNRjNpWTmrrmrSbnmJwSJwnMPrCSJVwM, first compartment VtWztWtqpqzWpWzqjNRjNpWT - second_compartment mrrmrSbnmJwSJwnMPrCSJVwM, repeated type V - priority 48
-rucksacks: sDHsBDhBdsBZGcHvLHDLhhCSnRSwCJMZrPbmnMbJSCSR, first compartment sDHsBDhBdsBZGcHvLHDLhh - second_compartment CSnRSwCJMZrPbmnMbJSCSR, repeated type Z - priority 52
-rucksacks: ccLRhgsLBdRsdHNTFFNNgqTglqzF, first compartment ccLRhgsLBdRsdH - second_compartment NTFFNNgqTglqzF, repeated type g - priority 7
-rucksacks: hztlmDhPhgPlPNNgmZMCbmwwQjcwjjwMjVCd, first compartment hztlmDhPhgPlPNNgmZ - second_compartment MCbmwwQjcwjjwMjVCd, repeated type m - priority 13
-rucksacks: RSJRrRqnqQJFqvnTGrHCcHHCCHHbHHMcMvdM, first compartment RSJRrRqnqQJFqvnTGr - second_compartment HCcHHCCHHbHHMcMvdM, repeated type v - priority 22
-rucksacks: qGJsnQTRsStsftPlhPNl, first compartment qGJsnQTRsS - second_compartment tsftPlhPNl, repeated type s - priority 19
-rucksacks: BFFBLPRCwsLwhlPlRmhcGGrbmmGjfNTTnp, first compartment BFFBLPRCwsLwhlPlR - second_compartment mhcGGrbmmGjfNTTnp, repeated type h - priority 8
-rucksacks: VJMVpzgqggJnrjmjNcMjmT, first compartment VJMVpzgqggJ - second_compartment nrjmjNcMjmT, repeated type M - priority 39
-rucksacks: VqdSZtQgZvtdzqHqHtVZdVQpCDWWFdwlRPDpWPPBCswlWD, first compartment VqdSZtQgZvtdzqHqHtVZdVQ - second_compartment pCDWWFdwlRPDpWPPBCswlWD, repeated type d - priority 4
-rucksacks: fCWCsjPzcbzwRSzVTzhhDLqvdg, first compartment fCWCsjPzcbzwR - second_compartment SzVTzhhDLqvdg, repeated type z - priority 26
-rucksacks: TmJtrNJrBLSLJqgS, first compartment TmJtrNJr - second_compartment BLSLJqgS, repeated type J - priority 36
-rucksacks: ptNTQFHrZlnpFPwsWMbRjCpcjR, first compartment ptNTQFHrZlnpF - second_compartment PwsWMbRjCpcjR, repeated type p - priority 16
-rucksacks: nJmQNCmbmlllmbClbfMLjMFqbGBsdLFq, first compartment nJmQNCmbmlllmbCl - second_compartment bfMLjMFqbGBsdLFq, repeated type b - priority 2
-rucksacks: ZcgTWcTnMqqMTBqF, first compartment ZcgTWcTn - second_compartment MqqMTBqF, repeated type T - priority 46
-rucksacks: tPgctSnPctZZgDWzZgQHwNmHlhlmzlQhlJlw, first compartment tPgctSnPctZZgDWzZg - second_compartment QHwNmHlhlmzlQhlJlw, repeated type z - priority 26
-rucksacks: ZpTCwpffdslvgShCBhqhRz, first compartment ZpTCwpffdsl - second_compartment vgShCBhqhRz, repeated type C - priority 29
-rucksacks: FDMPnNFNmBPzvRPRBg, first compartment FDMPnNFNm - second_compartment BPzvRPRBg, repeated type P - priority 42
-rucksacks: nNgMrnnDGjDmJMmnFdZTTsdsrZrslcwcQr, first compartment nNgMrnnDGjDmJMmnF - second_compartment dZTTsdsrZrslcwcQr, repeated type r - priority 18
-rucksacks: pTmczpCldcdDDnPttpvWSqbpJf, first compartment pTmczpCldcdDD - second_compartment nPttpvWSqbpJf, repeated type p - priority 16
-rucksacks: jgjRZMGHhGLgQrjvPWzPJgJvzStbbq, first compartment jgjRZMGHhGLgQrj - second_compartment vPWzPJgJvzStbbq, repeated type g - priority 7
-rucksacks: LGNLLNBBzcDFCBwwFC, first compartment LGNLLNBBz - second_compartment cDFCBwwFC, repeated type B - priority 28
-rucksacks: nJTTqnrNvTzNMzzNfqrTPrJnwpwPpZpsHccZVsBRpcVHwpcp, first compartment nJTTqnrNvTzNMzzNfqrTPrJn - second_compartment wpwPpZpsHccZVsBRpcVHwpcp, repeated type P - priority 42
-rucksacks: bgDhgbghLWmFmStctVpZtBCVCCpfZp, first compartment bgDhgbghLWmFmSt - second_compartment ctVpZtBCVCCpfZp, repeated type t - priority 20
-rucksacks: LLSgLGSjggFGbSSbmMnrvqvzjfzTNrJrqM, first compartment LLSgLGSjggFGbSSbm - second_compartment MnrvqvzjfzTNrJrqM, repeated type j - priority 10
-rucksacks: RRpDmmPMTjwfGmJQgQ, first compartment RRpDmmPMT - second_compartment jwfGmJQgQ, repeated type m - priority 13
-rucksacks: WsNscdnvvdVZFVnnrZbjjflwljlbzfGFjQjq, first compartment WsNscdnvvdVZFVnnrZ - second_compartment bjjflwljlbzfGFjQjq, repeated type F - priority 32
-rucksacks: NnLZsNnrrVVVcvdBLTPCPCRMwhPMBMPhCt, first compartment NnLZsNnrrVVVcvdBL - second_compartment TPCPCRMwhPMBMPhCt, repeated type B - priority 28
-rucksacks: lbVvzngGJnVbJHpHtHNPpdSQvc, first compartment lbVvzngGJnVbJ - second_compartment HpHtHNPpdSQvc, repeated type v - priority 22
-rucksacks: TsMBswFZsWMWBZMNwPtNNtRNHcNpSQ, first compartment TsMBswFZsWMWBZM - second_compartment NwPtNNtRNHcNpSQ, repeated type w - priority 23
-rucksacks: CcZCTrZDsjZTsTsshWhrWrTnfgbLDfJzVVLVVlgfnzfVGV, first compartment CcZCTrZDsjZTsTsshWhrWrT - second_compartment nfgbLDfJzVVLVVlgfnzfVGV, repeated type D - priority 30
-rucksacks: JzTTRtJRZWmWjrMHCT, first compartment JzTTRtJRZ - second_compartment WmWjrMHCT, repeated type T - priority 46
-rucksacks: DDFGlLGcGlSSSLsFGBspPBmNMBHMghmWNmWjWCmWtH, first compartment DDFGlLGcGlSSSLsFGBspP - second_compartment BmNMBHMghmWNmWjWCmWtH, repeated type B - priority 28
-rucksacks: nSSpnbsGlLDnpPsSSspFtVvffRQdVzqvvbqdfVQwRz, first compartment nSSpnbsGlLDnpPsSSspFt - second_compartment VvffRQdVzqvvbqdfVQwRz, repeated type b - priority 2
-rucksacks: sMhzszlHHDsWbthHDqsbJjpLNtmjVJmVLLVLVLBp, first compartment sMhzszlHHDsWbthHDqsb - second_compartment JjpLNtmjVJmVLLVLVLBp, repeated type t - priority 20
-rucksacks: nrTPrGwfPLdprzJzdL, first compartment nrTPrGwfP - second_compartment LdprzJzdL, repeated type r - priority 18
-rucksacks: wgPQcTGGzgccwCgnRwgRChFhlWSDqWWQMWhssSsMQl, first compartment wgPQcTGGzgccwCgnRwgRC - second_compartment hFhlWSDqWWQMWhssSsMQl, repeated type Q - priority 43
-rucksacks: NSNmwtpSpCpvMphCsr, first compartment NSNmwtpSp - second_compartment CpvMphCsr, repeated type p - priority 16
-rucksacks: PHcRGPLJMrsvzsqG, first compartment PHcRGPLJ - second_compartment MrsvzsqG, repeated type G - priority 33
-rucksacks: QHjbnRMcfbPbQZmlZgZlgBBQ, first compartment QHjbnRMcfbPb - second_compartment QZmlZgZlgBBQ, repeated type Q - priority 43
-rucksacks: cPRPbhQjbQRdtPQdLqLHqzFZjCFCqLjC, first compartment cPRPbhQjbQRdtPQd - second_compartment LqLHqzFZjCFCqLjC, repeated type j - priority 10
-rucksacks: mmfsnnwrfvwrfSNZFzHHLDCFNlLlqDlN, first compartment mmfsnnwrfvwrfSNZ - second_compartment FzHHLDCFNlLlqDlN, repeated type N - priority 40
-rucksacks: wsmrwswwGTffMrBnmQttJtcMZQQtPJPbZc, first compartment wsmrwswwGTffMrBnm - second_compartment QttJtcMZQQtPJPbZc, repeated type M - priority 39
-rucksacks: MvBPDDRRdnnvHPCHZLHZsFLL, first compartment MvBPDDRRdnnv - second_compartment HPCHZLHZsFLL, repeated type P - priority 42
-rucksacks: rmJcbVqbcjWwWjQHLzTZFTHSzFrpsz, first compartment rmJcbVqbcjWwWjQ - second_compartment HLzTZFTHSzFrpsz, repeated type r - priority 18
-rucksacks: cmwllVqqGJbVVVmmqbQcmgRnRvGhGfgDRDZBBBvRdd, first compartment cmwllVqqGJbVVVmmqbQcm - second_compartment gRnRvGhGfgDRDZBBBvRdd, repeated type G - priority 33
-rucksacks: nMvMhMnvhnbTZWSSZgHmGJDFmmNDzBmbNmdGBN, first compartment nMvMhMnvhnbTZWSSZgH - second_compartment mGJDFmmNDzBmbNmdGBN, repeated type b - priority 2
-rucksacks: rCsPLRCssRjrLLsrLlwRVrcNJQfDQfdBmmfNBGJNzmDPfB, first compartment rCsPLRCssRjrLLsrLlwRVrc - second_compartment NJQfDQfdBmmfNBGJNzmDPfB, repeated type P - priority 42
-rucksacks: CRjCpLltgtJgJJWq, first compartment CRjCpLlt - second_compartment gtJgJJWq, repeated type t - priority 20
-rucksacks: jshCzJpjzTPpmCWvSlpfwHfSWglf, first compartment jshCzJpjzTPpmC - second_compartment WvSlpfwHfSWglf, repeated type p - priority 16
-rucksacks: LQMMNMnHtDtLVRvwwgRWlldgWD, first compartment LQMMNMnHtDtLV - second_compartment RvwwgRWlldgWD, repeated type D - priority 30
-rucksacks: qHVrQNHVMFQtrrBBQMBcrrZsZbzCZhbbJZJsmmsmFPTC, first compartment qHVrQNHVMFQtrrBBQMBcrr - second_compartment ZsZbzCZhbbJZJsmmsmFPTC, repeated type F - priority 32
-rucksacks: JZQZnsQNMqTngZqJBVfBfPPVBNrwvfPw, first compartment JZQZnsQNMqTngZqJ - second_compartment BVfBfPPVBNrwvfPw, repeated type N - priority 40
-rucksacks: SSmDstFjpDpCszDjcLLhrPVlGlrGGVBwrvwVPt, first compartment SSmDstFjpDpCszDjcLL - second_compartment hrPVlGlrGGVBwrvwVPt, repeated type t - priority 20
-rucksacks: FSssFcLjFjbmFFCzjLcFLRDnMJnTHRnZZTdWqZZWnMnRnZ, first compartment FSssFcLjFjbmFFCzjLcFLRD - second_compartment nMJnTHRnZZTdWqZZWnMnRnZ, repeated type R - priority 44
-rucksacks: GbHRHpldwGMpWhHpCMBlCbRdVSLhnqJLSrDPLPPLPDqVDrhh, first compartment GbHRHpldwGMpWhHpCMBlCbRd - second_compartment VSLhnqJLSrDPLPPLPDqVDrhh, repeated type h - priority 8
-rucksacks: gvjWWQvgZFtQFFNqLnVnDnSJzzztDD, first compartment gvjWWQvgZFtQFFN - second_compartment qLnVnDnSJzzztDD, repeated type t - priority 20
-rucksacks: ZccccfTsffHdWWdRWwsw, first compartment ZccccfTsff - second_compartment HdWWdRWwsw, repeated type s - priority 19
-rucksacks: ClCtbHMlnnPPlszV, first compartment ClCtbHMl - second_compartment nnPPlszV, repeated type l - priority 12
-rucksacks: gSDWSLgWQWQJJNWqgtQjPsnfcdVcLVdVdzfzVzff, first compartment gSDWSLgWQWQJJNWqgtQj - second_compartment PsnfcdVcLVdVdzfzVzff, repeated type L - priority 38
-rucksacks: WQgqtFQgDgQSFqJhqhSJvNDRrZMZHwHMCbZhTpZbGHMTMG, first compartment WQgqtFQgDgQSFqJhqhSJvND - second_compartment RrZMZHwHMCbZhTpZbGHMTMG, repeated type h - priority 8
-rucksacks: pZJZlCQtHFhPfdNfCh, first compartment pZJZlCQtH - second_compartment FhPfdNfCh, repeated type C - priority 29
-rucksacks: zcmLSVczwcMcLDNFHdLPhPWH, first compartment zcmLSVczwcMc - second_compartment LDNFHdLPhPWH, repeated type L - priority 38
-rucksacks: szvVVnBmnTGQtHTQ, first compartment szvVVnBm - second_compartment nTGQtHTQ, repeated type n - priority 14
-rucksacks: RVVCNDlNGzlGZqHGHWqWhGqQwH, first compartment RVVCNDlNGzlGZ - second_compartment qHGHWqWhGqQwH, repeated type G - priority 33
-rucksacks: ZFLFTmpLvvmSqsbb, first compartment ZFLFTmpL - second_compartment vvmSqsbb, repeated type m - priority 13
-rucksacks: TrfpBfJpJMlnnNfNZD, first compartment TrfpBfJpJ - second_compartment MlnnNfNZD, repeated type f - priority 6
-rucksacks: qHHlDClHhltMqQsHDhHslGznwdTnzzwDGSdfnwGnwG, first compartment qHHlDClHhltMqQsHDhHsl - second_compartment GznwdTnzzwDGSdfnwGnwG, repeated type D - priority 30
-rucksacks: mZRNcNcLLPNPBFFbbPmLmbZFSCVfJJTVndVfSwnRzznfTwCS, first compartment mZRNcNcLLPNPBFFbbPmLmbZF - second_compartment SCVfJJTVndVfSwnRzznfTwCS, repeated type R - priority 44
-rucksacks: CcCWFbbBLCWtgWgHjghqvv, first compartment CcCWFbbBLCW - second_compartment tgWgHjghqvv, repeated type W - priority 49
-rucksacks: TjbzlnlFmfqCFFVVCRWr, first compartment TjbzlnlFmf - second_compartment qCFFVVCRWr, repeated type F - priority 32
-rucksacks: PhMcLpPDtMLpwPDvLPJbMhSgVCGqggVqQgCqCgCgSWvv, first compartment PhMcLpPDtMLpwPDvLPJbMh - second_compartment SgVCGqggVqQgCqCgCgSWvv, repeated type v - priority 22
-rucksacks: btbZbNZhJDJJhDtwtsTTTmBzzBBmlNlmHj, first compartment btbZbNZhJDJJhDtwt - second_compartment sTTTmBzzBBmlNlmHj, repeated type N - priority 40
-rucksacks: FqhjWtqlqmmsnFPTCvMCQMTTCjQd, first compartment FqhjWtqlqmmsnF - second_compartment PTCvMCQMTTCjQd, repeated type j - priority 10
-rucksacks: pfffRfLpgrgGgzrNVzzpGVzRCdMCPJbwwcVMbQPCJVMVdbww, first compartment pfffRfLpgrgGgzrNVzzpGVzR - second_compartment CdMCPJbwwcVMbQPCJVMVdbww, repeated type V - priority 48
-rucksacks: DGGDZRGrHggzSsFQnnWShmtH, first compartment DGGDZRGrHggz - second_compartment SsFQnnWShmtH, repeated type H - priority 34
-rucksacks: vtHVVMMrvVMVrSHvLgvlHcZFCnRCZcccZtRRZfJFCJ, first compartment vtHVVMMrvVMVrSHvLgvlH - second_compartment cZFCnRCZcccZtRRZfJFCJ, repeated type t - priority 20
-rucksacks: rdDjGsdTQDcNZfdncCRR, first compartment rdDjGsdTQD - second_compartment cNZfdncCRR, repeated type d - priority 4
-rucksacks: rBDsTwBbjbmbbQswswPhqVmmSvpVhlvvqMhHhh, first compartment rBDsTwBbjbmbbQswswP - second_compartment hqVmmSvpVhlvvqMhHhh, repeated type m - priority 13
-rucksacks: vGBLrqMNvqSLBvvrNbllLHfwStWWtFttccjtRtjtcj, first compartment vGBLrqMNvqSLBvvrNbllL - second_compartment HfwStWWtFttccjtRtjtcj, repeated type S - priority 45
-rucksacks: MhCDJmhMDzmcRRcjzWfztH, first compartment MhCDJmhMDzm - second_compartment cRRcjzWfztH, repeated type z - priority 26
-rucksacks: ZQDmDhVVCQbBVdVNMvvv, first compartment ZQDmDhVVCQ - second_compartment bBVdVNMvvv, repeated type V - priority 48
-rucksacks: ptCtCzhWPWptnhVzzpGZbZTjTjVjFGjVFgVl, first compartment ptCtCzhWPWptnhVzzp - second_compartment GZbZTjTjVjFGjVFgVl, repeated type V - priority 48
-rucksacks: fQswRRffmRqZlgrqqFjjSgGg, first compartment fQswRRffmRqZ - second_compartment lgrqqFjjSgGg, repeated type q - priority 17
-rucksacks: HwsQDNNsDsmRLLHmffsfvHptBnhtzCvhWpZWBdhnMdCh, first compartment HwsQDNNsDsmRLLHmffsfvH - second_compartment ptBnhtzCvhWpZWBdhnMdCh, repeated type v - priority 22
-rucksacks: RlHzzTqczBPfbnvcpB, first compartment RlHzzTqcz - second_compartment BPfbnvcpB, repeated type c - priority 3
-rucksacks: wVtNwpSZstppwwMsZhsdnLvnbtBBmbnLFFdnmF, first compartment wVtNwpSZstppwwMsZhs - second_compartment dnLvnbtBBmbnLFFdnmF, repeated type t - priority 20
-rucksacks: WNQJMVWsZWwGJWhhSNrQzlgHrDCgQRHpCHrl, first compartment WNQJMVWsZWwGJWhhSN - second_compartment rQzlgHrDCgQRHpCHrl, repeated type Q - priority 43
-rucksacks: RrZWpJZRrZpdTGstlchLGGlLMd, first compartment RrZWpJZRrZpdT - second_compartment GstlchLGGlLMd, repeated type d - priority 4
-rucksacks: NqjDPCQPnQCSvtMzSLhhjM, first compartment NqjDPCQPnQC - second_compartment SvtMzSLhhjM, repeated type j - priority 10
-rucksacks: nQVQDDDDfwBwNCVCNVFNpWpgJgrRTmLTmTmgRTWF, first compartment nQVQDDDDfwBwNCVCNVFN - second_compartment pWpgJgrRTmLTmTmgRTWF, repeated type F - priority 32
-rucksacks: SHMcrMHpcjGcjSrMMbvSvvSvwFTLJwJNtFGFWJNtDLFTLfWN, first compartment SHMcrMHpcjGcjSrMMbvSvvSv - second_compartment wFTLJwJNtFGFWJNtDLFTLfWN, repeated type G - priority 33
-rucksacks: zqRnPfzQCRzqsmRPzznhszzLtLwQwwFTgWWLDLgWFTwTNQ, first compartment zqRnPfzQCRzqsmRPzznhszz - second_compartment LtLwQwwFTgWWLDLgWFTwTNQ, repeated type Q - priority 43
-rucksacks: qVPZmRZhsCZPhZlRCqRRRCbfpccMBjvMVjdHjjMjSvdf, first compartment qVPZmRZhsCZPhZlRCqRRRC - second_compartment bfpccMBjvMVjdHjjMjSvdf, repeated type V - priority 48
-rucksacks: VVQdHwBZLVltlddtBczhrzvGcWWFRwgsFG, first compartment VVQdHwBZLVltlddtB - second_compartment czhrzvGcWWFRwgsFG, repeated type w - priority 23
-rucksacks: TDTTTqqTSSqjqnmTmPqPPmTmGhRszvsrzsjRsccgzrRzgWGF, first compartment TDTTTqqTSSqjqnmTmPqPPmTm - second_compartment GhRszvsrzsjRsccgzrRzgWGF, repeated type j - priority 10
-rucksacks: DpJPqpWqHbZpllpt, first compartment DpJPqpWq - second_compartment HbZpllpt, repeated type p - priority 16
-rucksacks: cCSCFsnnZFnscDtNdJFJtJtdmb, first compartment cCSCFsnnZFnsc - second_compartment DtNdJFJtJtdmb, repeated type F - priority 32
-rucksacks: VgBqBsqRrHtNdzmNrt, first compartment VgBqBsqRr - second_compartment HtNdzmNrt, repeated type r - priority 18
-rucksacks: BGLLVVjRBsqPBfsGwPsMfSSZCSfTZTZQpSphfS, first compartment BGLLVVjRBsqPBfsGwPs - second_compartment MfSSZCSfTZTZQpSphfS, repeated type f - priority 6
-rucksacks: plCHCHlgglHHGpNbtngNrDvBDpfQDBQfZDfWZVrr, first compartment plCHCHlgglHHGpNbtngN - second_compartment rDvBDpfQDBQfZDfWZVrr, repeated type p - priority 16
-rucksacks: mTmMLhRfwhsLPQvQZDMZQBQWMB, first compartment mTmMLhRfwhsLP - second_compartment QvQZDMZQBQWMB, repeated type M - priority 39
-rucksacks: cwsssmqRTFFfFgtbCtGl, first compartment cwsssmqRTF - second_compartment FfFgtbCtGl, repeated type F - priority 32
-rucksacks: LQPPrCPnMZwqtRMn, first compartment LQPPrCPn - second_compartment MZwqtRMn, repeated type n - priority 14
-rucksacks: cWTSlJWlcplJdDTdGdpDlGcGgqmtwwZtqRrNRRmRdNZqmgNq, first compartment cWTSlJWlcplJdDTdGdpDlGcG - second_compartment gqmtwwZtqRrNRRmRdNZqmgNq, repeated type d - priority 4
-rucksacks: GSJcJSjsjTpsvWGWBHLLvVVBBBrFrzVz, first compartment GSJcJSjsjTpsvWGW - second_compartment BHLLvVVBBBrFrzVz, repeated type v - priority 22
-rucksacks: NVPCSPMNDSNFVSWCsJJJmpGmZZGLLcpZLHGGtsHt, first compartment NVPCSPMNDSNFVSWCsJJJ - second_compartment mpGmZZGLLcpZLHGGtsHt, repeated type s - priority 19
-rucksacks: fwzlBBqghqvzqqlDrHbpHjZHmGZbLZrHLb, first compartment fwzlBBqghqvzqqlDr - second_compartment HbpHjZHmGZbLZrHLb, repeated type r - priority 18
-rucksacks: dnBgnDqQvwRnSnnFMFMP, first compartment dnBgnDqQvw - second_compartment RnSnnFMFMP, repeated type n - priority 14
-rucksacks: BCbPsFFwCRHmDSBmWnvDDj, first compartment BCbPsFFwCRH - second_compartment mDSBmWnvDDj, repeated type B - priority 28
-rucksacks: phhZVzdpVfQZphhZpRhSVnjmrcvvnrWtDrvWDS, first compartment phhZVzdpVfQZphhZpRh - second_compartment SVnjmrcvvnrWtDrvWDS, repeated type V - priority 48
-rucksacks: TfQJMfLphMhJdfdzpQJRTPbwHHNlgbGwsTGgCP, first compartment TfQJMfLphMhJdfdzpQJ - second_compartment RTPbwHHNlgbGwsTGgCP, repeated type T - priority 46
-rucksacks: ttWLlnnvnNnBBtlTqWlpvpndQdZsQQFssFDdsRFdVdRNFQ, first compartment ttWLlnnvnNnBBtlTqWlpvpn - second_compartment dQdZsQQFssFDdsRFdVdRNFQ, repeated type N - priority 40
-rucksacks: jSgrScrbGZSGrrCGsFVMssFsPPFcDDMV, first compartment jSgrScrbGZSGrrCG - second_compartment sFVMssFsPPFcDDMV, repeated type c - priority 3
-rucksacks: bzSmJbfCZCbzLwllflwqtvvw, first compartment bzSmJbfCZCbz - second_compartment Lwllflwqtvvw, repeated type f - priority 6
-rucksacks: zmFTJwFLPmzLztmjDzTJwfNrdFNrFppBSNRGNGdbrpBR, first compartment zmFTJwFLPmzLztmjDzTJwf - second_compartment NrdFNrFppBSNRGNGdbrpBR, repeated type F - priority 32
-rucksacks: gqlhWQgsZMsvqMlMMvsvqsNlLbcdppbrRpdbbcSrrbbr, first compartment gqlhWQgsZMsvqMlMMvsvqs - second_compartment NlLbcdppbrRpdbbcSrrbbr, repeated type l - priority 12
-rucksacks: vssCgVgCsggZQZCgsnsqWgWvfJPDLwffwTPPmzTnjTPmPmwJ, first compartment vssCgVgCsggZQZCgsnsqWgWv - second_compartment fJPDLwffwTPPmzTnjTPmPmwJ, repeated type n - priority 14
-rucksacks: SpcRTPQLBLWpNNzjmmwwwRrR, first compartment SpcRTPQLBLWp - second_compartment NNzjmmwwwRrR, repeated type R - priority 44
-rucksacks: tGlfvGhfnbDlbqlChnfFMrwsmwNssTMHMHjFwv, first compartment tGlfvGhfnbDlbqlChnf - second_compartment FMrwsmwNssTMHMHjFwv, repeated type v - priority 22
-rucksacks: ZlhtCtffCdWcZWZVVT, first compartment ZlhtCtffC - second_compartment dWcZWZVVT, repeated type Z - priority 52
-rucksacks: jTTCcWHWJNgCGTzTmnzrmnGn, first compartment jTTCcWHWJNgC - second_compartment GTzTmnzrmnGn, repeated type T - priority 46
-rucksacks: BwRRbFvtvvQmJJFMpMJr, first compartment BwRRbFvtvv - second_compartment QmJJFMpMJr, repeated type F - priority 32
-rucksacks: ZBBwLvqbBZsRsbVsZSqbcZdJjHHjhfPCJfJfHhgc, first compartment ZBBwLvqbBZsRsbVsZSqb - second_compartment cZdJjHHjhfPCJfJfHhgc, repeated type Z - priority 52
-rucksacks: VrnDSvvrLrfTdTLGfdRp, first compartment VrnDSvvrLr - second_compartment fTdTLGfdRp, repeated type L - priority 38
-rucksacks: zcJzmcFcHGfdGmWTVd, first compartment zcJzmcFcH - second_compartment GfdGmWTVd, repeated type m - priority 13
-rucksacks: tHsMhwPVctccHFHFcbSDbbPjnNbBnbvBQB, first compartment tHsMhwPVctccHFHFc - second_compartment bSDbbPjnNbBnbvBQB, repeated type P - priority 42
-rucksacks: QttWQwLTnLnWTtnffnLQSBFVjNvBjBFNgMdCsVWsjv, first compartment QttWQwLTnLnWTtnffnLQS - second_compartment BFVjNvBjBFNgMdCsVWsjv, repeated type W - priority 49
-rucksacks: pDqcmmRPHqgVBddjvN, first compartment pDqcmmRPH - second_compartment qgVBddjvN, repeated type q - priority 17
-rucksacks: DcclzbcbPbJLnNTfnw, first compartment DcclzbcbP - second_compartment bJLnNTfnw, repeated type b - priority 2
-rucksacks: plRcpsZDGlGZvWvMCNcLtttq, first compartment plRcpsZDGlGZ - second_compartment vWvMCNcLtttq, repeated type c - priority 3
-rucksacks: SrfrwSjSVrSjwbmSrHzmHJCQQPQzqttNNQJMzJtqMW, first compartment SrfrwSjSVrSjwbmSrHzmH - second_compartment JCQQPQzqttNNQJMzJtqMW, repeated type z - priority 26
-rucksacks: wSHVnfHfWwwHWFVfSnfgmmRsslFZZDBBGZsZsDTdGRTp, first compartment wSHVnfHfWwwHWFVfSnfgmm - second_compartment RsslFZZDBBGZsZsDTdGRTp, repeated type F - priority 32
-rucksacks: qSFQSgQNgQBrBHHcrW, first compartment qSFQSgQNg - second_compartment QBrBHHcrW, repeated type Q - priority 43
-rucksacks: VTmjVJLTwlTmwTVmsMJMVlJmPvcbvvbCBbGBPjGvBbBGWcbb, first compartment VTmjVJLTwlTmwTVmsMJMVlJm - second_compartment PvcbvvbCBbGBPjGvBbBGWcbb, repeated type j - priority 10
-rucksacks: DnJTZwmnZRhnpqNdWt, first compartment DnJTZwmnZ - second_compartment RhnpqNdWt, repeated type n - priority 14
-rucksacks: dTVHjZLLZDVCfVHtLDDjQbscjWbSJMJPjsbWWb, first compartment dTVHjZLLZDVCfVHtLDD - second_compartment jQbscjWbSJMJPjsbWWb, repeated type j - priority 10
-rucksacks: FnqrnmzzFllmsWwtsFtQMMFc, first compartment FnqrnmzzFllm - second_compartment sWwtsFtQMMFc, repeated type F - priority 32
-rucksacks: lmqzzzngGmlNNBqGllzlBNRvptHHpTCHpDLpgDZdgvHvDD, first compartment lmqzzzngGmlNNBqGllzlBNR - second_compartment vptHHpTCHpDLpgDZdgvHvDD, repeated type g - priority 7
-rucksacks: sdRZQbCfZTSTdlfTZCffccWPHPPcPPwLwctRnLWn, first compartment sdRZQbCfZTSTdlfTZCff - second_compartment ccWPHPPcPPwLwctRnLWn, repeated type R - priority 44
-rucksacks: BBJDzFVgCDrCJrqDJJhqJVVMLPHwcctFwcWHHGLcwGwGHnWc, first compartment BBJDzFVgCDrCJrqDJJhqJVVM - second_compartment LPHwcctFwcWHHGLcwGwGHnWc, repeated type F - priority 32
-rucksacks: ghpJgqqjCZbQdZpd, first compartment ghpJgqqj - second_compartment CZbQdZpd, repeated type p - priority 16
-rucksacks: tbcpzbHSszcHBgqHGZgJJJhhww, first compartment tbcpzbHSszcHB - second_compartment gqHGZgJJJhhww, repeated type H - priority 34
-rucksacks: jfvdvRTffQQrrFCRFTnGwJRqNRZVpJGZLZggLh, first compartment jfvdvRTffQQrrFCRFTn - second_compartment GwJRqNRZVpJGZLZggLh, repeated type R - priority 44
-rucksacks: nQTjTnMndlTdQFMvnrClCnpzmzDtbbmBbcPSzzlmmtzP, first compartment nQTjTnMndlTdQFMvnrClCn - second_compartment pzmzDtbbmBbcPSzzlmmtzP, repeated type l - priority 12
-rucksacks: BqBqTCSTcqHsJHHM, first compartment BqBqTCST - second_compartment cqHsJHHM, repeated type q - priority 17
-rucksacks: WWPGVPLtzVgWtjWPGzVjzVGcbDhPsRbDcsbJwNRswRDRss, first compartment WWPGVPLtzVgWtjWPGzVjzVG - second_compartment cbDhPsRbDcsbJwNRswRDRss, repeated type P - priority 42
-rucksacks: VQfWjfLFGWLjdFfVzTZZpJTpnmlTrSQlBl, first compartment VQfWjfLFGWLjdFfVz - second_compartment TZZpJTpnmlTrSQlBl, repeated type Q - priority 43
-rucksacks: jLNsZjqSHCsGdsmpsm, first compartment jLNsZjqSH - second_compartment CsGdsmpsm, repeated type s - priority 19
-rucksacks: MvnVFzWMwMVWzfnVDwfBMfnnrCtdtPmPlRrdrJCJrtPDrrPD, first compartment MvnVFzWMwMVWzfnVDwfBMfnn - second_compartment rCtdtPmPlRrdrJCJrtPDrrPD, repeated type D - priority 30
-rucksacks: zznfFWwMfMfFMwVTMQFnQjhjgjSZhCNbLSTcHHgbbC, first compartment zznfFWwMfMfFMwVTMQFnQ - second_compartment jhjgjSZhCNbLSTcHHgbbC, repeated type T - priority 46
-rucksacks: GGtssttVmvnnGNMQrrVzgwVrCWMz, first compartment GGtssttVmvnnGN - second_compartment MQrrVzgwVrCWMz, repeated type V - priority 48
-rucksacks: FdhfhhcCDhHLfzclZMcrwcQMZM, first compartment FdhfhhcCDhHLf - second_compartment zclZMcrwcQMZM, repeated type c - priority 3
-rucksacks: HHqqCBhHSSpdmjGqmGjtjtjj, first compartment HHqqCBhHSSpd - second_compartment mjGqmGjtjtjj, repeated type q - priority 17
-rucksacks: bbQLtGMQQtQRQtrDtGprrrbCqwplZhhqSqmdwvdzqqqhSmpS, first compartment bbQLtGMQQtQRQtrDtGprrrbC - second_compartment qwplZhhqSqmdwvdzqqqhSmpS, repeated type p - priority 16
-rucksacks: FsJjJBfnsJcFcFfjVPjWBzldqhqnlZZZzzhmnSvSnm, first compartment FsJjJBfnsJcFcFfjVPjWB - second_compartment zldqhqnlZZZzzhmnSvSnm, repeated type n - priority 14
-rucksacks: JPcFfFWjFHJVVsVjPVscsDlLNRHGDbLRMRCDNrCGbG, first compartment JPcFfFWjFHJVVsVjPVscs - second_compartment DlLNRHGDbLRMRCDNrCGbG, repeated type H - priority 34
-rucksacks: JdMdlMRJnTwdvcjv, first compartment JdMdlMRJ - second_compartment nTwdvcjv, repeated type d - priority 4
-rucksacks: CDLHbNSzzLFgHvnTjrswBNBTNT, first compartment CDLHbNSzzLFgH - second_compartment vnTjrswBNBTNT, repeated type N - priority 40
-rucksacks: QgbvzSFQmZQPQQRW, first compartment QgbvzSFQ - second_compartment mZQPQQRW, repeated type Q - priority 43
-rucksacks: NTBrNzrpjjjCwGbB, first compartment NTBrNzrp - second_compartment jjjCwGbB, repeated type B - priority 28
-rucksacks: FRbQlcvFvcRQQlRsMlRRRZjwCqMwjmjwJZdLJmjCZC, first compartment FRbQlcvFvcRQQlRsMlRRR - second_compartment ZjwCqMwjmjwJZdLJmjCZC, repeated type M - priority 39
-rucksacks: cVPPQcvlWDNhrbPz, first compartment cVPPQcvl - second_compartment WDNhrbPz, repeated type P - priority 42
-rucksacks: VdbVtbbZJdtJVVdDVZmTLqqTSQvNLjjDShhvSG, first compartment VdbVtbbZJdtJVVdDVZm - second_compartment TLqqTSQvNLjjDShhvSG, repeated type D - priority 30
-rucksacks: zplpnBnFpnrrlghGNpLNqHvqvjNj, first compartment zplpnBnFpnrrlg - second_compartment hGNpLNqHvqvjNj, repeated type p - priority 16
-rucksacks: cWncllnlPFWzcMwtWWtsVLVRmJWCds, first compartment cWncllnlPFWzcMw - second_compartment tWWtsVLVRmJWCds, repeated type W - priority 49
-rucksacks: ShLSTnZnTSttTSbLQdfSZTMwcDHwwcHnJvDHnlnlclMM, first compartment ShLSTnZnTSttTSbLQdfSZT - second_compartment MwcDHwwcHnJvDHnlnlclMM, repeated type n - priority 14
-rucksacks: NmPMsssRrVwjDclHJwwR, first compartment NmPMsssRrV - second_compartment wjDclHJwwR, repeated type R - priority 44
-rucksacks: gNNMWGzNmqGdtfZTbGGb, first compartment gNNMWGzNmq - second_compartment GdtfZTbGGb, repeated type G - priority 33
-rucksacks: sWNNlRHnmJtmntJt, first compartment sWNNlRHn - second_compartment mJtmntJt, repeated type n - priority 14
-rucksacks: brbbBTbbFbCbqqGgBTrCfmQVVZfSSQQSVtJZSrVZ, first compartment brbbBTbbFbCbqqGgBTrC - second_compartment fmQVVZfSSQQSVtJZSrVZ, repeated type r - priority 18
-rucksacks: bbFqvbDvvGGLGbCCtBGDLbLlcPNHhhccPNcdPPchlsdR, first compartment bbFqvbDvvGGLGbCCtBGDLb - second_compartment LlcPNHhhccPNcdPPchlsdR, repeated type L - priority 38
-rucksacks: DCFvDvnCnNfMBmMMslDZML, first compartment DCFvDvnCnNf - second_compartment MBmMMslDZML, repeated type D - priority 30
-rucksacks: SQQQJHwpSgJSJHQWSWHqJWWbmcBBBLLTsmhhTcZbMhmlshcb, first compartment SQQQJHwpSgJSJHQWSWHqJWWb - second_compartment mcBBBLLTsmhhTcZbMhmlshcb, repeated type b - priority 2
-rucksacks: RJRgpJHssgwSQHRqsQPGGjjtNCrrFvvnFjjPrP, first compartment RJRgpJHssgwSQHRqsQP - second_compartment GGjjtNCrrFvvnFjjPrP, repeated type P - priority 42
-rucksacks: mThmsgjzTPjMpcvtWP, first compartment mThmsgjzT - second_compartment PjMpcvtWP, repeated type j - priority 10
-rucksacks: GNNBVqVGNZbbNbNqqZQVNVNbWcpdtMCcpCtMWCdCPpQccmpp, first compartment GNNBVqVGNZbbNbNqqZQVNVNb - second_compartment WcpdtMCcpCtMWCdCPpQccmpp, repeated type Q - priority 43
-rucksacks: VSmNrmmbBfZVlsrssrLTRhRhTn, first compartment VSmNrmmbBfZVl - second_compartment srssrLTRhRhTn, repeated type r - priority 18
-rucksacks: TdmCvLDCpTRNTdFbbWnnSWCfhjbbzn, first compartment TdmCvLDCpTRNTdF - second_compartment bbWnnSWCfhjbbzn, repeated type C - priority 29
-rucksacks: GrrMsPVGcQHBGMbhjjSgWfHHDbjb, first compartment GrrMsPVGcQHBGM - second_compartment bhjjSgWfHHDbjb, repeated type H - priority 34
-rucksacks: BPBVqqrQPsQqwrrmmmJdRLDDqFRplT, first compartment BPBVqqrQPsQqwrr - second_compartment mmmJdRLDDqFRplT, repeated type q - priority 17
-rucksacks: fpDDJljDlCfDTjprjrfbddWthCSCtdPPQFhSSSWW, first compartment fpDDJljDlCfDTjprjrfb - second_compartment ddWthCSCtdPPQFhSSSWW, repeated type C - priority 29
-rucksacks: HsLZgMGbgBBsNzMvGbdVtVQzFRQSthhFPdtP, first compartment HsLZgMGbgBBsNzMvGb - second_compartment dVtVQzFRQSthhFPdtP, repeated type z - priority 26
-rucksacks: sMBmGBmbNvLHGMnrDppTcJmcjpqljf, first compartment sMBmGBmbNvLHGMn - second_compartment rDppTcJmcjpqljf, repeated type m - priority 13
-rucksacks: ptSpSJQqpbNGGDDhcMWrlNHcZZWWls, first compartment ptSpSJQqpbNGGDD - second_compartment hcMWrlNHcZZWWls, repeated type N - priority 40
-rucksacks: zRLRRRjvvgjHMMsMpWpc, first compartment zRLRRRjvvg - second_compartment jHMMsMpWpc, repeated type j - priority 10
-rucksacks: vmCPLCgwvwdnCzmvLbpTbVQqJJPbJPpTVq, first compartment vmCPLCgwvwdnCzmvL - second_compartment bpTbVQqJJPbJPpTVq, repeated type P - priority 42
-rucksacks: TJCfhhJVFffrJJQQllNWcvWhwvWD, first compartment TJCfhhJVFffrJJ - second_compartment QQllNWcvWhwvWD, repeated type h - priority 8
-rucksacks: GPSGjjpLslBbpLpLqqqPDvdwvwvNzQWGzDDNdzGN, first compartment GPSGjjpLslBbpLpLqqqP - second_compartment DvdwvwvNzQWGzDDNdzGN, repeated type G - priority 33
-rucksacks: msbRjbpPqsRpHnlZrmJlnVHT, first compartment msbRjbpPqsRp - second_compartment HnlZrmJlnVHT, repeated type m - priority 13
-rucksacks: GGfFsCCTvGDsfTTrhsCMMzptZJMdpdgtrpdMcV, first compartment GGfFsCCTvGDsfTTrhsC - second_compartment MMzptZJMdpdgtrpdMcV, repeated type r - priority 18
-rucksacks: LBlwBHPSqjwwlVggHpnMZcVHMt, first compartment LBlwBHPSqjwwl - second_compartment VggHpnMZcVHMt, repeated type H - priority 34
-rucksacks: ZlZZlBbRPGGTGfmRsD, first compartment ZlZZlBbRP - second_compartment GGTGfmRsD, repeated type R - priority 44
-rucksacks: CtCjbVvzQQZTWVdd, first compartment CtCjbVvz - second_compartment QQZTWVdd, repeated type V - priority 48
-rucksacks: MlSqWlmsmGBSHJHTDFHZ, first compartment MlSqWlmsmG - second_compartment BSHJHTDFHZ, repeated type S - priority 45
-rucksacks: pcqsmsplwsqclwRtRWgtRnPPvb, first compartment pcqsmsplwsqcl - second_compartment wRtRWgtRnPPvb, repeated type w - priority 23
-rucksacks: zCrzCrsdjrhGDCFqGDjRRPtpWfQQcpfQZcCZPp, first compartment zCrzCrsdjrhGDCFqGDj - second_compartment RRPtpWfQQcpfQZcCZPp, repeated type C - priority 29
-rucksacks: VSVwVMgLHHLTwMDTMMVnbWPRZQRcRQPptWnpbZcb, first compartment VSVwVMgLHHLTwMDTMMVn - second_compartment bWPRZQRcRQPptWnpbZcb, repeated type n - priority 14
-rucksacks: MNBBBlSMvLVwTlVTFdNdhNhFsqsGDrzm, first compartment MNBBBlSMvLVwTlVT - second_compartment FdNdhNhFsqsGDrzm, repeated type N - priority 40
-rucksacks: rBLWTwTThWwVVDTwHBsZZWppvpGtpptppmRvFFFMFMfL, first compartment rBLWTwTThWwVVDTwHBsZZW - second_compartment ppvpGtpptppmRvFFFMFMfL, repeated type L - priority 38
-rucksacks: qPPNCCbqcbcNqbqQjjJQqzjRpptmlpMGmMlJtftmtFHpMt, first compartment qPPNCCbqcbcNqbqQjjJQqzj - second_compartment RpptmlpMGmMlJtftmtFHpMt, repeated type J - priority 36
-rucksacks: QnCgzzQbbQqPcPQnncbdQdnVTwDssZgrShBTVgZZsBSDHT, first compartment QnCgzzQbbQqPcPQnncbdQdn - second_compartment VTwDssZgrShBTVgZZsBSDHT, repeated type g - priority 7
-rucksacks: PFGJFqnfqmPgFJQPWdbLdpDRhbphWjDm, first compartment PFGJFqnfqmPgFJQP - second_compartment WdbLdpDRhbphWjDm, repeated type m - priority 13
-rucksacks: rclNHvcrzCNwrWRprjdMMMph, first compartment rclNHvcrzCNw - second_compartment rWRprjdMMMph, repeated type r - priority 18
-rucksacks: wsZHwZNvRRQsQqBV, first compartment wsZHwZNv - second_compartment RRQsQqBV, repeated type s - priority 19
-rucksacks: LqlGCPlPLTCPqqQlpqLlWfBfWgcHNRJRfWNsncGH, first compartment LqlGCPlPLTCPqqQlpqLl - second_compartment WfBfWgcHNRJRfWNsncGH, repeated type G - priority 33
-rucksacks: VVtdwVtDDdVmhrdwSBmjbdzNHgfgJnNnsSnHsNffHgRsgR, first compartment VVtdwVtDDdVmhrdwSBmjbdz - second_compartment NHgfgJnNnsSnHsNffHgRsgR, repeated type S - priority 45
-rucksacks: wVzhbjmDbDrwjdbztFDDthMCvqPppZQBQLZQTqTvFTvZ, first compartment wVzhbjmDbDrwjdbztFDDth - second_compartment MCvqPppZQBQLZQTqTvFTvZ, repeated type F - priority 32
-rucksacks: BnQnQFwRmRwmwdBSFDFnmSDVLCJTCTppVVmGLVTCLcgVpC, first compartment BnQnQFwRmRwmwdBSFDFnmSD - second_compartment VLCJTCTppVVmGLVTCLcgVpC, repeated type m - priority 13
-rucksacks: ZlWvhvZjNrbNvqjNhlfPfqjCGHrsspggTpVLpsJCpcJVgg, first compartment ZlWvhvZjNrbNvqjNhlfPfqj - second_compartment CGHrsspggTpVLpsJCpcJVgg, repeated type r - priority 18
-rucksacks: vPzNvqjWhqFzGSnRGMDG, first compartment vPzNvqjWhq - second_compartment FzGSnRGMDG, repeated type z - priority 26
-rucksacks: wZnMZzzZZchDRtVsqtCtwV, first compartment wZnMZzzZZch - second_compartment DRtVsqtCtwV, repeated type w - priority 23
-rucksacks: WmWpWWmPPWrmrmBmWrTlTFPNVqVCRSDCQHcqVTtTqsSDSTSD, first compartment WmWpWWmPPWrmrmBmWrTlTFPN - second_compartment VqVCRSDCQHcqVTtTqsSDSTSD, repeated type T - priority 46
-rucksacks: PrppdFlWWlfrWmpWFffrdcGjJJGggnnhZGdLLgGGndvz, first compartment PrppdFlWWlfrWmpWFffrdc - second_compartment GjJJGggnnhZGdLLgGGndvz, repeated type d - priority 4
-rucksacks: FShHNmNhRhNJmBnQBQJrmP, first compartment FShHNmNhRhN - second_compartment JmBnQBQJrmP, repeated type m - priority 13
-rucksacks: VTgzDTjwfffwzDvwlcczzVSJbQlBQSWBWCnPJPbJWWbC, first compartment VTgzDTjwfffwzDvwlcczzV - second_compartment SJbQlBQSWBWCnPJPbJWWbC, repeated type l - priority 12
-rucksacks: tzSVtzvSvGSRZqqFMNtpRR, first compartment tzSVtzvSvGS - second_compartment RZqqFMNtpRR, repeated type t - priority 20
-rucksacks: hPZhGDZpnCGtDhznjmLmdJffdNzJ, first compartment hPZhGDZpnCGtDh - second_compartment znjmLmdJffdNzJ, repeated type n - priority 14
-rucksacks: glwsSrQwBvLdgLzdcj, first compartment glwsSrQwB - second_compartment vLdgLzdcj, repeated type g - priority 7
-rucksacks: QsRbHllzzlHwHlBszWlTBFbpDPMhbPDVGpGFpPtFPp, first compartment QsRbHllzzlHwHlBszWlTB - second_compartment FbpDPMhbPDVGpGFpPtFPp, repeated type b - priority 2
-rucksacks: SRjStRDctgDSBzLvPvNrDhmPLr, first compartment SRjStRDctgDSB - second_compartment zLvPvNrDhmPLr, repeated type D - priority 30
-rucksacks: QqTHGTPJmmHmhNmH, first compartment QqTHGTPJ - second_compartment mmHmhNmH, repeated type H - priority 34
-rucksacks: TGQZsTqFnQZCJTPsnJnZQMjVRBVtcVRSVRBlwccSCtBS, first compartment TGQZsTqFnQZCJTPsnJnZQM - second_compartment jVRBVtcVRSVRBlwccSCtBS, repeated type C - priority 29
-rucksacks: bbsNsvsvnNPTRRllbblLqhtQCqQSLCGGHSqHNC, first compartment bbsNsvsvnNPTRRllbbl - second_compartment LqhtQCqQSLCGGHSqHNC, repeated type N - priority 40
-rucksacks: wFpzFgqVzqVJWFDwqJDmSBBmHBHhShLQhCGSBCGH, first compartment wFpzFgqVzqVJWFDwqJDm - second_compartment SBBmHBHhShLQhCGSBCGH, repeated type m - priority 13
-rucksacks: MJVpFMqgwMqRRbZsMbZMrP, first compartment MJVpFMqgwMq - second_compartment RRbZsMbZMrP, repeated type M - priority 39
-rucksacks: PPdDhvNDQdmgQPZmQVHHtHGGWVGbffWGvs, first compartment PPdDhvNDQdmgQPZmQ - second_compartment VHHtHGGWVGbffWGvs, repeated type v - priority 22
-rucksacks: MMLCTRRLlLclTLRMRLCwMLHWVctbVVHWWWFfVjVGsFWW, first compartment MMLCTRRLlLclTLRMRLCwML - second_compartment HWVctbVVHWWWFfVjVGsFWW, repeated type c - priority 3
-rucksacks: MRSMMlpTJRqClBCRqBDnzqgQPnqgznZPZqbP, first compartment MRSMMlpTJRqClBCRqB - second_compartment DnzqgQPnqgznZPZqbP, repeated type q - priority 17
-rucksacks: MrMNPNNpjvdprWtrpMsthqBfqlnfqcGhVBqFRcnqFG, first compartment MrMNPNNpjvdprWtrpMsth - second_compartment qBfqlnfqcGhVBqFRcnqFG, repeated type h - priority 8
-rucksacks: QbDgSSQbgSDDmDVmlqSCRllRcFqnqfBl, first compartment QbDgSSQbgSDDmDVm - second_compartment lqSCRllRcFqnqfBl, repeated type S - priority 45
-rucksacks: QVJbVmwwDQbzVTgbppNJNMWNjNNPrdpM, first compartment QVJbVmwwDQbzVTgb - second_compartment ppNJNMWNjNNPrdpM, repeated type J - priority 36
-rucksacks: WwJJNbtHfpLpVgZZPVFhZh, first compartment WwJJNbtHfpL - second_compartment pVgZZPVFhZh, repeated type p - priority 16
-rucksacks: vmmqlDvRvRfqBSrlzmmMjRBhcVhQVZhVghCQQQQTcTrPTP, first compartment vmmqlDvRvRfqBSrlzmmMjRB - second_compartment hcVhQVZhVghCQQQQTcTrPTP, repeated type r - priority 18
-rucksacks: jSqMmqRzMDDjvqlBqsBMBmmwGNJwJnwLNfbGwddswnJtJH, first compartment jSqMmqRzMDDjvqlBqsBMBmm - second_compartment wGNJwJnwLNfbGwddswnJtJH, repeated type s - priority 19
-rucksacks: RLgRmRggbvbzzPmmRNmzsQWFtSGNtwSNQnntFwnnCw, first compartment RLgRmRggbvbzzPmmRNmzs - second_compartment QWFtSGNtwSNQnntFwnnCw, repeated type N - priority 40
-rucksacks: pDBrBHpHhlldphHBHhJVFSLnWWFJttCtQSttSS, first compartment pDBrBHpHhlldphHBHhJ - second_compartment VFSLnWWFJttCtQSttSS, repeated type J - priority 36
-rucksacks: hfHrpphHBppfTvmzgMmbLbgf, first compartment hfHrpphHBppf - second_compartment TvmzgMmbLbgf, repeated type f - priority 6
-Summ of all priorities: 7824
+rucksacks: BzRmmzZHzVBzgVQmZLPtqqffPqWqJmPLlL
+rucksacks: hpvvTDcrCjhpcrvcGGhfLHMlLtMCqflNlWPJlJ
+rucksacks: hGjhncHhGnhbTHczBBZVVSbRwgSgRV
+end of group, repeated type H - priority 34
+rucksacks: rWVQjPQQjGRWNSrWrPjcptwBpqqJBtJBBcZgMdtq
+rucksacks: zzmmpzfTCFpTlMlJJwBgMlqMBt
+rucksacks: TvLszpbhhTLmsnRQPDQGWDWRvQSR
+end of group, repeated type p - priority 16
+rucksacks: zGzvLlGlQHLGBQZlhBWhdjRdmdWRcjPj
+rucksacks: fTJNfTfNSRWPhjdjfj
+rucksacks: pbsbVVnpSnbVTprnbqqrzvLLgQlGLPLHll
+end of group, repeated type P - priority 42
+rucksacks: ZCCCsWvNvmsCsCmZLZmgMLRpQMhwQRpQRfphfprpTfpM
+rucksacks: tlncPjzlndctbzcPPBcjwDphwrfGGDffbDRpDTGG
+rucksacks: cdqnddwzqjNVWVLZZLZq
+end of group, repeated type w - priority 23
+rucksacks: DTLbDbRrlQbwhhNrmmfwdt
+rucksacks: zzMJMzjCjJJjvLjMPJpcgPpzfhHdfqWcqddwtwfqdttcNtdN
+rucksacks: pJCzVpCvDZBLsVRQ
+end of group, repeated type L - priority 38
+rucksacks: STzBBbJzRRBZBRTqCCsfZLtNNLClCsfh
+rucksacks: jsQnnQjjHcvQFrcPwCmtLCNlvDfftfff
+rucksacks: sGFscMQQMMpqzqbMbd
+end of group, repeated type s - priority 19
+rucksacks: QlNDWGsjQjgQllWQsbtzqTJczTJcbFmmFJJP
+rucksacks: MhLrhgLVndRmzJFzVqqJqP
+rucksacks: pSLnMdwhwdRZRSwhLZwLhdGWQjlsgWjNQWWSvgBsWDlj
+end of group, repeated type g - priority 7
+rucksacks: THjSRFSddTjdBTcPLcVVvVBw
+rucksacks: GzWnWfndWfznDfsnsBsPVwVwPPLL
+rucksacks: zNflzJWqqzQDdSStHNZNpFFtbj
+end of group, repeated type d - priority 4
+rucksacks: FSzDmsFSFlDlBzqVjqHHjHHpVgHLbp
+rucksacks: rTrTtTQQntRQnQJQgggHZttVgHLBLhZL
+rucksacks: WTJJRRQCRRJTRdBCRdvRNDFSWFMPmDlPPSsNPSzS
+end of group, repeated type B - priority 28
+rucksacks: WQldlMtMVQgVMQHnDGbHGGnRnQmD
+rucksacks: rqcZPrCFjmHlbGjZ
+rucksacks: zSScchqwchBzTzFzhhSlcCwNtdVWWJgsVdMtWNgNVWTJTd
+end of group, repeated type l - priority 12
+rucksacks: lMZqjMWllrTTspjprWWSSwgWNSVNDmWGVwFwgN
+rucksacks: cdCCdLHcnndHJnmCRntLBnRzDvFNtNDVzgSgwDgFNVzFVv
+rucksacks: BRLcCCJCmJdcRhfjPPZphrlrPqlZ
+end of group, repeated type m - priority 13
+rucksacks: GdGqcrrZGDrvDJJqJHcBvmFFgmFMMgMgBtMLTssLmF
+rucksacks: NbPVPDlljPmTmsTj
+rucksacks: VfQDhflCCRWdcrQwJvvnJv
+end of group, repeated type D - priority 30
+rucksacks: RLcWgLCqqPQLcqZwzHgwmmrmmtgwTw
+rucksacks: DhbhNrMpnJSDJwVTHmmTVnTTVj
+rucksacks: lrsvblMDlcWcfQPQ
+end of group, repeated type r - priority 18
+rucksacks: PVldlphHwGwJJGdjZZWsRbbsGsNWrWQbNbQR
+rucksacks: SqcDvTmDLtfmSmtqppfqzTgTQBrRQsbCFWbNNFQFBBrRbLNb
+rucksacks: MgtmTgtfpqVlnVddZMwV
+end of group, repeated type p - priority 16
+rucksacks: BdmfmPBPSbSNdGSdvWrwcZrccZPPcZnH
+rucksacks: jzzLsjsMRlQQVHwswvvZrCHrrT
+rucksacks: VqhzVFzplFlpLwpMphLRQQVRmSqgbdGtNJBmNSmgGbtggSgt
+end of group, repeated type w - priority 23
+rucksacks: DHVpNZjdZjFZWVFHpvFvzmlRzPnlfznFRz
+rucksacks: lrTBTsBwwMbrrwLPPfwGmGzvRf
+rucksacks: scrtMhMCtJBBBclbHdHttWZWDSqDSjHj
+end of group, repeated type l - priority 12
+rucksacks: wzqsPmqsbsfqBwPMNRMMZcZmFFNtZM
+rucksacks: CgCnhlvvLJgcRFNNBdCpWM
+rucksacks: QnQrVgHSvVHjbjTGBbbTHb
+end of group, repeated type B - priority 28
+rucksacks: HdrVrdqFDdZVmHgRmDRFHMnTdTssMGnLnPJLbPTbCs
+rucksacks: SczlScjwcNzplNzQSSfjwQSrTGGsbTsnTCnGTMCMLMGGbN
+rucksacks: wQlfjrhfhQFHqZhRZRtD
+end of group, repeated type r - priority 18
+rucksacks: RsfJDGJvzPNcjpddSWJWMd
+rucksacks: LLCbBCwCrCmVVnrmhQFmbVhdcdlWpjZzSpMdWSpcWczSBj
+rucksacks: rrLCbTwnHTvzvNGT
+end of group, repeated type z - priority 26
+rucksacks: wPhPhbCqqSCrtJDlqvlrJr
+rucksacks: RVVZddLFRZZcQLvJJtzptlgPJp
+rucksacks: TVQRZGVncFdTGWZdCNShHhfPNwwsWPwb
+end of group, repeated type P - priority 42
+rucksacks: dzLVzPSgrgDDDCMSMLLPwFmdTTcsvmwNwjNsHcFF
+rucksacks: nWBGntQfGNGBflWBBqlpRQGbWFvjwsbsFswbvTHjjbmHTc
+rucksacks: tBNJBnGBflQnDPJrPhDgrPVg
+end of group, repeated type N - priority 40
+rucksacks: VtWztWtqpqzWpWzqjNRjNpWTmrrmrSbnmJwSJwnMPrCSJVwM
+rucksacks: sDHsBDhBdsBZGcHvLHDLhhCSnRSwCJMZrPbmnMbJSCSR
+rucksacks: ccLRhgsLBdRsdHNTFFNNgqTglqzF
+end of group, repeated type R - priority 44
+rucksacks: hztlmDhPhgPlPNNgmZMCbmwwQjcwjjwMjVCd
+rucksacks: RSJRrRqnqQJFqvnTGrHCcHHCCHHbHHMcMvdM
+rucksacks: qGJsnQTRsStsftPlhPNl
+end of group, repeated type Q - priority 43
+rucksacks: BFFBLPRCwsLwhlPlRmhcGGrbmmGjfNTTnp
+rucksacks: VJMVpzgqggJnrjmjNcMjmT
+rucksacks: VqdSZtQgZvtdzqHqHtVZdVQpCDWWFdwlRPDpWPPBCswlWD
+end of group, repeated type p - priority 16
+rucksacks: fCWCsjPzcbzwRSzVTzhhDLqvdg
+rucksacks: TmJtrNJrBLSLJqgS
+rucksacks: ptNTQFHrZlnpFPwsWMbRjCpcjR
+end of group, repeated type T - priority 46
+rucksacks: nJmQNCmbmlllmbClbfMLjMFqbGBsdLFq
+rucksacks: ZcgTWcTnMqqMTBqF
+rucksacks: tPgctSnPctZZgDWzZgQHwNmHlhlmzlQhlJlw
+end of group, repeated type n - priority 14
+rucksacks: ZpTCwpffdslvgShCBhqhRz
+rucksacks: FDMPnNFNmBPzvRPRBg
+rucksacks: nNgMrnnDGjDmJMmnFdZTTsdsrZrslcwcQr
+end of group, repeated type g - priority 7
+rucksacks: pTmczpCldcdDDnPttpvWSqbpJf
+rucksacks: jgjRZMGHhGLgQrjvPWzPJgJvzStbbq
+rucksacks: LGNLLNBBzcDFCBwwFC
+end of group, repeated type z - priority 26
+rucksacks: nJTTqnrNvTzNMzzNfqrTPrJnwpwPpZpsHccZVsBRpcVHwpcp
+rucksacks: bgDhgbghLWmFmStctVpZtBCVCCpfZp
+rucksacks: LLSgLGSjggFGbSSbmMnrvqvzjfzTNrJrqM
+end of group, repeated type f - priority 6
+rucksacks: RRpDmmPMTjwfGmJQgQ
+rucksacks: WsNscdnvvdVZFVnnrZbjjflwljlbzfGFjQjq
+rucksacks: NnLZsNnrrVVVcvdBLTPCPCRMwhPMBMPhCt
+end of group, repeated type w - priority 23
+rucksacks: lbVvzngGJnVbJHpHtHNPpdSQvc
+rucksacks: TsMBswFZsWMWBZMNwPtNNtRNHcNpSQ
+rucksacks: CcZCTrZDsjZTsTsshWhrWrTnfgbLDfJzVVLVVlgfnzfVGV
+end of group, repeated type c - priority 3
+rucksacks: JzTTRtJRZWmWjrMHCT
+rucksacks: DDFGlLGcGlSSSLsFGBspPBmNMBHMghmWNmWjWCmWtH
+rucksacks: nSSpnbsGlLDnpPsSSspFtVvffRQdVzqvvbqdfVQwRz
+end of group, repeated type t - priority 20
+rucksacks: sMhzszlHHDsWbthHDqsbJjpLNtmjVJmVLLVLVLBp
+rucksacks: nrTPrGwfPLdprzJzdL
+rucksacks: wgPQcTGGzgccwCgnRwgRChFhlWSDqWWQMWhssSsMQl
+end of group, repeated type z - priority 26
+rucksacks: NSNmwtpSpCpvMphCsr
+rucksacks: PHcRGPLJMrsvzsqG
+rucksacks: QHjbnRMcfbPbQZmlZgZlgBBQ
+end of group, repeated type M - priority 39
+rucksacks: cPRPbhQjbQRdtPQdLqLHqzFZjCFCqLjC
+rucksacks: mmfsnnwrfvwrfSNZFzHHLDCFNlLlqDlN
+rucksacks: wsmrwswwGTffMrBnmQttJtcMZQQtPJPbZc
+end of group, repeated type Z - priority 52
+rucksacks: MvBPDDRRdnnvHPCHZLHZsFLL
+rucksacks: rmJcbVqbcjWwWjQHLzTZFTHSzFrpsz
+rucksacks: cmwllVqqGJbVVVmmqbQcmgRnRvGhGfgDRDZBBBvRdd
+end of group, repeated type Z - priority 52
+rucksacks: nMvMhMnvhnbTZWSSZgHmGJDFmmNDzBmbNmdGBN
+rucksacks: rCsPLRCssRjrLLsrLlwRVrcNJQfDQfdBmmfNBGJNzmDPfB
+rucksacks: CRjCpLltgtJgJJWq
+end of group, repeated type J - priority 36
+rucksacks: jshCzJpjzTPpmCWvSlpfwHfSWglf
+rucksacks: LQMMNMnHtDtLVRvwwgRWlldgWD
+rucksacks: qHVrQNHVMFQtrrBBQMBcrrZsZbzCZhbbJZJsmmsmFPTC
+end of group, repeated type H - priority 34
+rucksacks: JZQZnsQNMqTngZqJBVfBfPPVBNrwvfPw
+rucksacks: SSmDstFjpDpCszDjcLLhrPVlGlrGGVBwrvwVPt
+rucksacks: FSssFcLjFjbmFFCzjLcFLRDnMJnTHRnZZTdWqZZWnMnRnZ
+end of group, repeated type s - priority 19
+rucksacks: GbHRHpldwGMpWhHpCMBlCbRdVSLhnqJLSrDPLPPLPDqVDrhh
+rucksacks: gvjWWQvgZFtQFFNqLnVnDnSJzzztDD
+rucksacks: ZccccfTsffHdWWdRWwsw
+end of group, repeated type W - priority 49
+rucksacks: ClCtbHMlnnPPlszV
+rucksacks: gSDWSLgWQWQJJNWqgtQjPsnfcdVcLVdVdzfzVzff
+rucksacks: WQgqtFQgDgQSFqJhqhSJvNDRrZMZHwHMCbZhTpZbGHMTMG
+end of group, repeated type t - priority 20
+rucksacks: pZJZlCQtHFhPfdNfCh
+rucksacks: zcmLSVczwcMcLDNFHdLPhPWH
+rucksacks: szvVVnBmnTGQtHTQ
+end of group, repeated type H - priority 34
+rucksacks: RVVCNDlNGzlGZqHGHWqWhGqQwH
+rucksacks: ZFLFTmpLvvmSqsbb
+rucksacks: TrfpBfJpJMlnnNfNZD
+end of group, repeated type Z - priority 52
+rucksacks: qHHlDClHhltMqQsHDhHslGznwdTnzzwDGSdfnwGnwG
+rucksacks: mZRNcNcLLPNPBFFbbPmLmbZFSCVfJJTVndVfSwnRzznfTwCS
+rucksacks: CcCWFbbBLCWtgWgHjghqvv
+end of group, repeated type C - priority 29
+rucksacks: TjbzlnlFmfqCFFVVCRWr
+rucksacks: PhMcLpPDtMLpwPDvLPJbMhSgVCGqggVqQgCqCgCgSWvv
+rucksacks: btbZbNZhJDJJhDtwtsTTTmBzzBBmlNlmHj
+end of group, repeated type b - priority 2
+rucksacks: FqhjWtqlqmmsnFPTCvMCQMTTCjQd
+rucksacks: pfffRfLpgrgGgzrNVzzpGVzRCdMCPJbwwcVMbQPCJVMVdbww
+rucksacks: DGGDZRGrHggzSsFQnnWShmtH
+end of group, repeated type Q - priority 43
+rucksacks: vtHVVMMrvVMVrSHvLgvlHcZFCnRCZcccZtRRZfJFCJ
+rucksacks: rdDjGsdTQDcNZfdncCRR
+rucksacks: rBDsTwBbjbmbbQswswPhqVmmSvpVhlvvqMhHhh
+end of group, repeated type r - priority 18
+rucksacks: vGBLrqMNvqSLBvvrNbllLHfwStWWtFttccjtRtjtcj
+rucksacks: MhCDJmhMDzmcRRcjzWfztH
+rucksacks: ZQDmDhVVCQbBVdVNMvvv
+end of group, repeated type M - priority 39
+rucksacks: ptCtCzhWPWptnhVzzpGZbZTjTjVjFGjVFgVl
+rucksacks: fQswRRffmRqZlgrqqFjjSgGg
+rucksacks: HwsQDNNsDsmRLLHmffsfvHptBnhtzCvhWpZWBdhnMdCh
+end of group, repeated type Z - priority 52
+rucksacks: RlHzzTqczBPfbnvcpB
+rucksacks: wVtNwpSZstppwwMsZhsdnLvnbtBBmbnLFFdnmF
+rucksacks: WNQJMVWsZWwGJWhhSNrQzlgHrDCgQRHpCHrl
+end of group, repeated type p - priority 16
+rucksacks: RrZWpJZRrZpdTGstlchLGGlLMd
+rucksacks: NqjDPCQPnQCSvtMzSLhhjM
+rucksacks: nQVQDDDDfwBwNCVCNVFNpWpgJgrRTmLTmTmgRTWF
+end of group, repeated type L - priority 38
+rucksacks: SHMcrMHpcjGcjSrMMbvSvvSvwFTLJwJNtFGFWJNtDLFTLfWN
+rucksacks: zqRnPfzQCRzqsmRPzznhszzLtLwQwwFTgWWLDLgWFTwTNQ
+rucksacks: qVPZmRZhsCZPhZlRCqRRRCbfpccMBjvMVjdHjjMjSvdf
+end of group, repeated type f - priority 6
+rucksacks: VVQdHwBZLVltlddtBczhrzvGcWWFRwgsFG
+rucksacks: TDTTTqqTSSqjqnmTmPqPPmTmGhRszvsrzsjRsccgzrRzgWGF
+rucksacks: DpJPqpWqHbZpllpt
+end of group, repeated type W - priority 49
+rucksacks: cCSCFsnnZFnscDtNdJFJtJtdmb
+rucksacks: VgBqBsqRrHtNdzmNrt
+rucksacks: BGLLVVjRBsqPBfsGwPsMfSSZCSfTZTZQpSphfS
+end of group, repeated type s - priority 19
+rucksacks: plCHCHlgglHHGpNbtngNrDvBDpfQDBQfZDfWZVrr
+rucksacks: mTmMLhRfwhsLPQvQZDMZQBQWMB
+rucksacks: cwsssmqRTFFfFgtbCtGl
+end of group, repeated type f - priority 6
+rucksacks: LQPPrCPnMZwqtRMn
+rucksacks: cWTSlJWlcplJdDTdGdpDlGcGgqmtwwZtqRrNRRmRdNZqmgNq
+rucksacks: GSJcJSjsjTpsvWGWBHLLvVVBBBrFrzVz
+end of group, repeated type r - priority 18
+rucksacks: NVPCSPMNDSNFVSWCsJJJmpGmZZGLLcpZLHGGtsHt
+rucksacks: fwzlBBqghqvzqqlDrHbpHjZHmGZbLZrHLb
+rucksacks: dnBgnDqQvwRnSnnFMFMP
+end of group, repeated type D - priority 30
+rucksacks: BCbPsFFwCRHmDSBmWnvDDj
+rucksacks: phhZVzdpVfQZphhZpRhSVnjmrcvvnrWtDrvWDS
+rucksacks: TfQJMfLphMhJdfdzpQJRTPbwHHNlgbGwsTGgCP
+end of group, repeated type R - priority 44
+rucksacks: ttWLlnnvnNnBBtlTqWlpvpndQdZsQQFssFDdsRFdVdRNFQ
+rucksacks: jSgrScrbGZSGrrCGsFVMssFsPPFcDDMV
+rucksacks: bzSmJbfCZCbzLwllflwqtvvw
+end of group, repeated type Z - priority 52
+rucksacks: zmFTJwFLPmzLztmjDzTJwfNrdFNrFppBSNRGNGdbrpBR
+rucksacks: gqlhWQgsZMsvqMlMMvsvqsNlLbcdppbrRpdbbcSrrbbr
+rucksacks: vssCgVgCsggZQZCgsnsqWgWvfJPDLwffwTPPmzTnjTPmPmwJ
+end of group, repeated type L - priority 38
+rucksacks: SpcRTPQLBLWpNNzjmmwwwRrR
+rucksacks: tGlfvGhfnbDlbqlChnfFMrwsmwNssTMHMHjFwv
+rucksacks: ZlhtCtffCdWcZWZVVT
+end of group, repeated type T - priority 46
+rucksacks: jTTCcWHWJNgCGTzTmnzrmnGn
+rucksacks: BwRRbFvtvvQmJJFMpMJr
+rucksacks: ZBBwLvqbBZsRsbVsZSqbcZdJjHHjhfPCJfJfHhgc
+end of group, repeated type J - priority 36
+rucksacks: VrnDSvvrLrfTdTLGfdRp
+rucksacks: zcJzmcFcHGfdGmWTVd
+rucksacks: tHsMhwPVctccHFHFcbSDbbPjnNbBnbvBQB
+end of group, repeated type V - priority 48
+rucksacks: QttWQwLTnLnWTtnffnLQSBFVjNvBjBFNgMdCsVWsjv
+rucksacks: pDqcmmRPHqgVBddjvN
+rucksacks: DcclzbcbPbJLnNTfnw
+end of group, repeated type N - priority 40
+rucksacks: plRcpsZDGlGZvWvMCNcLtttq
+rucksacks: SrfrwSjSVrSjwbmSrHzmHJCQQPQzqttNNQJMzJtqMW
+rucksacks: wSHVnfHfWwwHWFVfSnfgmmRsslFZZDBBGZsZsDTdGRTp
+end of group, repeated type W - priority 49
+rucksacks: qSFQSgQNgQBrBHHcrW
+rucksacks: VTmjVJLTwlTmwTVmsMJMVlJmPvcbvvbCBbGBPjGvBbBGWcbb
+rucksacks: DnJTZwmnZRhnpqNdWt
+end of group, repeated type W - priority 49
+rucksacks: dTVHjZLLZDVCfVHtLDDjQbscjWbSJMJPjsbWWb
+rucksacks: FnqrnmzzFllmsWwtsFtQMMFc
+rucksacks: lmqzzzngGmlNNBqGllzlBNRvptHHpTCHpDLpgDZdgvHvDD
+end of group, repeated type t - priority 20
+rucksacks: sdRZQbCfZTSTdlfTZCffccWPHPPcPPwLwctRnLWn
+rucksacks: BBJDzFVgCDrCJrqDJJhqJVVMLPHwcctFwcWHHGLcwGwGHnWc
+rucksacks: ghpJgqqjCZbQdZpd
+end of group, repeated type C - priority 29
+rucksacks: tbcpzbHSszcHBgqHGZgJJJhhww
+rucksacks: jfvdvRTffQQrrFCRFTnGwJRqNRZVpJGZLZggLh
+rucksacks: nQTjTnMndlTdQFMvnrClCnpzmzDtbbmBbcPSzzlmmtzP
+end of group, repeated type p - priority 16
+rucksacks: BqBqTCSTcqHsJHHM
+rucksacks: WWPGVPLtzVgWtjWPGzVjzVGcbDhPsRbDcsbJwNRswRDRss
+rucksacks: VQfWjfLFGWLjdFfVzTZZpJTpnmlTrSQlBl
+end of group, repeated type J - priority 36
+rucksacks: jLNsZjqSHCsGdsmpsm
+rucksacks: MvnVFzWMwMVWzfnVDwfBMfnnrCtdtPmPlRrdrJCJrtPDrrPD
+rucksacks: zznfFWwMfMfFMwVTMQFnQjhjgjSZhCNbLSTcHHgbbC
+end of group, repeated type C - priority 29
+rucksacks: GGtssttVmvnnGNMQrrVzgwVrCWMz
+rucksacks: FdhfhhcCDhHLfzclZMcrwcQMZM
+rucksacks: HHqqCBhHSSpdmjGqmGjtjtjj
+end of group, repeated type C - priority 29
+rucksacks: bbQLtGMQQtQRQtrDtGprrrbCqwplZhhqSqmdwvdzqqqhSmpS
+rucksacks: FsJjJBfnsJcFcFfjVPjWBzldqhqnlZZZzzhmnSvSnm
+rucksacks: JPcFfFWjFHJVVsVjPVscsDlLNRHGDbLRMRCDNrCGbG
+end of group, repeated type l - priority 12
+rucksacks: JdMdlMRJnTwdvcjv
+rucksacks: CDLHbNSzzLFgHvnTjrswBNBTNT
+rucksacks: QgbvzSFQmZQPQQRW
+end of group, repeated type v - priority 22
+rucksacks: NTBrNzrpjjjCwGbB
+rucksacks: FRbQlcvFvcRQQlRsMlRRRZjwCqMwjmjwJZdLJmjCZC
+rucksacks: cVPPQcvlWDNhrbPz
+end of group, repeated type b - priority 2
+rucksacks: VdbVtbbZJdtJVVdDVZmTLqqTSQvNLjjDShhvSG
+rucksacks: zplpnBnFpnrrlghGNpLNqHvqvjNj
+rucksacks: cWncllnlPFWzcMwtWWtsVLVRmJWCds
+end of group, repeated type L - priority 38
+rucksacks: ShLSTnZnTSttTSbLQdfSZTMwcDHwwcHnJvDHnlnlclMM
+rucksacks: NmPMsssRrVwjDclHJwwR
+rucksacks: gNNMWGzNmqGdtfZTbGGb
+end of group, repeated type M - priority 39
+rucksacks: sWNNlRHnmJtmntJt
+rucksacks: brbbBTbbFbCbqqGgBTrCfmQVVZfSSQQSVtJZSrVZ
+rucksacks: bbFqvbDvvGGLGbCCtBGDLbLlcPNHhhccPNcdPPchlsdR
+end of group, repeated type t - priority 20
+rucksacks: DCFvDvnCnNfMBmMMslDZML
+rucksacks: SQQQJHwpSgJSJHQWSWHqJWWbmcBBBLLTsmhhTcZbMhmlshcb
+rucksacks: RJRgpJHssgwSQHRqsQPGGjjtNCrrFvvnFjjPrP
+end of group, repeated type s - priority 19
+rucksacks: mThmsgjzTPjMpcvtWP
+rucksacks: GNNBVqVGNZbbNbNqqZQVNVNbWcpdtMCcpCtMWCdCPpQccmpp
+rucksacks: VSmNrmmbBfZVlsrssrLTRhRhTn
+end of group, repeated type m - priority 13
+rucksacks: TdmCvLDCpTRNTdFbbWnnSWCfhjbbzn
+rucksacks: GrrMsPVGcQHBGMbhjjSgWfHHDbjb
+rucksacks: BPBVqqrQPsQqwrrmmmJdRLDDqFRplT
+end of group, repeated type D - priority 30
+rucksacks: fpDDJljDlCfDTjprjrfbddWthCSCtdPPQFhSSSWW
+rucksacks: HsLZgMGbgBBsNzMvGbdVtVQzFRQSthhFPdtP
+rucksacks: sMBmGBmbNvLHGMnrDppTcJmcjpqljf
+end of group, repeated type b - priority 2
+rucksacks: ptSpSJQqpbNGGDDhcMWrlNHcZZWWls
+rucksacks: zRLRRRjvvgjHMMsMpWpc
+rucksacks: vmCPLCgwvwdnCzmvLbpTbVQqJJPbJPpTVq
+end of group, repeated type p - priority 16
+rucksacks: TJCfhhJVFffrJJQQllNWcvWhwvWD
+rucksacks: GPSGjjpLslBbpLpLqqqPDvdwvwvNzQWGzDDNdzGN
+rucksacks: msbRjbpPqsRpHnlZrmJlnVHT
+end of group, repeated type l - priority 12
+rucksacks: GGfFsCCTvGDsfTTrhsCMMzptZJMdpdgtrpdMcV
+rucksacks: LBlwBHPSqjwwlVggHpnMZcVHMt
+rucksacks: ZlZZlBbRPGGTGfmRsD
+end of group, repeated type Z - priority 52
+rucksacks: CtCjbVvzQQZTWVdd
+rucksacks: MlSqWlmsmGBSHJHTDFHZ
+rucksacks: pcqsmsplwsqclwRtRWgtRnPPvb
+end of group, repeated type W - priority 49
+rucksacks: zCrzCrsdjrhGDCFqGDjRRPtpWfQQcpfQZcCZPp
+rucksacks: VSVwVMgLHHLTwMDTMMVnbWPRZQRcRQPptWnpbZcb
+rucksacks: MNBBBlSMvLVwTlVTFdNdhNhFsqsGDrzm
+end of group, repeated type D - priority 30
+rucksacks: rBLWTwTThWwVVDTwHBsZZWppvpGtpptppmRvFFFMFMfL
+rucksacks: qPPNCCbqcbcNqbqQjjJQqzjRpptmlpMGmMlJtftmtFHpMt
+rucksacks: QnCgzzQbbQqPcPQnncbdQdnVTwDssZgrShBTVgZZsBSDHT
+end of group, repeated type H - priority 34
+rucksacks: PFGJFqnfqmPgFJQPWdbLdpDRhbphWjDm
+rucksacks: rclNHvcrzCNwrWRprjdMMMph
+rucksacks: wsZHwZNvRRQsQqBV
+end of group, repeated type R - priority 44
+rucksacks: LqlGCPlPLTCPqqQlpqLlWfBfWgcHNRJRfWNsncGH
+rucksacks: VVtdwVtDDdVmhrdwSBmjbdzNHgfgJnNnsSnHsNffHgRsgR
+rucksacks: wVzhbjmDbDrwjdbztFDDthMCvqPppZQBQLZQTqTvFTvZ
+end of group, repeated type B - priority 28
+rucksacks: BnQnQFwRmRwmwdBSFDFnmSDVLCJTCTppVVmGLVTCLcgVpC
+rucksacks: ZlWvhvZjNrbNvqjNhlfPfqjCGHrsspggTpVLpsJCpcJVgg
+rucksacks: vPzNvqjWhqFzGSnRGMDG
+end of group, repeated type G - priority 33
+rucksacks: wZnMZzzZZchDRtVsqtCtwV
+rucksacks: WmWpWWmPPWrmrmBmWrTlTFPNVqVCRSDCQHcqVTtTqsSDSTSD
+rucksacks: PrppdFlWWlfrWmpWFffrdcGjJJGggnnhZGdLLgGGndvz
+end of group, repeated type c - priority 3
+rucksacks: FShHNmNhRhNJmBnQBQJrmP
+rucksacks: VTgzDTjwfffwzDvwlcczzVSJbQlBQSWBWCnPJPbJWWbC
+rucksacks: tzSVtzvSvGSRZqqFMNtpRR
+end of group, repeated type S - priority 45
+rucksacks: hPZhGDZpnCGtDhznjmLmdJffdNzJ
+rucksacks: glwsSrQwBvLdgLzdcj
+rucksacks: QsRbHllzzlHwHlBszWlTBFbpDPMhbPDVGpGFpPtFPp
+end of group, repeated type z - priority 26
+rucksacks: SRjStRDctgDSBzLvPvNrDhmPLr
+rucksacks: QqTHGTPJmmHmhNmH
+rucksacks: TGQZsTqFnQZCJTPsnJnZQMjVRBVtcVRSVRBlwccSCtBS
+end of group, repeated type P - priority 42
+rucksacks: bbsNsvsvnNPTRRllbblLqhtQCqQSLCGGHSqHNC
+rucksacks: wFpzFgqVzqVJWFDwqJDmSBBmHBHhShLQhCGSBCGH
+rucksacks: MJVpFMqgwMqRRbZsMbZMrP
+end of group, repeated type q - priority 17
+rucksacks: PPdDhvNDQdmgQPZmQVHHtHGGWVGbffWGvs
+rucksacks: MMLCTRRLlLclTLRMRLCwMLHWVctbVVHWWWFfVjVGsFWW
+rucksacks: MRSMMlpTJRqClBCRqBDnzqgQPnqgznZPZqbP
+end of group, repeated type b - priority 2
+rucksacks: MrMNPNNpjvdprWtrpMsthqBfqlnfqcGhVBqFRcnqFG
+rucksacks: QbDgSSQbgSDDmDVmlqSCRllRcFqnqfBl
+rucksacks: QVJbVmwwDQbzVTgbppNJNMWNjNNPrdpM
+end of group, repeated type V - priority 48
+rucksacks: WwJJNbtHfpLpVgZZPVFhZh
+rucksacks: vmmqlDvRvRfqBSrlzmmMjRBhcVhQVZhVghCQQQQTcTrPTP
+rucksacks: jSqMmqRzMDDjvqlBqsBMBmmwGNJwJnwLNfbGwddswnJtJH
+end of group, repeated type f - priority 6
+rucksacks: RLgRmRggbvbzzPmmRNmzsQWFtSGNtwSNQnntFwnnCw
+rucksacks: pDBrBHpHhlldphHBHhJVFSLnWWFJttCtQSttSS
+rucksacks: hfHrpphHBppfTvmzgMmbLbgf
+end of group, repeated type L - priority 38
+Summ of all priorities: 2798
 ```
