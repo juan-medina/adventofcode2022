@@ -33,13 +33,16 @@ fn main() {
             current_elf_total_calories = 0;
         } else {
             // add the calories to the current elf
-            let calories: i32 = line.parse().unwrap();
-            current_elf_total_calories += calories;
+            current_elf_total_calories += line.parse::<i32>().unwrap();
         }
     }
     // sort and get the sum of the 3 higher calories
-    calories_per_elf.sort();
-    let sum_of_calories: i32 = calories_per_elf.iter().rev().take(3).sum();
+    println!("sum of top 3 calories {}", sum_top_n_calories(calories_per_elf, 3));
+}
 
-    println!("sum of top 3 calories {}", sum_of_calories);
+// sum the top n calories
+fn sum_top_n_calories(calories: Vec<i32>, top: usize) -> i32 {
+    let mut copy = calories.clone();
+    copy.sort();
+    copy.iter().rev().take(top).sum()
 }
