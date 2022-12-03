@@ -8,13 +8,13 @@ Language: Rust
 
 [Problem](https://adventofcode.com/2022/day/1)
 
-#### usage 
+#### Usage 
 
 ```bash
 cargo run
 ```
 
-#### output
+#### Output
 
 ```
 Advent of Code 2022 - Day 1: Calorie Counting
@@ -25,7 +25,7 @@ part 2 [example] sum of top 3 calories: 45000
 part 2 [puzzle] sum of top 3 calories: 201491
 ```
 
-#### LICENSE
+#### License
 
 ```
 Copyright (c) 2022 Juan Medina
