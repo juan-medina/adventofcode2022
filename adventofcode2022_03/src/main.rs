@@ -27,17 +27,33 @@ use std::{
 };
 
 fn main() {
+    println!("Day 3: Rucksack Reorganization");
+    println!();
+    solve_day_3_part_1();
+    solve_day_3_part_2();
+}
+
+const EXAMPLE_FILE: &str = "data/rucksacks_example.dat";
+const PUZZLE_FILE: &str = "data/rucksacks_puzzle.dat";
+
+fn solve_day_3_part_1() {
+    solve_day_3("part 1 [example]", EXAMPLE_FILE, 1);
+    solve_day_3("part 1 [puzzle]", PUZZLE_FILE, 1);
+}
+
+fn solve_day_3_part_2() {
+    solve_day_3("part 2 [example]", EXAMPLE_FILE, 3);
+    solve_day_3("part 2 [puzzle]", PUZZLE_FILE, 3);
+}
+
+fn solve_day_3(label: &str, filename: &str, rucksacks_per_group: usize) {
     // sum of all priorities
     let mut sum_all_priorities = 0;
 
     // the group of rucksacks
     let mut group_of_rucksacks: Vec<String> = Vec::new();
 
-    // group of 3 rucksacks
-    const RUCKSACKS_PER_GROUP: usize = 3;
-
     //open the file
-    let filename = "data/rucksacks.dat";
     let file = File::open(filename).unwrap();
     let reader = BufReader::new(file);
 
@@ -45,16 +61,13 @@ fn main() {
     for (_index, line) in reader.lines().enumerate() {
         let line = line.unwrap();
 
-        // print stats
-        println!("rucksacks: {line}");
-
         // add the rucksack to the group
         group_of_rucksacks.push(line);
 
         // when we have all rucksacks in the group we complete the group
-        if group_of_rucksacks.len() == RUCKSACKS_PER_GROUP {
+        if group_of_rucksacks.len() == rucksacks_per_group {
             // find the repeat type
-            let repeated_type = repeated_type(group_of_rucksacks.clone());
+            let repeated_type = repeated_type_in_groups(group_of_rucksacks.clone());
 
             // get the priority
             let priority = get_item_priority(repeated_type);
@@ -64,44 +77,61 @@ fn main() {
 
             // clear this group
             group_of_rucksacks.clear();
-
-            // print stats
-            println!("end of group, repeated type {repeated_type} - priority {priority}");
         }
     }
-    println!("Summ of all priorities: {sum_all_priorities}");
+    println!("{label} Summ of all priorities: {sum_all_priorities}");
 }
 
-fn repeated_type(group_of_rucksacks: Vec<String>) -> char {
+fn repeated_type_in_compartments(first_compartment: &str, second_compartment: &str) -> char {
+    let mut found = ' ';
+    for item_type in first_compartment.chars() {
+        if second_compartment.find(item_type) != None {
+            found = item_type;
+            break;
+        }
+    }
+    return found;
+}
+
+fn repeated_type_in_groups(group_of_rucksacks: Vec<String>) -> char {
     // the repeated type
     let mut repeated_type = ' ';
-
-    // get first rucksack
-    let first_rucksack = group_of_rucksacks[0].clone();
 
     // must be in this amount of sacks
     let numbers_of_sacks_to_find = group_of_rucksacks.len();
 
-    // iterate the first rucksack and check if found in the others
-    for item_type in first_rucksack.chars() {
-        // is found in the first sack
-        let mut found_in = 1;
-        // check the remaining sacks
-        for i in 1..numbers_of_sacks_to_find {
-            let sack = group_of_rucksacks[i].clone();
-            // if is found we accumulate one found, if not we continue with the next item
-            if sack.find(item_type) != None {
-                found_in += 1;
-            } else {
+    // get first rucksack
+    let first_rucksack = group_of_rucksacks[0].clone();
+
+    // if we are doing groups of 1 rucksack we check compartments, if not groups
+    if numbers_of_sacks_to_find == 1 {
+        // splits rucksacks in two compartment
+        let (first, second) = first_rucksack.split_at(first_rucksack.len() / 2);
+        // find between those
+        repeated_type = repeated_type_in_compartments(first, second);
+    } else {
+        // iterate the first rucksack and check if found in the others
+        for item_type in first_rucksack.chars() {
+            // is found in the first sack
+            let mut found_in = 1;
+            // check the remaining sacks
+            for i in 1..numbers_of_sacks_to_find {
+                let sack = group_of_rucksacks[i].clone();
+                // if is found we accumulate one found, if not we continue with the next item
+                if sack.find(item_type) != None {
+                    found_in += 1;
+                } else {
+                    break;
+                }
+            }
+            // if its found in all sacks
+            if found_in == numbers_of_sacks_to_find {
+                repeated_type = item_type;
                 break;
             }
         }
-        // if its found in all sacks
-        if found_in == numbers_of_sacks_to_find {
-            repeated_type = item_type;
-            break;
-        }
     }
+
     return repeated_type;
 }
 
