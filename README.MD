@@ -1,13 +1,16 @@
 ### Advent of Code 2022
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
+
 Examples for [Advent of Code 2022](https://adventofcode.com/2022) done in [Rust](https://www.rust-lang.org/)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+- [Library](adventofcode2022_lib)
 - [Day 1: Calorie Counting](adventofcode2022_01)
 - [Day 2: Rock Paper Scissors](adventofcode2022_02)
 - [Day 3: Rucksack Reorganization](adventofcode2022_03)
 
-#### LICENSE
+#### License
 ```
 Copyright (c) 2022 Juan Medina
 
