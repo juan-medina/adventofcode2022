@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
 
-#### Day 3: Rucksack Reorganization
+#### Day 4: Camp Cleanup
 
 [Problem](https://adventofcode.com/2022/day/4)
 
