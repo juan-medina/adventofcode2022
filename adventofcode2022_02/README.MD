@@ -19,10 +19,10 @@ cargo run
 ```
 Day 2: Rock Paper Scissors
 
-part 1 [example] points: 15
-part 1 [puzzle] points: 9651
-part 2 [example] points: 12
-part 2 [puzzle] points: 10560
+part 1 [example] priorities: 157
+part 1 [puzzle] priorities: 7824
+part 2 [example] priorities: 70
+part 2 [puzzle] priorities: 2798
 ```
 
 #### License

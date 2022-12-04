@@ -26,27 +26,31 @@ use std::{
     io::{BufRead, BufReader},
 };
 
-fn main() {
-    println!("Day 3: Rucksack Reorganization");
-    println!();
-    solve_day_3_part_1();
-    solve_day_3_part_2();
-}
-
 const EXAMPLE_FILE: &str = "data/rucksacks_example.dat";
 const PUZZLE_FILE: &str = "data/rucksacks_puzzle.dat";
 
-fn solve_day_3_part_1() {
-    solve_day_3("part 1 [example]", EXAMPLE_FILE, 1);
-    solve_day_3("part 1 [puzzle]", PUZZLE_FILE, 1);
+fn main() {
+    println!("Day 3: Rucksack Reorganization");
+    println!();
+    print_result("part 1 [example]", "priorities", solve_day_3_part_1(EXAMPLE_FILE));
+    print_result("part 1 [puzzle]", "priorities", solve_day_3_part_1(PUZZLE_FILE));
+    print_result("part 2 [example]", "priorities", solve_day_3_part_2(EXAMPLE_FILE));
+    print_result("part 2 [puzzle]", "priorities", solve_day_3_part_2(PUZZLE_FILE));
 }
 
-fn solve_day_3_part_2() {
-    solve_day_3("part 2 [example]", EXAMPLE_FILE, 3);
-    solve_day_3("part 2 [puzzle]", PUZZLE_FILE, 3);
+fn print_result(label: &str, name: &str, value: u32) {
+    println!("{label} {name}: {value}");
 }
 
-fn solve_day_3(label: &str, filename: &str, rucksacks_per_group: usize) {
+fn solve_day_3_part_1(filename: &str) -> u32 {
+    solve_day_3(filename, 1)
+}
+
+fn solve_day_3_part_2(filename: &str) -> u32 {
+    solve_day_3(filename, 3)
+}
+
+fn solve_day_3(filename: &str, rucksacks_per_group: usize) -> u32 {
     // sum of all priorities
     let mut sum_all_priorities = 0;
 
@@ -79,7 +83,7 @@ fn solve_day_3(label: &str, filename: &str, rucksacks_per_group: usize) {
             group_of_rucksacks.clear();
         }
     }
-    println!("{label} Summ of all priorities: {sum_all_priorities}");
+    sum_all_priorities
 }
 
 fn repeated_type_in_compartments(first_compartment: &str, second_compartment: &str) -> char {
@@ -151,5 +155,22 @@ fn get_item_priority(item_type: char) -> u32 {
         const TOTAL_LETTERS: u32 = 26;
         // ex: 'C' unicode:67 - 'A' unicode:65 = 2, + 1 = 3, + 26 = 29
         unicode_value - A_UPPER_UNICODE + 1 + TOTAL_LETTERS
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use crate::*;
+
+    #[test]
+    fn test_part_1() {
+        let total = solve_day_3_part_1(EXAMPLE_FILE);
+        assert_eq!(total, 157);
+    }
+
+    #[test]
+    fn test_part_2() {
+        let total = solve_day_3_part_2(EXAMPLE_FILE);
+        assert_eq!(total, 70);
     }
 }
