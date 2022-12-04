@@ -38,12 +38,12 @@ fn main() {
     println!();
     print_result(
         "part 1 [example]",
-        "couples fulling contained",
+        "couples fully contained",
         solve_day_4_part_1(EXAMPLE_FILE),
     );
     print_result(
         "part 1 [puzzle]",
-        "couples fulling contained",
+        "couples fully contained",
         solve_day_4_part_1(PUZZLE_FILE),
     );
     print_result(

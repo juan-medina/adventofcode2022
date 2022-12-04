@@ -18,8 +18,8 @@ cargo run
 ```
 Day 4: Camp Cleanup
 
-part 1 [example] couples fulling contained: 2
-part 1 [puzzle] couples fulling contained: 547
+part 1 [example] couples fully contained: 2
+part 1 [puzzle] couples fully contained: 547
 part 2 [example] couples colliding: 4
 part 2 [puzzle] couples colliding: 843
 ```

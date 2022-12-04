@@ -24,7 +24,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 use std::cmp::{max, min};
 use std::ops::Range;
 
-// check if a range is fully contained, first could contain second or reverse
+// check if two ranges are fully contained, first could contain second or reverse
 pub fn fully_contained(first: Range<u32>, second: Range<u32>) -> bool {
     range_contains(first.clone(), second.clone()) || range_contains(second, first)
 }
