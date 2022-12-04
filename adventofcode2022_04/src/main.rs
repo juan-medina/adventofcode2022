@@ -25,6 +25,7 @@ use std::{
     fs::File,
     io::{BufRead, BufReader},
 };
+use std::cmp::{max, min};
 use std::ops::Range;
 
 const EXAMPLE_FILE: &str = "data/pairs_example.dat";
@@ -33,8 +34,10 @@ const PUZZLE_FILE: &str = "data/pairs_puzzle.dat";
 fn main() {
     println!("Day 4: Camp Cleanup");
     println!();
-    print_result("part 1 [example]", "fully contained", solve_day_4_part_1(EXAMPLE_FILE));
-    print_result("part 1 [puzzle]", "fully contained", solve_day_4_part_1(PUZZLE_FILE));
+    print_result("part 1 [example]", "total couples", solve_day_4_part_1(EXAMPLE_FILE));
+    print_result("part 1 [puzzle]", "total couples", solve_day_4_part_1(PUZZLE_FILE));
+    print_result("part 2 [example]", "total couples", solve_day_4_part_2(EXAMPLE_FILE));
+    print_result("part 2 [puzzle]", "total couples", solve_day_4_part_2(PUZZLE_FILE));
 }
 
 fn print_result(label: &str, name: &str, value: u32) {
@@ -42,12 +45,21 @@ fn print_result(label: &str, name: &str, value: u32) {
 }
 
 fn solve_day_4_part_1(filename: &str) -> u32 {
-    solve_day_4(filename)
+    solve_day_4(filename, CheckType::FullyContains)
 }
 
-fn solve_day_4(filename: &str) -> u32 {
+fn solve_day_4_part_2(filename: &str) -> u32 {
+    solve_day_4(filename, CheckType::Overlap)
+}
+
+enum CheckType {
+    FullyContains,
+    Overlap,
+}
+
+fn solve_day_4(filename: &str, check_type: CheckType) -> u32 {
     // colliding couples
-    let mut fully_contained_couples = 0;
+    let mut total_couples = 0;
 
     //open the file
     let file = File::open(filename).unwrap();
@@ -59,11 +71,20 @@ fn solve_day_4(filename: &str) -> u32 {
 
         let (first_elf, second_elf) = get_ranges(line);
 
-        if fully_contained(first_elf, second_elf) {
-            fully_contained_couples += 1;
+        let should_count = match check_type {
+            CheckType::FullyContains => {
+                fully_contained(first_elf, second_elf)
+            }
+            CheckType::Overlap => {
+                overlap(first_elf, second_elf)
+            }
+        };
+
+        if should_count {
+            total_couples += 1;
         }
     }
-    fully_contained_couples
+    total_couples
 }
 
 fn range_contains(first: Range<u32>, second: Range<u32>) -> bool {
@@ -72,6 +93,10 @@ fn range_contains(first: Range<u32>, second: Range<u32>) -> bool {
 
 fn fully_contained(first: Range<u32>, second: Range<u32>) -> bool {
     range_contains(first.clone(), second.clone()) || range_contains(second, first)
+}
+
+fn overlap(first: Range<u32>, second: Range<u32>) -> bool {
+    max(first.start, second.start) <= min(first.end, second.end)
 }
 
 fn get_range(token: &str) -> Range<u32> {
@@ -95,5 +120,11 @@ mod tests {
     fn test_part_1() {
         let total = solve_day_4_part_1(EXAMPLE_FILE);
         assert_eq!(total, 2);
+    }
+
+    #[test]
+    fn test_part_2() {
+        let total = solve_day_4_part_2(EXAMPLE_FILE);
+        assert_eq!(total, 4);
     }
 }

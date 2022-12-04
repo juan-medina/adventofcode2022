@@ -19,8 +19,10 @@ cargo run
 ```
 Day 4: Camp Cleanup
 
-part 1 [example] fully contained: 2
-part 1 [puzzle] fully contained: 547
+part 1 [example] total couples: 2
+part 1 [puzzle] total couples: 547
+part 2 [example] total couples: 4
+part 2 [puzzle] total couples: 843
 ```
 #### License
 ```
