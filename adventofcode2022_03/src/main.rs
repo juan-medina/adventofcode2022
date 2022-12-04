@@ -26,20 +26,34 @@ use std::{
     io::{BufRead, BufReader},
 };
 
+use adventofcode2022_lib::utils::print_result;
+
 const EXAMPLE_FILE: &str = "data/rucksacks_example.dat";
 const PUZZLE_FILE: &str = "data/rucksacks_puzzle.dat";
 
 fn main() {
     println!("Day 3: Rucksack Reorganization");
     println!();
-    print_result("part 1 [example]", "priorities", solve_day_3_part_1(EXAMPLE_FILE));
-    print_result("part 1 [puzzle]", "priorities", solve_day_3_part_1(PUZZLE_FILE));
-    print_result("part 2 [example]", "priorities", solve_day_3_part_2(EXAMPLE_FILE));
-    print_result("part 2 [puzzle]", "priorities", solve_day_3_part_2(PUZZLE_FILE));
-}
-
-fn print_result(label: &str, name: &str, value: u32) {
-    println!("{label} {name}: {value}");
+    print_result(
+        "part 1 [example]",
+        "priorities",
+        solve_day_3_part_1(EXAMPLE_FILE),
+    );
+    print_result(
+        "part 1 [puzzle]",
+        "priorities",
+        solve_day_3_part_1(PUZZLE_FILE),
+    );
+    print_result(
+        "part 2 [example]",
+        "priorities",
+        solve_day_3_part_2(EXAMPLE_FILE),
+    );
+    print_result(
+        "part 2 [puzzle]",
+        "priorities",
+        solve_day_3_part_2(PUZZLE_FILE),
+    );
 }
 
 fn solve_day_3_part_1(filename: &str) -> u32 {

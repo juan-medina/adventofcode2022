@@ -1,4 +1,21 @@
-/***
+### Advent of Code 2022
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+#### Library
+
+Language: Rust
+
+[Problem](https://adventofcode.com/2022/day/3)
+
+#### Usage 
+
+```bash
+cargo build
+```
+
+#### License
+```
 Copyright (c) 2022 Juan Medina
 
 Permission is hereby granted, free of charge, to any person obtaining
@@ -19,40 +36,4 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-***/
-
-use std::fmt;
-use std::str::FromStr;
-
-#[derive(Clone, Copy)]
-pub enum Move {
-    Rock,
-    Paper,
-    Scissor,
-}
-
-impl FromStr for Move {
-    type Err = ();
-
-    fn from_str(input: &str) -> Result<Move, Self::Err> {
-        match input {
-            "A" => Ok(Move::Rock),
-            "B" => Ok(Move::Paper),
-            "C" => Ok(Move::Scissor),
-            "X" => Ok(Move::Rock),
-            "Y" => Ok(Move::Paper),
-            "Z" => Ok(Move::Scissor),
-            _ => Err(()),
-        }
-    }
-}
-
-impl fmt::Display for Move {
-    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        match self {
-            Move::Rock => write!(f, "Rock"),
-            Move::Paper => write!(f, "Paper"),
-            Move::Scissor => write!(f, "Scissor"),
-        }
-    }
-}
+```

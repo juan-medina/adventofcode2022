@@ -21,12 +21,14 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
+use std::cmp::{max, min};
+use std::ops::Range;
 use std::{
     fs::File,
     io::{BufRead, BufReader},
 };
-use std::cmp::{max, min};
-use std::ops::Range;
+
+use adventofcode2022_lib::utils::print_result;
 
 const EXAMPLE_FILE: &str = "data/pairs_example.dat";
 const PUZZLE_FILE: &str = "data/pairs_puzzle.dat";
@@ -34,14 +36,26 @@ const PUZZLE_FILE: &str = "data/pairs_puzzle.dat";
 fn main() {
     println!("Day 4: Camp Cleanup");
     println!();
-    print_result("part 1 [example]", "total couples", solve_day_4_part_1(EXAMPLE_FILE));
-    print_result("part 1 [puzzle]", "total couples", solve_day_4_part_1(PUZZLE_FILE));
-    print_result("part 2 [example]", "total couples", solve_day_4_part_2(EXAMPLE_FILE));
-    print_result("part 2 [puzzle]", "total couples", solve_day_4_part_2(PUZZLE_FILE));
-}
-
-fn print_result(label: &str, name: &str, value: u32) {
-    println!("{label} {name}: {value}");
+    print_result(
+        "part 1 [example]",
+        "total couples",
+        solve_day_4_part_1(EXAMPLE_FILE),
+    );
+    print_result(
+        "part 1 [puzzle]",
+        "total couples",
+        solve_day_4_part_1(PUZZLE_FILE),
+    );
+    print_result(
+        "part 2 [example]",
+        "total couples",
+        solve_day_4_part_2(EXAMPLE_FILE),
+    );
+    print_result(
+        "part 2 [puzzle]",
+        "total couples",
+        solve_day_4_part_2(PUZZLE_FILE),
+    );
 }
 
 fn solve_day_4_part_1(filename: &str) -> u32 {
@@ -72,12 +86,8 @@ fn solve_day_4(filename: &str, check_type: CheckType) -> u32 {
         let (first_elf, second_elf) = get_ranges(line);
 
         let should_count = match check_type {
-            CheckType::FullyContains => {
-                fully_contained(first_elf, second_elf)
-            }
-            CheckType::Overlap => {
-                overlap(first_elf, second_elf)
-            }
+            CheckType::FullyContains => fully_contained(first_elf, second_elf),
+            CheckType::Overlap => overlap(first_elf, second_elf),
         };
 
         if should_count {

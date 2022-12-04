@@ -26,20 +26,34 @@ use std::{
     io::{BufRead, BufReader},
 };
 
+use adventofcode2022_lib::utils::print_result;
+
 const EXAMPLE_FILE: &str = "data/calories_example.dat";
 const PUZZLE_FILE: &str = "data/calories_puzzle.dat";
 
 fn main() {
     println!("Advent of Code 2022 - Day 1: Calorie Counting");
     println!();
-    print_result("part 1 [example]", "calories", solve_day_1_part_1(EXAMPLE_FILE));
-    print_result("part 1 [puzzle]", "calories", solve_day_1_part_1(PUZZLE_FILE));
-    print_result("part 2 [example]", "calories", solve_day_1_part_2(EXAMPLE_FILE));
-    print_result("part 2 [puzzle]", "calories", solve_day_1_part_2(PUZZLE_FILE));
-}
-
-fn print_result(label: &str, name: &str, value: u32) {
-    println!("{label} {name}: {value}");
+    print_result(
+        "part 1 [example]",
+        "calories",
+        solve_day_1_part_1(EXAMPLE_FILE),
+    );
+    print_result(
+        "part 1 [puzzle]",
+        "calories",
+        solve_day_1_part_1(PUZZLE_FILE),
+    );
+    print_result(
+        "part 2 [example]",
+        "calories",
+        solve_day_1_part_2(EXAMPLE_FILE),
+    );
+    print_result(
+        "part 2 [puzzle]",
+        "calories",
+        solve_day_1_part_2(PUZZLE_FILE),
+    );
 }
 
 fn solve_day_1_part_1(filename: &str) -> u32 {

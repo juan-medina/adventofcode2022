@@ -27,13 +27,15 @@ use std::{
     str::FromStr,
 };
 
+use adventofcode2022_lib::utils::print_result;
+
 use r#move::Move;
 use strategy::Strategy;
 
-mod strategy;
-mod r#move;
 mod match_result;
+mod r#move;
 mod rules;
+mod strategy;
 
 const EXAMPLE_FILE: &str = "data/strategy_example.dat";
 const PUZZLE_FILE: &str = "data/strategy_puzzle.dat";
@@ -41,14 +43,18 @@ const PUZZLE_FILE: &str = "data/strategy_puzzle.dat";
 fn main() {
     println!("Day 2: Rock Paper Scissors");
     println!();
-    print_result("part 1 [example]", "points", solve_day_2_part_1(EXAMPLE_FILE));
+    print_result(
+        "part 1 [example]",
+        "points",
+        solve_day_2_part_1(EXAMPLE_FILE),
+    );
     print_result("part 1 [puzzle]", "points", solve_day_2_part_1(PUZZLE_FILE));
-    print_result("part 2 [example]", "points", solve_day_2_part_2(EXAMPLE_FILE));
+    print_result(
+        "part 2 [example]",
+        "points",
+        solve_day_2_part_2(EXAMPLE_FILE),
+    );
     print_result("part 2 [puzzle]", "points", solve_day_2_part_2(PUZZLE_FILE));
-}
-
-fn print_result(label: &str, name: &str, value: u32) {
-    println!("{label} {name}: {value}");
 }
 
 fn solve_day_2_part_1(filename: &str) -> u32 {
@@ -102,9 +108,7 @@ fn get_moves(line: String, using_strategy: bool) -> (Move, Move) {
         let (adversary_move, strategy) = get_turn(line);
         // calculate player move
         let player_move = rules::generate_player_move(adversary_move, strategy);
-        (
-            adversary_move, player_move
-        )
+        (adversary_move, player_move)
     }
 }
 

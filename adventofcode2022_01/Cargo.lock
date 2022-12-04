@@ -5,3 +5,10 @@ version = 3
 [[package]]
 name = "adventofcode2022_01"
 version = "0.1.0"
+dependencies = [
+ "adventofcode2022_lib",
+]
+
+[[package]]
+name = "adventofcode2022_lib"
+version = "0.1.0"
