@@ -190,15 +190,13 @@ fn process_moves(
                 }
             }
             CraneModel::CrateMover9001 => {
-                // move the n top crates to a holder
-                let mut holder: Vec<char> = Vec::new();
+                // move the n top crates to a holder, we push then front so they get reversed
+                let mut holder: LinkedList<char> = LinkedList::new();
                 for _move in 0..amount {
                     let value = cargo[from - 1].pop_front().unwrap();
-                    holder.push(value);
+                    holder.push_front(value);
                 }
-                // reverse the holder ABC > CBA
-                holder.reverse();
-                //push then to the top, since they are reverse the retain the original order
+                //push then to the top destination, since they are reverse the retain the original order
                 for value in holder {
                     cargo[to - 1].push_front(value);
                 }
