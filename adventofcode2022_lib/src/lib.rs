@@ -22,7 +22,9 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
 pub mod utils {
-    pub fn print_result(label: &str, name: &str, value: u32) {
+    use std::{any::Any, fmt::Display};
+
+    pub fn print_result<T: Any + Display>(label: &str, name: &str, value: T) {
         println!("{label} {name}: {value}");
     }
 }
