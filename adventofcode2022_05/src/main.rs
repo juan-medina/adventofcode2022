@@ -89,7 +89,7 @@ fn solve_day_5(filename: &str, crane_model: CraneModel) -> String {
     for (_index, line) in reader.lines().enumerate() {
         let line = line.unwrap();
 
-        // when reaching an empty line we complete creates
+        // when reaching an empty line we complete crates
         if line == "" {
             cargo = process_crates(lines.clone());
             lines.clear();
