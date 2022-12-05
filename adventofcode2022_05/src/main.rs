@@ -74,7 +74,7 @@ fn solve_day_5_part_2(filename: &str) -> String {
     solve_day_5(filename, CraneModel::CrateMover9001)
 }
 
-fn solve_day_5(filename: &str, crate_model: CraneModel) -> String {
+fn solve_day_5(filename: &str, crane_model: CraneModel) -> String {
     // lines that we are reading
     let mut lines: Vec<String> = Vec::new();
 
@@ -100,7 +100,7 @@ fn solve_day_5(filename: &str, crate_model: CraneModel) -> String {
         lines.push(line);
     }
     // we complete reading moves process then
-    cargo = process_moves(cargo, lines, crate_model);
+    cargo = process_moves(cargo, lines, crane_model);
 
     process_result(cargo)
 }
@@ -166,7 +166,7 @@ fn read_crates_line(line: String) -> Vec<char> {
 fn process_moves(
     mut cargo: Vec<LinkedList<char>>,
     lines: Vec<String>,
-    crate_model: CraneModel,
+    crane_model: CraneModel,
 ) -> Vec<LinkedList<char>> {
     // regex to capture move, from, to
     let regex = Regex::new(r"(?m)move\s(\d+)\sfrom\s(\d+)\sto\s(\d+)").unwrap();
@@ -181,7 +181,7 @@ fn process_moves(
         let from = caps.get(2).unwrap().as_str().parse::<usize>().unwrap();
         let to = caps.get(3).unwrap().as_str().parse::<usize>().unwrap();
 
-        match crate_model {
+        match crane_model {
             CraneModel::CrateMover9000 => {
                 // do the move from one cargo to another, pushing always to the top
                 for _move in 0..amount {
