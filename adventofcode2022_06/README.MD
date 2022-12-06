@@ -1,4 +1,30 @@
-/***
+### Advent of Code 2022
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
+
+#### Day 6: Tuning Trouble
+
+[Problem](https://adventofcode.com/2022/day/6)
+
+#### Usage 
+
+```bash
+cargo run
+```
+
+#### Output
+
+```
+Day 6: Tuning Trouble
+
+part 1 [example] first marker after character: 7
+part 1 [puzzle] first marker after character: 1155
+part 2 [example] first message after character: 19
+part 2 [puzzle] first message after character: 2789
+```
+#### License
+```
 Copyright (c) 2022 Juan Medina
 
 Permission is hereby granted, free of charge, to any person obtaining
@@ -19,41 +45,4 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-***/
-
-pub mod utils {
-    use std::{
-        any::Any,
-        fmt::Display,
-        fs::File,
-        io::{BufReader, Read},
-    };
-
-    pub fn print_result<T: Any + Display>(label: &str, name: &str, value: T) {
-        println!("{label} {name}: {value}");
-    }
-
-    // check if we have duplicates in an slice
-    pub fn has_duplicates<T: Any + PartialEq>(marker: &[T]) -> bool {
-        let bound = marker.len();
-        for i in 0..bound {
-            for j in i + 1..bound {
-                if marker[i] == marker[j] {
-                    return true;
-                }
-            }
-        }
-        false
-    }
-
-    // read a whole file
-    pub fn read_whole_file(filename: &str) -> String {
-        let file = File::open(filename).unwrap();
-        let mut reader = BufReader::new(file);
-        let mut contents = String::new();
-        reader
-            .read_to_string(&mut contents)
-            .expect(&format!("file not found: {filename}"));
-        contents
-    }
-}
+```
