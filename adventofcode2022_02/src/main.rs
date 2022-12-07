@@ -21,8 +21,8 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
-use std::str::FromStr;
 use adventofcode2022_lib::utils;
+use std::str::FromStr;
 
 use adventofcode2022_lib::utils::{Example, RunType};
 
@@ -34,8 +34,12 @@ mod r#move;
 mod rules;
 mod strategy;
 
+const NAME: &'static str = "Rock Paper Scissors";
+const OUTPUT: &'static str = "points";
+const FILE: &'static str = "strategy";
+
 fn main() {
-    Example::new(2, "Rock Paper Scissors", "points", "strategy", solve_day_2).run_all();
+    Example::new(2, NAME, OUTPUT, FILE, solve_day_2).run_all();
 }
 
 fn solve_day_2(filename: &str, run_type: RunType) -> u32 {
@@ -83,18 +87,18 @@ fn get_moves(line: String, using_strategy: bool) -> (Move, Move) {
 
 #[cfg(test)]
 mod tests {
-    use adventofcode2022_lib::utils::FileType;
     use crate::*;
+    use adventofcode2022_lib::utils::FileType;
 
     #[test]
     fn test_part_1() {
-        let example = Example::new(2, "Rock Paper Scissors", "points", "strategy", solve_day_2);
+        let example = Example::new(2, NAME, OUTPUT, FILE, solve_day_2);
         assert_eq!(15, example.run_part(FileType::ExampleFile, RunType::Part1));
     }
 
     #[test]
     fn test_part_2() {
-        let example = Example::new(2, "Rock Paper Scissors", "points", "strategy", solve_day_2);
+        let example = Example::new(2, NAME, OUTPUT, FILE, solve_day_2);
         assert_eq!(12, example.run_part(FileType::ExampleFile, RunType::Part2));
     }
 }
