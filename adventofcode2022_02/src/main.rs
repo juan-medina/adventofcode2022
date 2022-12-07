@@ -21,13 +21,10 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
-use std::{
-    fs::File,
-    io::{BufRead, BufReader},
-    str::FromStr,
-};
+use std::str::FromStr;
+use adventofcode2022_lib::utils;
 
-use adventofcode2022_lib::utils::print_result;
+use adventofcode2022_lib::utils::{Example, RunType};
 
 use r#move::Move;
 use strategy::Strategy;
@@ -37,46 +34,18 @@ mod r#move;
 mod rules;
 mod strategy;
 
-const EXAMPLE_FILE: &str = "data/strategy_example.dat";
-const PUZZLE_FILE: &str = "data/strategy_puzzle.dat";
-
 fn main() {
-    println!("Day 2: Rock Paper Scissors");
-    println!();
-    print_result(
-        "part 1 [example]",
-        "points",
-        solve_day_2_part_1(EXAMPLE_FILE),
-    );
-    print_result("part 1 [puzzle]", "points", solve_day_2_part_1(PUZZLE_FILE));
-    print_result(
-        "part 2 [example]",
-        "points",
-        solve_day_2_part_2(EXAMPLE_FILE),
-    );
-    print_result("part 2 [puzzle]", "points", solve_day_2_part_2(PUZZLE_FILE));
+    Example::new(2, "Rock Paper Scissors", "points", "strategy", solve_day_2).run_all();
 }
 
-fn solve_day_2_part_1(filename: &str) -> u32 {
-    solve_day_2(filename, false)
-}
-
-fn solve_day_2_part_2(filename: &str) -> u32 {
-    solve_day_2(filename, true)
-}
-
-fn solve_day_2(filename: &str, using_strategy: bool) -> u32 {
+fn solve_day_2(filename: &str, run_type: RunType) -> u32 {
     // total points
     let mut total_points: u32 = 0;
 
-    //open the file
-    let file = File::open(filename).unwrap();
-    let reader = BufReader::new(file);
-
     // read the file line by line
-    for (_index, line) in reader.lines().enumerate() {
+    for line in utils::read_file(filename) {
         // get the moves
-        let (adversary_move, player_move) = get_moves(line.unwrap(), using_strategy);
+        let (adversary_move, player_move) = get_moves(line, run_type == RunType::Part2);
 
         // calculate result
         let match_result = rules::check_winner(adversary_move, player_move);
@@ -114,17 +83,18 @@ fn get_moves(line: String, using_strategy: bool) -> (Move, Move) {
 
 #[cfg(test)]
 mod tests {
+    use adventofcode2022_lib::utils::FileType;
     use crate::*;
 
     #[test]
     fn test_part_1() {
-        let total = solve_day_2_part_1(EXAMPLE_FILE);
-        assert_eq!(total, 15);
+        let example = Example::new(2, "Rock Paper Scissors", "points", "strategy", solve_day_2);
+        assert_eq!(15, example.run_part(FileType::ExampleFile, RunType::Part1));
     }
 
     #[test]
     fn test_part_2() {
-        let total = solve_day_2_part_2(EXAMPLE_FILE);
-        assert_eq!(total, 12);
+        let example = Example::new(2, "Rock Paper Scissors", "points", "strategy", solve_day_2);
+        assert_eq!(12, example.run_part(FileType::ExampleFile, RunType::Part2));
     }
 }
