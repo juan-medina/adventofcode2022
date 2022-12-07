@@ -16,12 +16,12 @@ cargo run
 #### Output
 
 ```
-Day 3: Rucksack Reorganization
+Advent of Code 2022 - Day 3: Rucksack Reorganization
 
-part 1 [example] Summ of all priorities: 157
-part 1 [puzzle] Summ of all priorities: 7824
-part 2 [example] Summ of all priorities: 70
-part 2 [puzzle] Summ of all priorities: 2798
+part 1 [example] priorities: 157
+part 1 [puzzle] priorities: 7824
+part 2 [example] priorities: 70
+part 2 [puzzle] priorities: 2798
 ```
 #### License
 ```

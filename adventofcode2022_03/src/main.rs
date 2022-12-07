@@ -21,64 +21,33 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
-use std::{
-    fs::File,
-    io::{BufRead, BufReader},
-};
+use adventofcode2022_lib::utils;
 
-use adventofcode2022_lib::utils::print_result;
+use adventofcode2022_lib::utils::{Example, RunType};
 
-const EXAMPLE_FILE: &str = "data/rucksacks_example.dat";
-const PUZZLE_FILE: &str = "data/rucksacks_puzzle.dat";
+const NAME: &'static str = "Rucksack Reorganization";
+const OUTPUT: &'static str = "priorities";
+const FILE: &'static str = "rucksacks";
 
 fn main() {
-    println!("Day 3: Rucksack Reorganization");
-    println!();
-    print_result(
-        "part 1 [example]",
-        "priorities",
-        solve_day_3_part_1(EXAMPLE_FILE),
-    );
-    print_result(
-        "part 1 [puzzle]",
-        "priorities",
-        solve_day_3_part_1(PUZZLE_FILE),
-    );
-    print_result(
-        "part 2 [example]",
-        "priorities",
-        solve_day_3_part_2(EXAMPLE_FILE),
-    );
-    print_result(
-        "part 2 [puzzle]",
-        "priorities",
-        solve_day_3_part_2(PUZZLE_FILE),
-    );
+    Example::new(3, NAME, OUTPUT, FILE, solve_day_3).run_all();
 }
 
-fn solve_day_3_part_1(filename: &str) -> u32 {
-    solve_day_3(filename, 1)
-}
+fn solve_day_3(filename: &str, run_type: RunType) -> u32 {
+    // how many rucksacks we have for group
+    let rucksacks_per_group: usize = match run_type {
+        RunType::Part1 => 1,
+        RunType::Part2 => 3,
+    };
 
-fn solve_day_3_part_2(filename: &str) -> u32 {
-    solve_day_3(filename, 3)
-}
-
-fn solve_day_3(filename: &str, rucksacks_per_group: usize) -> u32 {
     // sum of all priorities
     let mut sum_all_priorities = 0;
 
     // the group of rucksacks
     let mut group_of_rucksacks: Vec<String> = Vec::new();
 
-    //open the file
-    let file = File::open(filename).unwrap();
-    let reader = BufReader::new(file);
-
     // read the file line by line
-    for (_index, line) in reader.lines().enumerate() {
-        let line = line.unwrap();
-
+    for line in utils::read_file(filename) {
         // add the rucksack to the group
         group_of_rucksacks.push(line);
 
@@ -175,16 +144,17 @@ fn get_item_priority(item_type: char) -> u32 {
 #[cfg(test)]
 mod tests {
     use crate::*;
+    use adventofcode2022_lib::utils::FileType;
 
     #[test]
     fn test_part_1() {
-        let total = solve_day_3_part_1(EXAMPLE_FILE);
-        assert_eq!(total, 157);
+        let example = Example::new(3, NAME, OUTPUT, FILE, solve_day_3);
+        assert_eq!(157, example.run_part(FileType::ExampleFile, RunType::Part1));
     }
 
     #[test]
     fn test_part_2() {
-        let total = solve_day_3_part_2(EXAMPLE_FILE);
-        assert_eq!(total, 70);
+        let example = Example::new(3, NAME, OUTPUT, FILE, solve_day_3);
+        assert_eq!(70, example.run_part(FileType::ExampleFile, RunType::Part2));
     }
 }
