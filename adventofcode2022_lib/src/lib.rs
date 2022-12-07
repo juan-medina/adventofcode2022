@@ -34,19 +34,6 @@ pub mod utils {
         println!("{label} {name}: {value}");
     }
 
-    // check if we have duplicates in an slice
-    pub fn has_duplicates<T: Any + PartialEq>(marker: &[T]) -> bool {
-        let bound = marker.len();
-        for i in 0..bound {
-            for j in i + 1..bound {
-                if marker[i] == marker[j] {
-                    return true;
-                }
-            }
-        }
-        false
-    }
-
     // read a file in lines
     pub fn read_file(filename: &str) -> Vec<String> {
         // the file lines
@@ -140,6 +127,19 @@ pub mod utils {
                 }
             }
         }
+    }
+
+    // check if we have duplicates in an slice
+    pub fn has_duplicates<T: Any + PartialEq>(marker: &[T]) -> bool {
+        let bound = marker.len();
+        for i in 0..bound {
+            for j in i + 1..bound {
+                if marker[i] == marker[j] {
+                    return true;
+                }
+            }
+        }
+        false
     }
 }
 

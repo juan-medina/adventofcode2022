@@ -21,63 +21,27 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
-use std::{
-    fs::File,
-    io::{BufRead, BufReader},
-};
-
-use adventofcode2022_lib::utils::print_result;
-
-const EXAMPLE_FILE: &str = "data/calories_example.dat";
-const PUZZLE_FILE: &str = "data/calories_puzzle.dat";
+use adventofcode2022_lib::utils;
+use adventofcode2022_lib::utils::{Example, RunType};
 
 fn main() {
-    println!("Advent of Code 2022 - Day 1: Calorie Counting");
-    println!();
-    print_result(
-        "part 1 [example]",
-        "calories",
-        solve_day_1_part_1(EXAMPLE_FILE),
-    );
-    print_result(
-        "part 1 [puzzle]",
-        "calories",
-        solve_day_1_part_1(PUZZLE_FILE),
-    );
-    print_result(
-        "part 2 [example]",
-        "calories",
-        solve_day_1_part_2(EXAMPLE_FILE),
-    );
-    print_result(
-        "part 2 [puzzle]",
-        "calories",
-        solve_day_1_part_2(PUZZLE_FILE),
-    );
+    Example::new(1, "Calorie Counting", "calories", "calories", solve_day_1).run_all();
 }
 
-fn solve_day_1_part_1(filename: &str) -> u32 {
-    solve_day_1(filename, 1)
-}
+fn solve_day_1(filename: &str, run_type: RunType) -> u32 {
+    // change the top values depending of Part 1 or 2
+    let top: usize = match run_type {
+        RunType::Part1 => 1,
+        RunType::Part2 => 3,
+    };
 
-fn solve_day_1_part_2(filename: &str) -> u32 {
-    solve_day_1(filename, 3)
-}
-
-fn solve_day_1(filename: &str, top: usize) -> u32 {
     // total calories in the current elf
     let mut current_elf_total_calories = 0;
     // total calories per elf
     let mut calories_per_elf: Vec<u32> = Vec::new();
 
-    //open the file
-    let file = File::open(filename).unwrap();
-    let reader = BufReader::new(file);
-
     // read the file line by line
-    for (_index, line) in reader.lines().enumerate() {
-        let line = line.unwrap();
-
+    for line in utils::read_file(filename) {
         // line empty, we handle previous elf totals
         if line.is_empty() {
             calories_per_elf.push(current_elf_total_calories);
@@ -102,16 +66,23 @@ fn sum_top_n_calories(calories: Vec<u32>, top: usize) -> u32 {
 #[cfg(test)]
 mod tests {
     use crate::*;
+    use adventofcode2022_lib::utils::FileType;
 
     #[test]
     fn test_part_1() {
-        let total = solve_day_1_part_1(EXAMPLE_FILE);
-        assert_eq!(total, 24000);
+        let example = Example::new(1, "Calorie Counting", "calories", "calories", solve_day_1);
+        assert_eq!(
+            24000,
+            example.run_part(FileType::ExampleFile, RunType::Part1)
+        );
     }
 
     #[test]
     fn test_part_2() {
-        let total = solve_day_1_part_2(EXAMPLE_FILE);
-        assert_eq!(total, 45000);
+        let example = Example::new(1, "Calorie Counting", "calories", "calories", solve_day_1);
+        assert_eq!(
+            45000,
+            example.run_part(FileType::ExampleFile, RunType::Part2)
+        );
     }
 }
