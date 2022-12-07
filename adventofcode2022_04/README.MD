@@ -16,7 +16,7 @@ cargo run
 #### Output
 
 ```
-Advent of Code 2022 - Day 3: Camp Cleanup
+Advent of Code 2022 - Day 4: Camp Cleanup
 
 part 1 [example] couples: 2
 part 1 [puzzle] couples: 547

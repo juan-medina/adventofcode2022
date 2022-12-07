@@ -31,7 +31,7 @@ const OUTPUT: &'static str = "couples";
 const FILE: &'static str = "pairs";
 
 fn main() {
-    Example::new(3, NAME, OUTPUT, FILE, solve_day_4).run_all();
+    Example::new(4, NAME, OUTPUT, FILE, solve_day_4).run_all();
 }
 
 // what kind of check we are doing
