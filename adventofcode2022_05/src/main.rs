@@ -21,18 +21,15 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
-use std::{
-    fs::File,
-    io::{BufRead, BufReader},
-    collections::LinkedList,
-};
-
+use adventofcode2022_lib::utils;
 use regex::Regex;
+use std::collections::LinkedList;
 
-use adventofcode2022_lib::utils::print_result;
+use adventofcode2022_lib::utils::{Example, RunType};
 
-const EXAMPLE_FILE: &str = "data/cargo_example.dat";
-const PUZZLE_FILE: &str = "data/cargo_puzzle.dat";
+const NAME: &'static str = "Supply Stacks";
+const OUTPUT: &'static str = "top crates said";
+const FILE: &'static str = "cargo";
 
 // What crane model we use, 900 do one crate at a time
 // 9001 do all at the same time
@@ -42,53 +39,24 @@ enum CraneModel {
 }
 
 fn main() {
-    println!("Day 5: Supply Stacks");
-    println!();
-    print_result(
-        "part 1 [example]",
-        "top crates said",
-        solve_day_5_part_1(EXAMPLE_FILE),
-    );
-    print_result(
-        "part 1 [puzzle]",
-        "top crates said",
-        solve_day_5_part_1(PUZZLE_FILE),
-    );
-    print_result(
-        "part 1 [example]",
-        "top crates said",
-        solve_day_5_part_2(EXAMPLE_FILE),
-    );
-    print_result(
-        "part 1 [puzzle]",
-        "top crates said",
-        solve_day_5_part_2(PUZZLE_FILE),
-    );
+    Example::new(5, NAME, OUTPUT, FILE, solve_day_5).run_all();
 }
 
-fn solve_day_5_part_1(filename: &str) -> String {
-    solve_day_5(filename, CraneModel::CrateMover9000)
-}
+fn solve_day_5(filename: &str, run_type: RunType) -> String {
+    // choose crane model on run type
+    let crane_model: CraneModel = match run_type {
+        RunType::Part1 => CraneModel::CrateMover9000,
+        RunType::Part2 => CraneModel::CrateMover9001,
+    };
 
-fn solve_day_5_part_2(filename: &str) -> String {
-    solve_day_5(filename, CraneModel::CrateMover9001)
-}
-
-fn solve_day_5(filename: &str, crane_model: CraneModel) -> String {
     // lines that we are reading
     let mut lines: Vec<String> = Vec::new();
 
     // our cargo
     let mut cargo: Vec<LinkedList<char>> = vec![];
 
-    //open the file
-    let file = File::open(filename).unwrap();
-    let reader = BufReader::new(file);
-
     // read the file line by line
-    for (_index, line) in reader.lines().enumerate() {
-        let line = line.unwrap();
-
+    for line in utils::read_file(filename) {
         // when reaching an empty line we complete crates
         if line == "" {
             cargo = process_crates(lines.clone());
@@ -209,16 +177,23 @@ fn process_moves(
 #[cfg(test)]
 mod tests {
     use crate::*;
+    use adventofcode2022_lib::utils::FileType;
 
     #[test]
     fn test_part_1() {
-        let top_crates_said = solve_day_5_part_1(EXAMPLE_FILE);
-        assert_eq!(top_crates_said, "CMZ");
+        let example = Example::new(5, NAME, OUTPUT, FILE, solve_day_5);
+        assert_eq!(
+            "CMZ",
+            example.run_part(FileType::ExampleFile, RunType::Part1)
+        );
     }
 
     #[test]
     fn test_part_2() {
-        let top_crates_said = solve_day_5_part_2(EXAMPLE_FILE);
-        assert_eq!(top_crates_said, "MCD");
+        let example = Example::new(5, NAME, OUTPUT, FILE, solve_day_5);
+        assert_eq!(
+            "MCD",
+            example.run_part(FileType::ExampleFile, RunType::Part2)
+        );
     }
 }

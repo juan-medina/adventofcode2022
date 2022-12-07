@@ -16,12 +16,12 @@ cargo run
 #### Output
 
 ```
-Day 5: Supply Stacks
+Advent of Code 2022 - Day 5: Supply Stacks
 
 part 1 [example] top crates said: CMZ
 part 1 [puzzle] top crates said: LJSVLTWQM
-part 1 [example] top crates said: MCD
-part 1 [puzzle] top crates said: BRQWDBBJM
+part 2 [example] top crates said: MCD
+part 2 [puzzle] top crates said: BRQWDBBJM
 ```
 #### License
 ```
