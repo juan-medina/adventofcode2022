@@ -62,7 +62,7 @@ pub mod utils {
         contents
     }
 
-    #[derive(Clone, Copy)]
+    #[derive(Clone, Copy, PartialEq)]
     pub enum RunType {
         Part1 = 1,
         Part2 = 2,
