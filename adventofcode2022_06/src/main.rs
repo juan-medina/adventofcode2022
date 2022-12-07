@@ -71,13 +71,13 @@ mod tests {
 
     #[test]
     fn test_part_1() {
-        let example = Example::new(5, NAME, OUTPUT, FILE, solve_day_6);
+        let example = Example::new(6, NAME, OUTPUT, FILE, solve_day_6);
         assert_eq!(7, example.run_part(FileType::ExampleFile, RunType::Part1));
     }
 
     #[test]
     fn test_part_2() {
-        let example = Example::new(5, NAME, OUTPUT, FILE, solve_day_6);
+        let example = Example::new(6, NAME, OUTPUT, FILE, solve_day_6);
         assert_eq!(19, example.run_part(FileType::ExampleFile, RunType::Part2));
     }
 }
