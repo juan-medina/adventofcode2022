@@ -10,6 +10,9 @@ Examples for [Advent of Code 2022](https://adventofcode.com/2022) done in [Rust]
 - [Day 2: Rock Paper Scissors](adventofcode2022_02)
 - [Day 3: Rucksack Reorganization](adventofcode2022_03)
 - [Day 4: Camp Cleanup](adventofcode2022_04)
+- [Day 5: Supply Stacks](adventofcode2022_05)
+- [Day 6: Tuning Trouble](adventofcode2022_06)
+- [Day 7: No Space Left On Device](adventofcode2022_07)
 
 #### License
 ```
