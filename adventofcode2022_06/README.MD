@@ -16,12 +16,12 @@ cargo run
 #### Output
 
 ```
-Day 6: Tuning Trouble
+Advent of Code 2022 - Day 6: Tuning Trouble
 
 part 1 [example] first marker after character: 7
 part 1 [puzzle] first marker after character: 1155
-part 2 [example] first message after character: 19
-part 2 [puzzle] first message after character: 2789
+part 2 [example] first marker after character: 19
+part 2 [puzzle] first marker after character: 2789
 ```
 #### License
 ```

@@ -21,50 +21,27 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
-use adventofcode2022_lib::utils::{has_duplicates, print_result, read_whole_file};
-
-const EXAMPLE_FILE: &str = "data/signal_example.dat";
-const PUZZLE_FILE: &str = "data/signal_puzzle.dat";
+use adventofcode2022_lib::utils::{has_duplicates, read_whole_file, Example, RunType};
 
 enum MarkerType {
     Packet = 4,
     Message = 14,
 }
 
+const NAME: &'static str = "Tuning Trouble";
+const OUTPUT: &'static str = "data after character";
+const FILE: &'static str = "signal";
+
 fn main() {
-    println!("Day 6: Tuning Trouble");
-    println!();
-    print_result(
-        "part 1 [example]",
-        "first marker after character",
-        solve_day_6_part_1(EXAMPLE_FILE),
-    );
-    print_result(
-        "part 1 [puzzle]",
-        "first marker after character",
-        solve_day_6_part_1(PUZZLE_FILE),
-    );
-    print_result(
-        "part 2 [example]",
-        "first message after character",
-        solve_day_6_part_2(EXAMPLE_FILE),
-    );
-    print_result(
-        "part 2 [puzzle]",
-        "first message after character",
-        solve_day_6_part_2(PUZZLE_FILE),
-    );
+    Example::new(6, NAME, OUTPUT, FILE, solve_day_6).run_all();
 }
 
-fn solve_day_6_part_1(filename: &str) -> usize {
-    solve_day_6(filename, MarkerType::Packet)
-}
+fn solve_day_6(filename: &str, run_type: RunType) -> usize {
+    let marker_type: MarkerType = match run_type {
+        RunType::Part1 => MarkerType::Packet,
+        RunType::Part2 => MarkerType::Message,
+    };
 
-fn solve_day_6_part_2(filename: &str) -> usize {
-    solve_day_6(filename, MarkerType::Message)
-}
-
-fn solve_day_6(filename: &str, marker_type: MarkerType) -> usize {
     //open the file and read it as whole
     let contents = read_whole_file(filename);
 
@@ -90,14 +67,17 @@ fn find_marker(signal: String, marker_len: usize) -> usize {
 #[cfg(test)]
 mod tests {
     use crate::*;
+    use adventofcode2022_lib::utils::FileType;
 
     #[test]
     fn test_part_1() {
-        assert_eq!(solve_day_6_part_1(EXAMPLE_FILE), 7);
+        let example = Example::new(5, NAME, OUTPUT, FILE, solve_day_6);
+        assert_eq!(7, example.run_part(FileType::ExampleFile, RunType::Part1));
     }
 
     #[test]
     fn test_part_2() {
-        assert_eq!(solve_day_6_part_2(EXAMPLE_FILE), 19);
+        let example = Example::new(5, NAME, OUTPUT, FILE, solve_day_6);
+        assert_eq!(19, example.run_part(FileType::ExampleFile, RunType::Part2));
     }
 }
