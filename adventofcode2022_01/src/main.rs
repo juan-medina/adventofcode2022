@@ -24,8 +24,12 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 use adventofcode2022_lib::utils;
 use adventofcode2022_lib::utils::{Example, RunType};
 
+const NAME: &'static str = "Calorie Counting";
+const OUTPUT: &'static str = "calories";
+const FILE: &'static str = "calories";
+
 fn main() {
-    Example::new(1, "Calorie Counting", "calories", "calories", solve_day_1).run_all();
+    Example::new(1, NAME, OUTPUT, FILE, solve_day_1).run_all();
 }
 
 fn solve_day_1(filename: &str, run_type: RunType) -> u32 {
@@ -70,7 +74,7 @@ mod tests {
 
     #[test]
     fn test_part_1() {
-        let example = Example::new(1, "Calorie Counting", "calories", "calories", solve_day_1);
+        let example = Example::new(1, NAME, OUTPUT, FILE, solve_day_1);
         assert_eq!(
             24000,
             example.run_part(FileType::ExampleFile, RunType::Part1)
@@ -79,7 +83,7 @@ mod tests {
 
     #[test]
     fn test_part_2() {
-        let example = Example::new(1, "Calorie Counting", "calories", "calories", solve_day_1);
+        let example = Example::new(1, NAME, OUTPUT, FILE, solve_day_1);
         assert_eq!(
             45000,
             example.run_part(FileType::ExampleFile, RunType::Part2)
