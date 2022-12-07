@@ -21,41 +21,17 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
-use std::{
-    fs::File,
-    io::{BufRead, BufReader},
-};
-
-use adventofcode2022_lib::utils::print_result;
+use adventofcode2022_lib::utils;
+use adventofcode2022_lib::utils::{Example, RunType};
 
 mod ranges;
 
-const EXAMPLE_FILE: &str = "data/pairs_example.dat";
-const PUZZLE_FILE: &str = "data/pairs_puzzle.dat";
+const NAME: &'static str = "Camp Cleanup";
+const OUTPUT: &'static str = "couples";
+const FILE: &'static str = "pairs";
 
 fn main() {
-    println!("Day 4: Camp Cleanup");
-    println!();
-    print_result(
-        "part 1 [example]",
-        "couples fully contained",
-        solve_day_4_part_1(EXAMPLE_FILE),
-    );
-    print_result(
-        "part 1 [puzzle]",
-        "couples fully contained",
-        solve_day_4_part_1(PUZZLE_FILE),
-    );
-    print_result(
-        "part 2 [example]",
-        "couples colliding",
-        solve_day_4_part_2(EXAMPLE_FILE),
-    );
-    print_result(
-        "part 2 [puzzle]",
-        "couples colliding",
-        solve_day_4_part_2(PUZZLE_FILE),
-    );
+    Example::new(3, NAME, OUTPUT, FILE, solve_day_4).run_all();
 }
 
 // what kind of check we are doing
@@ -64,26 +40,18 @@ enum CheckType {
     Overlap,
 }
 
-fn solve_day_4_part_1(filename: &str) -> u32 {
-    solve_day_4(filename, CheckType::FullyContains)
-}
+fn solve_day_4(filename: &str, run_type: RunType) -> u32 {
+    // what type of check we do
+    let check_type: CheckType = match run_type {
+        RunType::Part1 => CheckType::FullyContains,
+        RunType::Part2 => CheckType::Overlap,
+    };
 
-fn solve_day_4_part_2(filename: &str) -> u32 {
-    solve_day_4(filename, CheckType::Overlap)
-}
-
-fn solve_day_4(filename: &str, check_type: CheckType) -> u32 {
     // total couples in this check
     let mut total_couples = 0;
 
-    //open the file
-    let file = File::open(filename).unwrap();
-    let reader = BufReader::new(file);
-
     // read the file line by line
-    for (_index, line) in reader.lines().enumerate() {
-        let line = line.unwrap();
-
+    for line in utils::read_file(filename) {
         // get each elf sections
         let (first_elf, second_elf) = ranges::get_sections(line);
 
@@ -103,17 +71,18 @@ fn solve_day_4(filename: &str, check_type: CheckType) -> u32 {
 
 #[cfg(test)]
 mod tests {
+    use adventofcode2022_lib::utils::FileType;
     use crate::*;
 
     #[test]
     fn test_part_1() {
-        let total = solve_day_4_part_1(EXAMPLE_FILE);
-        assert_eq!(total, 2);
+        let example = Example::new(3, NAME, OUTPUT, FILE, solve_day_4);
+        assert_eq!(2, example.run_part(FileType::ExampleFile, RunType::Part1));
     }
 
     #[test]
     fn test_part_2() {
-        let total = solve_day_4_part_2(EXAMPLE_FILE);
-        assert_eq!(total, 4);
+        let example = Example::new(3, NAME, OUTPUT, FILE, solve_day_4);
+        assert_eq!(4, example.run_part(FileType::ExampleFile, RunType::Part2));
     }
 }

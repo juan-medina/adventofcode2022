@@ -16,12 +16,12 @@ cargo run
 #### Output
 
 ```
-Day 4: Camp Cleanup
+Advent of Code 2022 - Day 3: Camp Cleanup
 
-part 1 [example] couples fully contained: 2
-part 1 [puzzle] couples fully contained: 547
-part 2 [example] couples colliding: 4
-part 2 [puzzle] couples colliding: 843
+part 1 [example] couples: 2
+part 1 [puzzle] couples: 547
+part 2 [example] couples: 4
+part 2 [puzzle] couples: 843
 ```
 #### License
 ```
