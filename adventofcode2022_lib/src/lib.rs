@@ -141,11 +141,49 @@ pub mod utils {
         }
         false
     }
+
+    pub fn get_range_in(min: usize, center: usize, max: usize, reverse: bool) -> Vec<usize> {
+        let mut a;
+        let mut b;
+
+        let range: &mut dyn Iterator<Item = usize> = match reverse {
+            true => {
+                a = min..center;
+                &mut a
+            }
+            false => {
+                b = (center + 1..max).rev();
+                &mut b
+            }
+        };
+
+        let mut v: Vec<usize> = Vec::new();
+        for i in range {
+            v.push(i);
+        }
+        v
+    }
+
+    pub fn get_range_out(min: usize, center: usize, max: usize, reverse: bool) -> Vec<usize> {
+        let mut v: Vec<usize> = Vec::new();
+        for i in get_range_in(min, center, max, reverse).iter().rev() {
+            v.push(*i);
+        }
+        v
+    }
 }
 
 #[cfg(test)]
 mod tests {
     use crate::utils::*;
+
+    #[test]
+    fn test_get_range_in() {
+        assert_eq!(Vec::from([0, 1, 2, 3, 4]), get_range_in(0, 5, 10, true));
+        assert_eq!(Vec::from([9, 8, 7, 6]), get_range_in(0, 5, 10, false));
+        assert_eq!(Vec::from([4, 3, 2, 1, 0]), get_range_out(0, 5, 10, true));
+        assert_eq!(Vec::from([6, 7, 8, 9]), get_range_out(0, 5, 10, false));
+    }
 
     #[test]
     fn test_has_duplicates() {
