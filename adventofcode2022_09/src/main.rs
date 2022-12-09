@@ -93,44 +93,6 @@ fn get_arena_size(lines: &Vec<String>) -> (usize, usize, usize, usize) {
     )
 }
 
-fn display_arena(arena: &Vec<Vec<usize>>, nodes: &Vec<Pos>) {
-    let mut display: Vec<Vec<char>> = Vec::new();
-
-    for row in arena {
-        let mut arr: Vec<char> = Vec::new();
-        for value in row {
-            if value > &0 {
-                arr.push('#');
-            } else {
-                arr.push('.');
-            }
-        }
-        display.push(arr);
-    }
-    println!();
-
-    for i in 0..nodes.len() {
-        let node = nodes[i];
-        let char;
-        if i == 0 {
-            char = 'H'
-        } else if i == nodes.len() - 1 {
-            char = 'T';
-        } else {
-            char = char::from_digit(i as u32, 10).unwrap();
-        }
-        display[node.y][node.x] = char;
-    }
-
-    for row in display {
-        for char in row {
-            print!("{}", char);
-        }
-        println!();
-    }
-    println!();
-}
-
 fn init_arena(width: usize, height: usize) -> Vec<Vec<usize>> {
     let mut arena: Vec<Vec<usize>> = Vec::new();
     for _ in 0..height {
