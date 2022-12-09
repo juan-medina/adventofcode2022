@@ -5,7 +5,7 @@
 
 #### Day 7: No Space Left On Device
 
-[Problem](https://adventofcode.com/2022/day/8)
+[Problem](https://adventofcode.com/2022/day/9)
 
 #### Usage 
 
