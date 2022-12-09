@@ -172,7 +172,7 @@ mod tests {
 
     #[test]
     fn test_part_2() {
-        let example = Example::new(7, NAME, OUTPUT, FILE, solve_day_8);
+        let example = Example::new(8, NAME, OUTPUT, FILE, solve_day_8);
         assert_eq!(8, example.run_part(FileType::ExampleFile, RunType::Part2));
     }
 }
