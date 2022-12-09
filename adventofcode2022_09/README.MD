@@ -18,6 +18,10 @@ cargo run
 ```
 Advent of Code 2022 - Day 9: Rope Bridge
 
+part 1 [example] visited: 13
+part 1 [puzzle] visited: 6391
+part 2 [example] visited: 1
+part 2 [puzzle] visited: 2593
 ```
 #### License
 ```

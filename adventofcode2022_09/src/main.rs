@@ -21,13 +21,10 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
-extern crate core;
-
 mod move_step;
 
-use std::fmt;
-use adventofcode2022_lib::utils::{Example, read_file, RunType};
 use crate::move_step::MoveStep;
+use adventofcode2022_lib::utils::{read_file, Example, RunType};
 
 const NAME: &'static str = "Rope Bridge";
 const OUTPUT: &'static str = "visited";
@@ -37,31 +34,10 @@ fn main() {
     Example::new(9, NAME, OUTPUT, FILE, solve_day_9).run_all();
 }
 
-#[derive(Clone, Copy)]
-struct ArenaState {
-    has_head: bool,
-    has_tail: bool,
-    tail_visit: usize,
-}
-
-#[derive(Clone, Copy, Debug)]
+#[derive(Clone, Copy, Debug, PartialEq)]
 struct Pos {
     x: usize,
     y: usize,
-}
-
-impl fmt::Display for ArenaState {
-    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        if self.has_head {
-            write!(f, "H")
-        } else if self.has_tail {
-            write!(f, "T")
-        } else if self.tail_visit > 0 {
-            write!(f, "#")
-        } else {
-            write!(f, ".")
-        }
-    }
 }
 
 fn get_arena_size(lines: &Vec<String>) -> (usize, usize, usize, usize) {
@@ -76,10 +52,18 @@ fn get_arena_size(lines: &Vec<String>) -> (usize, usize, usize, usize) {
         let (head_move, amount) = move_step::get_moves(line);
 
         match head_move {
-            MoveStep::Right => { x += amount as i32; }
-            MoveStep::Left => { x -= amount as i32; }
-            MoveStep::Up => { y += amount as i32; }
-            MoveStep::Down => { y -= amount as i32; }
+            MoveStep::Right => {
+                x += amount as i32;
+            }
+            MoveStep::Left => {
+                x -= amount as i32;
+            }
+            MoveStep::Up => {
+                y += amount as i32;
+            }
+            MoveStep::Down => {
+                y -= amount as i32;
+            }
         }
         if x > max_x {
             max_x = x;
@@ -101,11 +85,44 @@ fn get_arena_size(lines: &Vec<String>) -> (usize, usize, usize, usize) {
     let start_x = min_x.abs();
     let start_y = size_y - min_y.abs();
 
-    ((size_x + 1) as usize, (size_y + 1) as usize, start_x as usize, start_y as usize)
+    (
+        (size_x + 1) as usize,
+        (size_y + 1) as usize,
+        start_x as usize,
+        start_y as usize,
+    )
 }
 
-fn display_arena(arena: &Vec<Vec<ArenaState>>) {
+fn display_arena(arena: &Vec<Vec<usize>>, nodes: &Vec<Pos>) {
+    let mut display: Vec<Vec<char>> = Vec::new();
+
     for row in arena {
+        let mut arr: Vec<char> = Vec::new();
+        for value in row {
+            if value > &0 {
+                arr.push('#');
+            } else {
+                arr.push('.');
+            }
+        }
+        display.push(arr);
+    }
+    println!();
+
+    for i in 0..nodes.len() {
+        let node = nodes[i];
+        let char;
+        if i == 0 {
+            char = 'H'
+        } else if i == nodes.len() - 1 {
+            char = 'T';
+        } else {
+            char = char::from_digit(i as u32, 10).unwrap();
+        }
+        display[node.y][node.x] = char;
+    }
+
+    for row in display {
         for char in row {
             print!("{}", char);
         }
@@ -114,108 +131,106 @@ fn display_arena(arena: &Vec<Vec<ArenaState>>) {
     println!();
 }
 
-fn init_arena(width: usize, height: usize) -> Vec<Vec<ArenaState>> {
-    let mut arena: Vec<Vec<ArenaState>> = Vec::new();
+fn init_arena(width: usize, height: usize) -> Vec<Vec<usize>> {
+    let mut arena: Vec<Vec<usize>> = Vec::new();
     for _ in 0..height {
-        let mut row: Vec<ArenaState> = Vec::new();
+        let mut row: Vec<usize> = Vec::new();
         for _ in 0..width {
-            row.push(ArenaState { has_head: false, has_tail: false, tail_visit: 0 });
+            row.push(0);
         }
         arena.push(row);
     }
     arena
 }
 
-fn solve_day_9(filename: &str, _run_type: RunType) -> usize {
+fn solve_day_9(filename: &str, run_type: RunType) -> usize {
     let lines = read_file(filename);
 
     let (width, height, start_x, start_y) = get_arena_size(&lines);
     let mut arena = init_arena(width, height);
 
-    let mut head_pos = Pos { x: start_x, y: start_y };
-    let mut tail_pos = head_pos.clone();
+    let start_pos = Pos {
+        x: start_x,
+        y: start_y,
+    };
+    arena[start_y][start_x] = 1;
 
-    arena[head_pos.y][head_pos.x] = ArenaState { has_head: true, has_tail: true, tail_visit: 1 };
+    let mut nodes: Vec<Pos> = Vec::new();
+
+    let total_nodes = match run_type {
+        RunType::Part1 => 2,
+        RunType::Part2 => 10,
+    };
+
+    for _ in 0..total_nodes {
+        nodes.push(start_pos.clone())
+    }
 
     for line in lines {
         let (head_move, amount) = move_step::get_moves(&line);
 
         for _ in 1..amount + 1 {
-            let mut prev_pos = head_pos.clone();
+            nodes[0] = move_head(&nodes[0], head_move);
 
-            match head_move {
-                MoveStep::Right => { head_pos.x += 1; }
-                MoveStep::Left => { head_pos.x -= 1; }
-                MoveStep::Up => { head_pos.y -= 1; }
-                MoveStep::Down => { head_pos.y += 1; }
-            }
-            arena[prev_pos.y][prev_pos.x].has_head = false;
-            arena[head_pos.y][head_pos.x].has_head = true;
-
-            if !has_head_near(&arena, &tail_pos) {
-                prev_pos = tail_pos.clone();
-                tail_pos = head_pos.clone();
-                match head_move {
-                    MoveStep::Right => {
-                        tail_pos.x = head_pos.x - 1;
+            for i in 1..nodes.len() {
+                if !are_close(&nodes[i - 1], &nodes[i]) {
+                    nodes[i] = move_close(&nodes[i - 1], &nodes[i]);
+                    if i == nodes.len() - 1 {
+                        arena[nodes[i].y][nodes[i].x] += 1;
                     }
-                    MoveStep::Left => {
-                        tail_pos.x = head_pos.x + 1;
-                    }
-                    MoveStep::Up => {
-                        tail_pos.y = head_pos.y + 1;
-                    }
-                    MoveStep::Down => {
-                        tail_pos.y = head_pos.y - 1;
-                    }
-                }
-                arena[prev_pos.y][prev_pos.x].has_tail = false;
-                arena[tail_pos.y][tail_pos.x].has_tail = true;
-                arena[tail_pos.y][tail_pos.x].tail_visit += 1;
+                } else {}
             }
         }
     }
-    display_arena(&arena);
     count_visits(&arena)
 }
 
-fn has_head_near(arena: &Vec<Vec<ArenaState>>, tail: &Pos) -> bool {
-    let mut min_x = tail.x as i32 - 1;
-    let mut max_x = tail.x as i32 + 1;
-    let mut min_y = tail.y as i32 - 1;
-    let mut max_y = tail.y as i32 + 1;
+fn are_close(pos1: &Pos, pos2: &Pos) -> bool {
+    let min_x = pos2.x as i32 - 1;
+    let max_x = pos2.x as i32 + 1;
+    let min_y = pos2.y as i32 - 1;
+    let max_y = pos2.y as i32 + 1;
 
-    let height = arena.len() as i32;
-    let width = arena[0].len() as i32;
-
-    if min_x < 0 {
-        min_x = 0;
-    }
-    if max_x > width - 1 {
-        max_x = width - 1;
-    }
-    if min_y < 0 {
-        min_y = 0;
-    }
-    if max_y > height - 1 {
-        max_y = height - 1;
-    }
-    for x in min_x..max_x + 1 {
-        for y in min_y..max_y + 1 {
-            if arena[y as usize][x as usize].has_head {
-                return true;
-            }
-        }
-    }
-
-    false
+    pos1.x as i32 >= min_x
+        && pos1.x as i32 <= max_x
+        && pos1.y as i32 >= min_y
+        && pos1.y as i32 <= max_y
 }
 
-fn count_visits(arena: &Vec<Vec<ArenaState>>) -> usize {
+fn move_head(pos: &Pos, head_move: MoveStep) -> Pos {
+    let mut head_pos = pos.clone();
+    match head_move {
+        MoveStep::Right => {
+            head_pos.x += 1;
+        }
+        MoveStep::Left => {
+            head_pos.x -= 1;
+        }
+        MoveStep::Up => {
+            head_pos.y -= 1;
+        }
+        MoveStep::Down => {
+            head_pos.y += 1;
+        }
+    }
+    return head_pos;
+}
+
+fn move_close(pos1: &Pos, pos2: &Pos) -> Pos {
+    let diff_x: i32 = (pos1.x as i32 - pos2.x as i32) as i32;
+    let diff_y: i32 = (pos1.y as i32 - pos2.y as i32) as i32;
+
+    Pos {
+        x: (pos1.x as i32 - (diff_x / 2)) as usize,
+        y: (pos1.y as i32 - (diff_y / 2)) as usize,
+    }
+}
+
+fn count_visits(arena: &Vec<Vec<usize>>) -> usize {
     let mut total = 0;
     for row in arena {
         for state in row {
-            if state.tail_visit > 0 {
+            if state > &0 {
                 total += 1;
             }
         }
@@ -236,7 +251,7 @@ mod tests {
 
     #[test]
     fn test_part_2() {
-        let example = Example::new(9, NAME, OUTPUT, FILE, solve_day_9);
-        assert_eq!(13, example.run_part(FileType::ExampleFile, RunType::Part2));
+        let example = Example::new(1, NAME, OUTPUT, FILE, solve_day_9);
+        assert_eq!(1, example.run_part(FileType::ExampleFile, RunType::Part2));
     }
 }
