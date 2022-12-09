@@ -21,6 +21,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
+use std::fmt;
 use std::str::FromStr;
 
 #[derive(Clone, Copy)]
@@ -51,4 +52,53 @@ pub fn get_moves(line: &String) -> (MoveStep, usize) {
         MoveStep::from_str(left).unwrap(),
         right.parse::<usize>().unwrap(),
     )
+}
+
+#[derive(Clone, Copy, Debug, PartialEq)]
+pub struct Pos {
+    pub x: i32,
+    pub y: i32,
+}
+
+impl Pos {
+    pub fn to_key(&self) -> String {
+        format!("{}-{}", self.x, self.y)
+    }
+
+    pub fn move_head(&mut self, head_move: MoveStep) {
+        match head_move {
+            MoveStep::Right => {
+                self.x += 1;
+            }
+            MoveStep::Left => {
+                self.x -= 1;
+            }
+            MoveStep::Up => {
+                self.y -= 1;
+            }
+            MoveStep::Down => {
+                self.y += 1;
+            }
+        }
+    }
+
+    pub fn are_close(&self, pos: &Pos) -> bool {
+        pos.x >= (self.x - 1)
+            && pos.x <= (self.x + 1)
+            && pos.y >= (self.y - 1)
+            && pos.y <= (self.y + 1)
+    }
+
+    pub fn move_close(&self, pos1: &Pos) -> Pos {
+        Pos {
+            x: (pos1.x - ((pos1.x - self.x) / 2)),
+            y: (pos1.y - ((pos1.y - self.y) / 2)),
+        }
+    }
+}
+
+impl fmt::Display for Pos {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        write!(f, "{}-{}", self.x, self.y)
+    }
 }
