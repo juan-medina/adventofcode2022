@@ -45,10 +45,9 @@ struct ArenaState {
 }
 
 #[derive(Clone, Copy, Debug)]
-struct Node {
-    id : usize,
-    pos : Pos,
-    follows: usize,
+struct Pos {
+    x: usize,
+    y: usize,
 }
 
 impl fmt::Display for ArenaState {
@@ -238,6 +237,6 @@ mod tests {
     #[test]
     fn test_part_2() {
         let example = Example::new(9, NAME, OUTPUT, FILE, solve_day_9);
-        assert_eq!(0, example.run_part(FileType::ExampleFile, RunType::Part2));
+        assert_eq!(13, example.run_part(FileType::ExampleFile, RunType::Part2));
     }
 }
