@@ -1,23 +1,4 @@
-### Advent of Code 2022
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-
-Examples for [Advent of Code 2022](https://adventofcode.com/2022) done in [Rust](https://www.rust-lang.org/)
-
-- [Library](adventofcode2022_lib)
-- [Day 1: Calorie Counting](adventofcode2022_01)
-- [Day 2: Rock Paper Scissors](adventofcode2022_02)
-- [Day 3: Rucksack Reorganization](adventofcode2022_03)
-- [Day 4: Camp Cleanup](adventofcode2022_04)
-- [Day 5: Supply Stacks](adventofcode2022_05)
-- [Day 6: Tuning Trouble](adventofcode2022_06)
-- [Day 7: No Space Left On Device](adventofcode2022_07)
-- [Day 8: Treetop Tree House](adventofcode2022_08)
-- [Day 9: Rope Bridge](adventofcode2022_09)
-
-#### License
-```
+/***
 Copyright (c) 2022 Juan Medina
 
 Permission is hereby granted, free of charge, to any person obtaining
@@ -38,4 +19,36 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-```
+***/
+
+use adventofcode2022_lib::utils::{Example, RunType};
+
+const NAME: &'static str = "Rope Bridge";
+const OUTPUT: &'static str = "visited";
+const FILE: &'static str = "rope_moves";
+
+fn main() {
+    Example::new(9, NAME, OUTPUT, FILE, solve_day_9).run_all();
+}
+
+fn solve_day_9(_filename: &str, _run_type: RunType) -> u32 {
+    0
+}
+
+#[cfg(test)]
+mod tests {
+    use crate::*;
+    use adventofcode2022_lib::utils::FileType;
+
+    #[test]
+    fn test_part_1() {
+        let example = Example::new(9, NAME, OUTPUT, FILE, solve_day_9);
+        assert_eq!(0, example.run_part(FileType::ExampleFile, RunType::Part1));
+    }
+
+    #[test]
+    fn test_part_2() {
+        let example = Example::new(9, NAME, OUTPUT, FILE, solve_day_9);
+        assert_eq!(0, example.run_part(FileType::ExampleFile, RunType::Part2));
+    }
+}
