@@ -31,29 +31,12 @@ fn main() {
     Example::new(10, NAME, OUTPUT, FILE, solve_day_10).run_all();
 }
 
-fn get_sprite(pos: i32) -> Vec<usize> {
-    let start = pos - 1;
-
-    let mut result = vec![0; 40];
-
-    for x in 0..3 {
-        let pixel_pos = start + x;
-        if pixel_pos >= 0 && pixel_pos <= 39 {
-            result[pixel_pos as usize] = 1;
-        }
-    }
-
-    return result;
-}
-
 fn solve_day_10(filename: &str, run_type: RunType) -> String {
     let mut x_register: i32 = 1;
     let mut cycle: usize = 1;
     let mut total_strength: i32 = 0;
     let mut next_check = 20;
-
-    let mut current_sprite = get_sprite(x_register);
-    let mut crt: Vec<Vec<usize>> = Vec::new();
+    let mut crt: Vec<usize> = vec![0 as usize; 40 * 6];
 
     let lines = read_file(filename);
     for line in lines {
@@ -80,15 +63,12 @@ fn solve_day_10(filename: &str, run_type: RunType) -> String {
                     total_strength += strength;
                 }
             } else {
-                draw_pixel(cycle, &current_sprite, &mut crt);
+                draw_pixel(cycle, &x_register, &mut crt);
             }
 
             // end instruction
             if line != "noop" && cycle_counter == cycles_to_do - 1 {
                 x_register += value_to_add;
-                if run_type == RunType::Part2 {
-                    current_sprite = get_sprite(x_register);
-                }
             }
 
             // end of cycle
@@ -102,13 +82,16 @@ fn solve_day_10(filename: &str, run_type: RunType) -> String {
         RunType::Part1 => total_strength.to_string(),
         RunType::Part2 => {
             let mut result: String = String::from("\n");
-            for line in crt {
-                for pixel in line {
-                    if pixel == 1 {
+
+            let mut i = 0;
+            for _ in 0..6 {
+                for _ in 0..40 {
+                    if crt[i] == 1 {
                         result += "#";
                     } else {
                         result += ".";
                     }
+                    i += 1;
                 }
                 result += "\n";
             }
@@ -117,18 +100,17 @@ fn solve_day_10(filename: &str, run_type: RunType) -> String {
     }
 }
 
-fn draw_pixel(pos: usize, sprite: &Vec<usize>, crt: &mut Vec<Vec<usize>>) {
+fn draw_pixel(pos: usize, sprite_pos: &i32, crt: &mut Vec<usize>) {
     let pos: i32 = (pos as i32) - 1;
-
-    let lines = crt.len() as i32;
     let line = pos.div_euclid(40);
+
     let col = pos - (line * 40);
 
-    if line > (lines - 1) {
-        crt.push(vec![0; 40]);
+    if col >= (*sprite_pos - 1) && col <= *sprite_pos + 1 {
+        crt[pos as usize] = 1;
+    } else {
+        crt[pos as usize] = 0;
     }
-
-    crt[line as usize][col as usize] = sprite[col as usize];
 }
 
 #[cfg(test)]
