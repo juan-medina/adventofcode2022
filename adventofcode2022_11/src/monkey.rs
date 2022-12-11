@@ -47,7 +47,7 @@ impl Monkey {
 
         // items
         let mut items: LinkedList<u64> = LinkedList::new();
-        let re_items = Regex::new(r"(?m)^  Starting items: ([0-9, ]+)").unwrap();
+        let re_items = Regex::new(r"(?m)^ {2}Starting items: ([0-9, ]+)").unwrap();
         let caps = re_items.captures(&lines[1]).unwrap();
         let items_str = caps.get(1).unwrap().as_str().replace(" ", "");
         for item in items_str.split(",") {
@@ -56,24 +56,24 @@ impl Monkey {
         }
 
         // operation
-        let re_operation = Regex::new(r"(?m)^  Operation: new = (.+) (.) (.+)").unwrap();
+        let re_operation = Regex::new(r"(?m)^ {2}Operation: new = (.+) (.) (.+)").unwrap();
         let caps = re_operation.captures(&lines[2]).unwrap();
         let arg1 = String::from(caps.get(1).unwrap().as_str());
         let operation = String::from(caps.get(2).unwrap().as_str());
         let arg2 = String::from(caps.get(3).unwrap().as_str());
 
         // divisible
-        let re_divisible = Regex::new(r"(?m)^  Test: divisible by (.+)").unwrap();
+        let re_divisible = Regex::new(r"(?m)^ {2}Test: divisible by (.+)").unwrap();
         let caps = re_divisible.captures(&lines[3]).unwrap();
         let divisible = caps.get(1).unwrap().as_str().parse::<u64>().unwrap();
 
         // if true
-        let re_re_if_true = Regex::new(r"(?m)^    If true: throw to monkey (.+)").unwrap();
+        let re_re_if_true = Regex::new(r"(?m)^ {4}If true: throw to monkey (.+)").unwrap();
         let caps = re_re_if_true.captures(&lines[4]).unwrap();
         let if_true = caps.get(1).unwrap().as_str().parse::<usize>().unwrap();
 
         // if false
-        let re_re_if_false = Regex::new(r"(?m)^    If false: throw to monkey (.+)").unwrap();
+        let re_re_if_false = Regex::new(r"(?m)^ {4}If false: throw to monkey (.+)").unwrap();
         let caps = re_re_if_false.captures(&lines[5]).unwrap();
         let if_false = caps.get(1).unwrap().as_str().parse::<usize>().unwrap();
 
