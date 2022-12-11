@@ -69,13 +69,10 @@ fn solve_day_11(filename: &str, run_type: RunType) -> usize {
 
     for _ in 1..rounds + 1 {
         for monkey_num in 0..monkeys.len() {
-            let mut items = monkeys[monkey_num].items.clone();
-            while items.len() > 0 {
-                let item = items.pop_front().unwrap();
-                let (new_item, to_monkey) = monkeys[monkey_num].inspect(item, calm_down, base);
+            while monkeys[monkey_num].items.len() > 0 {
+                let (new_item, to_monkey) = monkeys[monkey_num].inspect(calm_down, base);
                 monkeys[to_monkey].items.push_back(new_item);
             }
-            monkeys[monkey_num].items.clear();
         }
     }
 

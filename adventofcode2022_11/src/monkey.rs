@@ -68,13 +68,13 @@ impl Monkey {
         let divisible = caps.get(1).unwrap().as_str().parse::<u64>().unwrap();
 
         // if true
-        let re_re_if_true = Regex::new(r"(?m)^ {4}If true: throw to monkey (.+)").unwrap();
-        let caps = re_re_if_true.captures(&lines[4]).unwrap();
+        let re_if_true = Regex::new(r"(?m)^ {4}If true: throw to monkey (.+)").unwrap();
+        let caps = re_if_true.captures(&lines[4]).unwrap();
         let if_true = caps.get(1).unwrap().as_str().parse::<usize>().unwrap();
 
         // if false
-        let re_re_if_false = Regex::new(r"(?m)^ {4}If false: throw to monkey (.+)").unwrap();
-        let caps = re_re_if_false.captures(&lines[5]).unwrap();
+        let re_if_false = Regex::new(r"(?m)^ {4}If false: throw to monkey (.+)").unwrap();
+        let caps = re_if_false.captures(&lines[5]).unwrap();
         let if_false = caps.get(1).unwrap().as_str().parse::<usize>().unwrap();
 
         // inspects
@@ -93,31 +93,28 @@ impl Monkey {
         }
     }
 
-    pub fn inspect(&mut self, old: u64, calm_down: bool, base: u64) -> (u64, usize) {
-        let arg1_value = value(&self.arg1, old);
-        let arg2_value = value(&self.arg2, old);
+    pub fn inspect(&mut self, calm_down: bool, base: u64) -> (u64, usize) {
+        let item = self.items.pop_front().unwrap();
+        let arg1_value = value(&self.arg1, item);
+        let arg2_value = value(&self.arg2, item);
 
-        let mut worrying: u64;
-
-        if self.operation == "+" {
-            worrying = arg1_value + arg2_value;
+        let mut worrying = if self.operation == "+" {
+            arg1_value + arg2_value
         } else {
-            worrying = arg1_value * arg2_value;
-        }
+            arg1_value * arg2_value
+        };
 
-        if calm_down {
-            worrying /= 3;
+        worrying = if calm_down {
+            worrying / 3
         } else {
-            worrying = worrying % base;
-        }
+            worrying % base
+        };
 
-        let throw: usize;
-
-        if (worrying % self.divisible) == 0 {
-            throw = self.if_true;
+        let throw = if (worrying % self.divisible) == 0 {
+            self.if_true
         } else {
-            throw = self.if_false;
-        }
+            self.if_false
+        };
 
         self.inspects += 1;
 
