@@ -36,7 +36,6 @@ fn main() {
 
 fn solve_day_11(filename: &str, run_type: RunType) -> usize {
     let mut count = 0;
-    let mut lines: Vec<String> = Vec::new();
     let mut monkeys: Vec<Monkey> = Vec::new();
 
     let calm_down = match run_type {
@@ -49,22 +48,19 @@ fn solve_day_11(filename: &str, run_type: RunType) -> usize {
         RunType::Part2 => 10000,
     };
 
+    let mut lines: String = String::from("");
+    let mut base = 1;
     for line in read_file(filename) {
         count += 1;
         if count == 7 {
             let monkey = Monkey::new(&lines);
+            base *= monkey.divisible;
             monkeys.push(monkey);
             count = 0;
-            lines.clear();
+            lines = String::from("");
         } else {
-            lines.push(line);
+            lines += (line + "\n").as_str();
         }
-    }
-
-    // calculate the base of all divisible
-    let mut base = 1;
-    for monkey_num in 0..monkeys.len() {
-        base *= monkeys[monkey_num].divisible;
     }
 
     for _ in 1..rounds + 1 {

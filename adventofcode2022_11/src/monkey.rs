@@ -38,44 +38,42 @@ pub struct Monkey {
     pub inspects: usize,
 }
 
+const MONKEY_FORMAT: &str = r"(?m)^Monkey (\d+):
+ {2}Starting items: ([0-9, ]+)
+ {2}Operation: new = (.+) (.) (.+)
+ {2}Test: divisible by (.+)
+ {4}If true: throw to monkey (.+)
+ {4}If false: throw to monkey (.+)
+";
+
 impl Monkey {
-    pub fn new(lines: &Vec<String>) -> Self {
+    pub fn new(lines: &String) -> Self {
+        let captures = Regex::new(MONKEY_FORMAT).unwrap().captures(lines).unwrap();
+
         // id
-        let re_number = Regex::new(r"(?m)^Monkey (\d+):").unwrap();
-        let caps = re_number.captures(&lines[0]).unwrap();
-        let id = caps.get(1).unwrap().as_str().parse::<usize>().unwrap();
+        let id = captures.get(1).unwrap().as_str().parse::<usize>().unwrap();
 
         // items
         let mut items: LinkedList<u64> = LinkedList::new();
-        let re_items = Regex::new(r"(?m)^ {2}Starting items: ([0-9, ]+)").unwrap();
-        let caps = re_items.captures(&lines[1]).unwrap();
-        let items_str = caps.get(1).unwrap().as_str().replace(" ", "");
+        let items_str = captures.get(2).unwrap().as_str().replace(" ", "");
         for item in items_str.split(",") {
             let value = item.parse::<u64>().unwrap();
             items.push_back(value);
         }
 
         // operation
-        let re_operation = Regex::new(r"(?m)^ {2}Operation: new = (.+) (.) (.+)").unwrap();
-        let caps = re_operation.captures(&lines[2]).unwrap();
-        let arg1 = String::from(caps.get(1).unwrap().as_str());
-        let operation = String::from(caps.get(2).unwrap().as_str());
-        let arg2 = String::from(caps.get(3).unwrap().as_str());
+        let arg1 = String::from(captures.get(3).unwrap().as_str());
+        let operation = String::from(captures.get(4).unwrap().as_str());
+        let arg2 = String::from(captures.get(5).unwrap().as_str());
 
         // divisible
-        let re_divisible = Regex::new(r"(?m)^ {2}Test: divisible by (.+)").unwrap();
-        let caps = re_divisible.captures(&lines[3]).unwrap();
-        let divisible = caps.get(1).unwrap().as_str().parse::<u64>().unwrap();
+        let divisible = captures.get(6).unwrap().as_str().parse::<u64>().unwrap();
 
         // if true
-        let re_if_true = Regex::new(r"(?m)^ {4}If true: throw to monkey (.+)").unwrap();
-        let caps = re_if_true.captures(&lines[4]).unwrap();
-        let if_true = caps.get(1).unwrap().as_str().parse::<usize>().unwrap();
+        let if_true = captures.get(7).unwrap().as_str().parse::<usize>().unwrap();
 
         // if false
-        let re_if_false = Regex::new(r"(?m)^ {4}If false: throw to monkey (.+)").unwrap();
-        let caps = re_if_false.captures(&lines[5]).unwrap();
-        let if_false = caps.get(1).unwrap().as_str().parse::<usize>().unwrap();
+        let if_false = captures.get(8).unwrap().as_str().parse::<usize>().unwrap();
 
         // inspects
         let inspects = 0;
