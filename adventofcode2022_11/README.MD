@@ -16,6 +16,8 @@ cargo run
 #### Output
 
 ```
+Advent of Code 2022 - Day 11: Monkey in the Middle
+
 part 1 [example] monkey business: 10605
 part 1 [puzzle] monkey business: 58786
 part 2 [example] monkey business: 2713310158
