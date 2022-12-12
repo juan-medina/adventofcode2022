@@ -21,7 +21,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
-use adventofcode2022_lib::utils::{Example, RunType};
+use adventofcode2022_lib::utils::{Example, read_file, RunType};
 
 const NAME: &'static str = "Hill Climbing Algorithm";
 const OUTPUT: &'static str = "steps";
@@ -32,6 +32,16 @@ fn main() {
 }
 
 fn solve_day_12(_filename: &str, _run_type: RunType) -> usize {
+    let mut map : Vec<Vec<char>> = Vec::new();
+    for line in read_file(_filename) {
+        let mut row : Vec<char> = Vec::new();
+        for c in line.chars() {
+            row.push(c);
+        }
+        map.push(row);
+    }
+
+    dbg!(map);
     0
 }
 
