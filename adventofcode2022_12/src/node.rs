@@ -1,3 +1,5 @@
+use crate::step::NavigationStep;
+
 #[derive(Debug, Copy, Clone, PartialEq, PartialOrd)]
 pub struct Node {
     pub x: usize,
@@ -12,6 +14,9 @@ impl Node {
         Self::new(0, 0)
     }
 
+    pub fn step(&self, step_num: usize) -> NavigationStep {
+        NavigationStep::new(self.clone(), step_num)
+    }
     pub fn get_near_nodes(&self, width: usize, height: usize) -> Vec<Node> {
         let mut nodes: Vec<Node> = Vec::new();
 

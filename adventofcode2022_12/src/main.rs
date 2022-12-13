@@ -22,9 +22,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
 use adventofcode2022_lib::utils::{Example, RunType};
-use map::{LOWEST_HEIGHT, START_HEIGHT};
 use std::collections::VecDeque;
-use step::NavigationStep;
 
 mod map;
 mod node;
@@ -41,17 +39,17 @@ fn main() {
 fn solve_day_12(filename: &str, run_type: RunType) -> usize {
     let mut shorter_path = usize::MAX;
 
-    let (end_node, map) = map::get_map(filename);
+    let (first_step, map) = map::get_map(filename);
 
     let height = map.len();
     let width = map[0].len();
 
     let mut visited: Vec<Vec<bool>> = vec![vec![false; width]; height];
-    let mut navigation_queue = VecDeque::from([NavigationStep::new(end_node, 0)]);
+    let mut navigation_queue = VecDeque::from([first_step]);
 
     let height_to_navigate_to = match run_type {
-        RunType::Part1 => START_HEIGHT,
-        RunType::Part2 => LOWEST_HEIGHT,
+        RunType::Part1 => map::START_HEIGHT,
+        RunType::Part2 => map::LOWEST_HEIGHT,
     };
 
     while navigation_queue.len() > 0 {
@@ -65,7 +63,7 @@ fn solve_day_12(filename: &str, run_type: RunType) -> usize {
         for near in step.from.get_near_nodes(width, height) {
             if map[near.y][near.x] >= node_height - 1 && !visited[near.y][near.x] {
                 visited[near.y][near.x] = true;
-                navigation_queue.push_back(NavigationStep::new(near, step.num_step + 1));
+                navigation_queue.push_back(near.step(step.num_step + 1));
             }
         }
     }

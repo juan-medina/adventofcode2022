@@ -1,4 +1,5 @@
 use crate::node::Node;
+use crate::step::NavigationStep;
 use adventofcode2022_lib::utils::read_file;
 
 static START_SYMBOL: char = 'S';
@@ -9,7 +10,7 @@ static END_HEIGHT: usize = 'z' as usize + 1;
 
 pub static LOWEST_HEIGHT: usize = 'a' as usize;
 
-pub fn get_map(filename: &str) -> (Node, Vec<Vec<usize>>) {
+pub fn get_map(filename: &str) -> (NavigationStep, Vec<Vec<usize>>) {
     let mut end_node = Node::zero();
 
     let mut x = 0usize;
@@ -33,5 +34,5 @@ pub fn get_map(filename: &str) -> (Node, Vec<Vec<usize>>) {
         y += 1;
         x = 0;
     }
-    (end_node, map)
+    (end_node.step(0), map)
 }
