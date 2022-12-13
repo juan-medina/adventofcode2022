@@ -35,11 +35,11 @@ fn main() {
     Example::new(NUM, NAME, OUTPUT, FILE, solve_day_13).run_all();
 }
 
-fn solve_day_13(filename: &str, _run_type: RunType) -> usize {
+fn solve_day_13(filename: &str, run_type: RunType) -> usize {
     let mut result = parser::parse(filename);
 
     let mut total = 0usize;
-    match _run_type {
+    match run_type {
         RunType::Part1 => {
             for (i, items) in result.chunks(2).enumerate() {
                 let left = &items[0];
