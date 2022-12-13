@@ -27,8 +27,9 @@ use std::collections::LinkedList;
 
 use adventofcode2022_lib::utils::{Example, RunType};
 
+const NUM: &'static usize = &5;
 const NAME: &'static str = "Supply Stacks";
-const OUTPUT: &'static str = "top crates said";
+const OUTPUT: &'static [&'static str] = &["crates end up", "crates end up"];
 const FILE: &'static str = "cargo";
 
 // What crane model we use, 900 do one crate at a time
@@ -39,7 +40,7 @@ enum CraneModel {
 }
 
 fn main() {
-    Example::new(5, NAME, OUTPUT, FILE, solve_day_5).run_all();
+    Example::new(NUM, NAME, OUTPUT, FILE, solve_day_5).run_all();
 }
 
 fn solve_day_5(filename: &str, run_type: RunType) -> String {
@@ -181,7 +182,7 @@ mod tests {
 
     #[test]
     fn test_part_1() {
-        let example = Example::new(5, NAME, OUTPUT, FILE, solve_day_5);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_5);
         assert_eq!(
             "CMZ",
             example.run_part(FileType::ExampleFile, RunType::Part1)
@@ -190,7 +191,7 @@ mod tests {
 
     #[test]
     fn test_part_2() {
-        let example = Example::new(5, NAME, OUTPUT, FILE, solve_day_5);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_5);
         assert_eq!(
             "MCD",
             example.run_part(FileType::ExampleFile, RunType::Part2)

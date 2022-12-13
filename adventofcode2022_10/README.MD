@@ -18,9 +18,9 @@ cargo run
 ```
 Advent of Code 2022 - Day 10: Cathode-Ray Tube
 
-part 1 [example] result: 13140
-part 1 [puzzle] result: 12980
-part 2 [example] result: 
+part 1 [example] sum of signal strengths: 13140
+part 1 [puzzle] sum of signal strengths: 12980
+part 2 [example] CRT output: 
 ██░░██░░██░░██░░██░░██░░██░░██░░██░░██░░
 ███░░░███░░░███░░░███░░░███░░░███░░░███░
 ████░░░░████░░░░████░░░░████░░░░████░░░░
@@ -28,7 +28,7 @@ part 2 [example] result:
 ██████░░░░░░██████░░░░░░██████░░░░░░████
 ███████░░░░░░░███████░░░░░░░███████░░░░░
 
-part 2 [puzzle] result: 
+part 2 [puzzle] CRT output: 
 ███░░███░░░░██░█░░░░████░█░░█░█░░░░███░░
 █░░█░█░░█░░░░█░█░░░░█░░░░█░░█░█░░░░█░░█░
 ███░░█░░█░░░░█░█░░░░███░░█░░█░█░░░░█░░█░

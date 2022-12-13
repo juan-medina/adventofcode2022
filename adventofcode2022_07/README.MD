@@ -18,10 +18,10 @@ cargo run
 ```
 Advent of Code 2022 - Day 7: No Space Left On Device
 
-part 1 [example] size: 95437
-part 1 [puzzle] size: 1232307
-part 2 [example] size: 24933642
-part 2 [puzzle] size: 7268994
+part 1 [example] sum of the total sizes: 95437
+part 1 [puzzle] sum of the total sizes: 1232307
+part 2 [example] size of directory to free: 24933642
+part 2 [puzzle] size of directory to free: 7268994
 ```
 #### License
 ```

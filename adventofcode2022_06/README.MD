@@ -18,10 +18,10 @@ cargo run
 ```
 Advent of Code 2022 - Day 6: Tuning Trouble
 
-part 1 [example] first marker after character: 7
-part 1 [puzzle] first marker after character: 1155
-part 2 [example] first marker after character: 19
-part 2 [puzzle] first marker after character: 2789
+part 1 [example] characters processed: 7
+part 1 [puzzle] characters processed: 1155
+part 2 [example] characters processed: 19
+part 2 [puzzle] characters processed: 2789
 ```
 #### License
 ```

@@ -23,12 +23,13 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 use adventofcode2022_lib::utils::{get_range_in, get_range_out, read_file, Example, RunType};
 
+const NUM: &'static usize = &8;
 const NAME: &'static str = "Treetop Tree House";
-const OUTPUT: &'static str = "trees";
+const OUTPUT: &'static [&'static str] = &["trees visible outside", "highest scenic score"];
 const FILE: &'static str = "forest";
 
 fn main() {
-    Example::new(8, NAME, OUTPUT, FILE, solve_day_8).run_all();
+    Example::new(NUM, NAME, OUTPUT, FILE, solve_day_8).run_all();
 }
 
 fn solve_day_8(filename: &str, run_type: RunType) -> u32 {
@@ -166,13 +167,13 @@ mod tests {
 
     #[test]
     fn test_part_1() {
-        let example = Example::new(8, NAME, OUTPUT, FILE, solve_day_8);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_8);
         assert_eq!(21, example.run_part(FileType::ExampleFile, RunType::Part1));
     }
 
     #[test]
     fn test_part_2() {
-        let example = Example::new(8, NAME, OUTPUT, FILE, solve_day_8);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_8);
         assert_eq!(8, example.run_part(FileType::ExampleFile, RunType::Part2));
     }
 }

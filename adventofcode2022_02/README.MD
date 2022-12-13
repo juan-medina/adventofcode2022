@@ -18,10 +18,10 @@ cargo run
 ```
 Advent of Code 2022 - Day 2: Rock Paper Scissors
 
-part 1 [example] points: 15
-part 1 [puzzle] points: 9651
-part 2 [example] points: 12
-part 2 [puzzle] points: 10560
+part 1 [example] score: 15
+part 1 [puzzle] score: 9651
+part 2 [example] score: 12
+part 2 [puzzle] score: 10560
 ```
 
 #### License

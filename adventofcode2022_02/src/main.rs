@@ -34,12 +34,13 @@ mod r#move;
 mod rules;
 mod strategy;
 
+const NUM: &'static usize = &2;
 const NAME: &'static str = "Rock Paper Scissors";
-const OUTPUT: &'static str = "points";
+const OUTPUT: &'static [&'static str] = &["score", "score"];
 const FILE: &'static str = "strategy";
 
 fn main() {
-    Example::new(2, NAME, OUTPUT, FILE, solve_day_2).run_all();
+    Example::new(NUM, NAME, OUTPUT, FILE, solve_day_2).run_all();
 }
 
 fn solve_day_2(filename: &str, run_type: RunType) -> u32 {
@@ -92,13 +93,13 @@ mod tests {
 
     #[test]
     fn test_part_1() {
-        let example = Example::new(2, NAME, OUTPUT, FILE, solve_day_2);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_2);
         assert_eq!(15, example.run_part(FileType::ExampleFile, RunType::Part1));
     }
 
     #[test]
     fn test_part_2() {
-        let example = Example::new(2, NAME, OUTPUT, FILE, solve_day_2);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_2);
         assert_eq!(12, example.run_part(FileType::ExampleFile, RunType::Part2));
     }
 }

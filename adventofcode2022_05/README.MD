@@ -18,10 +18,10 @@ cargo run
 ```
 Advent of Code 2022 - Day 5: Supply Stacks
 
-part 1 [example] top crates said: CMZ
-part 1 [puzzle] top crates said: LJSVLTWQM
-part 2 [example] top crates said: MCD
-part 2 [puzzle] top crates said: BRQWDBBJM
+part 1 [example] crates end up: CMZ
+part 1 [puzzle] crates end up: LJSVLTWQM
+part 2 [example] crates end up: MCD
+part 2 [puzzle] crates end up: BRQWDBBJM
 ```
 #### License
 ```

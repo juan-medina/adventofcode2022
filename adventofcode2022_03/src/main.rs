@@ -25,12 +25,13 @@ use adventofcode2022_lib::utils;
 
 use adventofcode2022_lib::utils::{Example, RunType};
 
+const NUM: &'static usize = &3;
 const NAME: &'static str = "Rucksack Reorganization";
-const OUTPUT: &'static str = "priorities";
+const OUTPUT: &'static [&'static str] = &["sum of priorities", "sum of priorities"];
 const FILE: &'static str = "rucksacks";
 
 fn main() {
-    Example::new(3, NAME, OUTPUT, FILE, solve_day_3).run_all();
+    Example::new(NUM, NAME, OUTPUT, FILE, solve_day_3).run_all();
 }
 
 fn solve_day_3(filename: &str, run_type: RunType) -> u32 {
@@ -148,13 +149,13 @@ mod tests {
 
     #[test]
     fn test_part_1() {
-        let example = Example::new(3, NAME, OUTPUT, FILE, solve_day_3);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_3);
         assert_eq!(157, example.run_part(FileType::ExampleFile, RunType::Part1));
     }
 
     #[test]
     fn test_part_2() {
-        let example = Example::new(3, NAME, OUTPUT, FILE, solve_day_3);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_3);
         assert_eq!(70, example.run_part(FileType::ExampleFile, RunType::Part2));
     }
 }

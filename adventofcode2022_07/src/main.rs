@@ -26,17 +26,18 @@ use std::collections::{HashMap, LinkedList};
 
 use regex::Regex;
 
+const NUM: &'static usize = &7;
 const NAME: &'static str = "No Space Left On Device";
-const OUTPUT: &'static str = "size";
+const OUTPUT: &'static [&'static str] = &["sum of the total sizes", "size of directory to free"];
 const FILE: &'static str = "commands";
 
 fn main() {
-    Example::new(7, NAME, OUTPUT, FILE, solve_day_7).run_all();
+    Example::new(NUM, NAME, OUTPUT, FILE, solve_day_7).run_all();
 }
 
 fn solve_day_7(filename: &str, _run_type: RunType) -> u32 {
     // represent a cd command
-    let re_cd_cmd = Regex::new(r"(?m)^\$ cd ([/\.a-z]+)").unwrap();
+    let re_cd_cmd = Regex::new(r"(?m)^\$ cd ([/.a-z]+)").unwrap();
     // represent a file
     let re_file = Regex::new(r"(?m)^(\d+) ([a-z]+.?[a-z]*)").unwrap();
 
@@ -137,7 +138,7 @@ mod tests {
 
     #[test]
     fn test_part_1() {
-        let example = Example::new(7, NAME, OUTPUT, FILE, solve_day_7);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_7);
         assert_eq!(
             95437,
             example.run_part(FileType::ExampleFile, RunType::Part1)
@@ -146,7 +147,7 @@ mod tests {
 
     #[test]
     fn test_part_2() {
-        let example = Example::new(7, NAME, OUTPUT, FILE, solve_day_7);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_7);
         assert_eq!(
             24933642,
             example.run_part(FileType::ExampleFile, RunType::Part2)

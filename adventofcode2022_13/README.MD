@@ -16,12 +16,12 @@ cargo run
 #### Output
 
 ```
-Advent of Code 2022 - Day 13: Day 13: Distress Signal
+Advent of Code 2022 - Day 13: Distress Signal
 
-part 1 [example] packet indices: 13
-part 1 [puzzle] packet indices: 6478
-part 2 [example] packet indices: 140
-part 2 [puzzle] packet indices: 21922
+part 1 [example] sum of indices: 13
+part 1 [puzzle] sum of indices: 6478
+part 2 [example] decoder key: 140
+part 2 [puzzle] decoder key: 21922
 ```
 #### License
 ```

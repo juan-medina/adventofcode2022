@@ -26,12 +26,13 @@ use adventofcode2022_lib::utils::{Example, RunType};
 
 mod ranges;
 
+const NUM: &'static usize = &4;
 const NAME: &'static str = "Camp Cleanup";
-const OUTPUT: &'static str = "couples";
+const OUTPUT: &'static [&'static str] = &["pairs fully contain", "pairs overlap"];
 const FILE: &'static str = "pairs";
 
 fn main() {
-    Example::new(4, NAME, OUTPUT, FILE, solve_day_4).run_all();
+    Example::new(NUM, NAME, OUTPUT, FILE, solve_day_4).run_all();
 }
 
 // what kind of check we are doing
@@ -76,13 +77,13 @@ mod tests {
 
     #[test]
     fn test_part_1() {
-        let example = Example::new(3, NAME, OUTPUT, FILE, solve_day_4);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_4);
         assert_eq!(2, example.run_part(FileType::ExampleFile, RunType::Part1));
     }
 
     #[test]
     fn test_part_2() {
-        let example = Example::new(3, NAME, OUTPUT, FILE, solve_day_4);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_4);
         assert_eq!(4, example.run_part(FileType::ExampleFile, RunType::Part2));
     }
 }

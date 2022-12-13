@@ -18,10 +18,10 @@ cargo run
 ```
 Advent of Code 2022 - Day 1: Calorie Counting
 
-part 1 [example] calories: 24000
-part 1 [puzzle] calories: 67622
-part 2 [example] calories: 45000
-part 2 [puzzle] calories: 201491
+part 1 [example] most calories: 24000
+part 1 [puzzle] most calories: 67622
+part 2 [example] total calories: 45000
+part 2 [puzzle] total calories: 201491
 ```
 
 #### License

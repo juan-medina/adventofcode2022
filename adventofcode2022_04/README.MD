@@ -18,10 +18,10 @@ cargo run
 ```
 Advent of Code 2022 - Day 4: Camp Cleanup
 
-part 1 [example] couples: 2
-part 1 [puzzle] couples: 547
-part 2 [example] couples: 4
-part 2 [puzzle] couples: 843
+part 1 [example] pairs fully contain: 2
+part 1 [puzzle] pairs fully contain: 547
+part 2 [example] pairs overlap: 4
+part 2 [puzzle] pairs overlap: 843
 ```
 #### License
 ```

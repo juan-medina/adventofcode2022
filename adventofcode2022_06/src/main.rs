@@ -28,12 +28,13 @@ enum MarkerType {
     Message = 14,
 }
 
+const NUM: &'static usize = &6;
 const NAME: &'static str = "Tuning Trouble";
-const OUTPUT: &'static str = "data after character";
+const OUTPUT: &'static [&'static str] = &["characters processed", "characters processed"];
 const FILE: &'static str = "signal";
 
 fn main() {
-    Example::new(6, NAME, OUTPUT, FILE, solve_day_6).run_all();
+    Example::new(NUM, NAME, OUTPUT, FILE, solve_day_6).run_all();
 }
 
 fn solve_day_6(filename: &str, run_type: RunType) -> usize {
@@ -71,13 +72,13 @@ mod tests {
 
     #[test]
     fn test_part_1() {
-        let example = Example::new(6, NAME, OUTPUT, FILE, solve_day_6);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_6);
         assert_eq!(7, example.run_part(FileType::ExampleFile, RunType::Part1));
     }
 
     #[test]
     fn test_part_2() {
-        let example = Example::new(6, NAME, OUTPUT, FILE, solve_day_6);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_6);
         assert_eq!(19, example.run_part(FileType::ExampleFile, RunType::Part2));
     }
 }

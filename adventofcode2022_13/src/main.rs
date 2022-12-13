@@ -26,12 +26,13 @@ use adventofcode2022_lib::utils::{Example, RunType};
 mod item;
 mod parser;
 
-const NAME: &'static str = "Day 13: Distress Signal";
-const OUTPUT: &'static str = "packet indices";
+const NUM: &'static usize = &13;
+const NAME: &'static str = "Distress Signal";
+const OUTPUT: &'static [&'static str] = &["sum of indices", "decoder key"];
 const FILE: &'static str = "packets";
 
 fn main() {
-    Example::new(13, NAME, OUTPUT, FILE, solve_day_13).run_all();
+    Example::new(NUM, NAME, OUTPUT, FILE, solve_day_13).run_all();
 }
 
 fn solve_day_13(filename: &str, _run_type: RunType) -> usize {
@@ -75,13 +76,13 @@ mod tests {
 
     #[test]
     fn test_part_1() {
-        let example = Example::new(13, NAME, OUTPUT, FILE, solve_day_13);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_13);
         assert_eq!(13, example.run_part(FileType::ExampleFile, RunType::Part1));
     }
 
     #[test]
     fn test_part_2() {
-        let example = Example::new(13, NAME, OUTPUT, FILE, solve_day_13);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_13);
         assert_eq!(140, example.run_part(FileType::ExampleFile, RunType::Part2));
     }
 }

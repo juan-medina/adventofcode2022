@@ -18,10 +18,10 @@ cargo run
 ```
 Advent of Code 2022 - Day 12: Hill Climbing Algorithm
 
-part 1 [example] steps: 31
-part 1 [puzzle] steps: 449
-part 2 [example] steps: 29
-part 2 [puzzle] steps: 443
+part 1 [example] steps to E: 31
+part 1 [puzzle] steps to E: 449
+part 2 [example] steps to a: 29
+part 2 [puzzle] steps to a: 443
 ```
 #### License
 ```

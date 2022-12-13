@@ -28,12 +28,13 @@ mod map;
 mod node;
 mod step;
 
+const NUM: &'static usize = &12;
 const NAME: &'static str = "Hill Climbing Algorithm";
-const OUTPUT: &'static str = "steps";
+const OUTPUT: &'static [&'static str] = &["steps to E", "steps to a"];
 const FILE: &'static str = "heightmap";
 
 fn main() {
-    Example::new(12, NAME, OUTPUT, FILE, solve_day_12).run_all();
+    Example::new(NUM, NAME, OUTPUT, FILE, solve_day_12).run_all();
 }
 
 fn solve_day_12(filename: &str, run_type: RunType) -> usize {
@@ -78,13 +79,13 @@ mod tests {
 
     #[test]
     fn test_part_1() {
-        let example = Example::new(12, NAME, OUTPUT, FILE, solve_day_12);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_12);
         assert_eq!(31, example.run_part(FileType::ExampleFile, RunType::Part1));
     }
 
     #[test]
     fn test_part_2() {
-        let example = Example::new(12, NAME, OUTPUT, FILE, solve_day_12);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_12);
         assert_eq!(29, example.run_part(FileType::ExampleFile, RunType::Part2));
     }
 }

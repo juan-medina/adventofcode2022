@@ -18,10 +18,10 @@ cargo run
 ```
 Advent of Code 2022 - Day 8: Treetop Tree House
 
-part 1 [example] trees: 21
-part 1 [puzzle] trees: 1776
-part 2 [example] trees: 8
-part 2 [puzzle] trees: 234416
+part 1 [example] trees visible outside: 21
+part 1 [puzzle] trees visible outside: 1776
+part 2 [example] highest scenic score: 8
+part 2 [puzzle] highest scenic score: 234416
 ```
 #### License
 ```

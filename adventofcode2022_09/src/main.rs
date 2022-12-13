@@ -26,12 +26,13 @@ use std::collections::HashMap;
 mod move_step;
 use move_step::Pos;
 
+const NUM: &'static usize = &9;
 const NAME: &'static str = "Rope Bridge";
-const OUTPUT: &'static str = "visited";
+const OUTPUT: &'static [&'static str] = &["tail visits", "tail visits"];
 const FILE: &'static str = "rope_moves";
 
 fn main() {
-    Example::new(9, NAME, OUTPUT, FILE, solve_day_9).run_all();
+    Example::new(NUM, NAME, OUTPUT, FILE, solve_day_9).run_all();
 }
 
 fn solve_day_9(filename: &str, run_type: RunType) -> usize {
@@ -47,7 +48,7 @@ fn solve_day_9(filename: &str, run_type: RunType) -> usize {
         RunType::Part2 => 10,
     };
 
-    let mut nodes: Vec<Pos> = vec![start_pos;total_nodes];
+    let mut nodes: Vec<Pos> = vec![start_pos; total_nodes];
 
     for line in lines {
         let (head_move, amount) = move_step::get_moves(&line);
@@ -76,13 +77,13 @@ mod tests {
 
     #[test]
     fn test_part_1() {
-        let example = Example::new(9, NAME, OUTPUT, FILE, solve_day_9);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_9);
         assert_eq!(13, example.run_part(FileType::ExampleFile, RunType::Part1));
     }
 
     #[test]
     fn test_part_2() {
-        let example = Example::new(1, NAME, OUTPUT, FILE, solve_day_9);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_9);
         assert_eq!(1, example.run_part(FileType::ExampleFile, RunType::Part2));
     }
 }

@@ -23,12 +23,13 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 use adventofcode2022_lib::utils::{read_file, Example, RunType};
 
+const NUM: &'static usize = &10;
 const NAME: &'static str = "Cathode-Ray Tube";
-const OUTPUT: &'static str = "result";
+const OUTPUT: &'static [&'static str] = &["sum of signal strengths", "CRT output"];
 const FILE: &'static str = "instructions";
 
 fn main() {
-    Example::new(10, NAME, OUTPUT, FILE, solve_day_10).run_all();
+    Example::new(NUM, NAME, OUTPUT, FILE, solve_day_10).run_all();
 }
 
 fn solve_day_10(filename: &str, run_type: RunType) -> String {
@@ -120,7 +121,7 @@ mod tests {
 
     #[test]
     fn test_part_1() {
-        let example = Example::new(10, NAME, OUTPUT, FILE, solve_day_10);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_10);
         assert_eq!(
             "13140",
             example.run_part(FileType::ExampleFile, RunType::Part1)
@@ -129,7 +130,7 @@ mod tests {
 
     #[test]
     fn test_part_2() {
-        let example = Example::new(1, NAME, OUTPUT, FILE, solve_day_10);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_10);
         assert_eq!("
 ██░░██░░██░░██░░██░░██░░██░░██░░██░░██░░
 ███░░░███░░░███░░░███░░░███░░░███░░░███░

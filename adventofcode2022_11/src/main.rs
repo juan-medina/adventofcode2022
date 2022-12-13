@@ -26,12 +26,13 @@ mod monkey;
 use crate::monkey::Monkey;
 use adventofcode2022_lib::utils::{read_file, Example, RunType};
 
+const NUM: &'static usize = &11;
 const NAME: &'static str = "Monkey in the Middle";
-const OUTPUT: &'static str = "monkey business";
+const OUTPUT: &'static [&'static str] = &["monkey business", "monkey business"];
 const FILE: &'static str = "monkey_notes";
 
 fn main() {
-    Example::new(11, NAME, OUTPUT, FILE, solve_day_11).run_all();
+    Example::new(NUM, NAME, OUTPUT, FILE, solve_day_11).run_all();
 }
 
 fn solve_day_11(filename: &str, run_type: RunType) -> usize {
@@ -84,7 +85,7 @@ mod tests {
 
     #[test]
     fn test_part_1() {
-        let example = Example::new(11, NAME, OUTPUT, FILE, solve_day_11);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_11);
         assert_eq!(
             10605,
             example.run_part(FileType::ExampleFile, RunType::Part1)
@@ -93,7 +94,7 @@ mod tests {
 
     #[test]
     fn test_part_2() {
-        let example = Example::new(11, NAME, OUTPUT, FILE, solve_day_11);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_11);
         assert_eq!(
             2713310158,
             example.run_part(FileType::ExampleFile, RunType::Part2)
