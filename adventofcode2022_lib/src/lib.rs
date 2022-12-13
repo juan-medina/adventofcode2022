@@ -86,25 +86,26 @@ pub mod utils {
     type RunFunction<T> = fn(&str, RunType) -> T;
 
     pub struct Example<T: Any + Display> {
-        number: u32,
+        number: usize,
         name: String,
-        output: String,
+        output: Vec<String>,
         file: String,
         func: RunFunction<T>,
     }
 
     impl<T: Any + Display> Example<T> {
         pub fn new(
-            number: u32,
+            number: &usize,
             name: &str,
-            output: &str,
+            output: &[&str],
             file: &str,
             func: RunFunction<T>,
         ) -> Example<T> {
+            let output = output.iter().map(|x| String::from(*x)).collect();
             Example {
-                number: number,
+                number: number.clone(),
                 name: name.to_string(),
-                output: output.to_string(),
+                output: output,
                 file: file.to_string(),
                 func: func,
             }
@@ -123,7 +124,11 @@ pub mod utils {
                 let part_num = part.clone() as i32;
                 for file_type in [FileType::ExampleFile, FileType::PuzzleFile] {
                     let label = format!("part {part_num} [{file_type}]");
-                    print_result(&label, &self.output, self.run_part(file_type, part));
+                    let output = match part {
+                        RunType::Part1 => self.output[0].as_str(),
+                        RunType::Part2 => self.output[1].as_str(),
+                    };
+                    print_result(&label, output, self.run_part(file_type, part));
                 }
             }
         }
@@ -219,15 +224,20 @@ mod tests {
         }
     }
 
+    const NUM: &'static usize = &1;
+    const NAME: &'static str = "Example";
+    const OUTPUT: &'static [&'static str] = &["data1", "data2"];
+    const FILE: &'static str = "test";
+
     #[test]
     fn test_run_all() {
-        let example = Example::new(1, "super fun", "total", "test", count_lines_or_characters);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, count_lines_or_characters);
         example.run_all();
     }
 
     #[test]
     fn test_run_part() {
-        let example = Example::new(1, "super fun", "total", "test", count_lines_or_characters);
+        let example = Example::new(NUM, NAME, OUTPUT, FILE, count_lines_or_characters);
         assert_eq!(1, example.run_part(FileType::ExampleFile, RunType::Part1));
         assert_eq!(19, example.run_part(FileType::ExampleFile, RunType::Part2));
     }
