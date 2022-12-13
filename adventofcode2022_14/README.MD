@@ -3,24 +3,26 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
 
-Examples for [Advent of Code 2022](https://adventofcode.com/2022) done in [Rust](https://www.rust-lang.org/)
+#### Day 14: xxxxxxx
 
-- [Library](adventofcode2022_lib)
-- [Day 1: Calorie Counting](adventofcode2022_01)
-- [Day 2: Rock Paper Scissors](adventofcode2022_02)
-- [Day 3: Rucksack Reorganization](adventofcode2022_03)
-- [Day 4: Camp Cleanup](adventofcode2022_04)
-- [Day 5: Supply Stacks](adventofcode2022_05)
-- [Day 6: Tuning Trouble](adventofcode2022_06)
-- [Day 7: No Space Left On Device](adventofcode2022_07)
-- [Day 8: Treetop Tree House](adventofcode2022_08)
-- [Day 9: Rope Bridge](adventofcode2022_09)
-- [Day 10: Cathode-Ray Tube](adventofcode2022_10)
-- [Day 11: Monkey in the Middle](adventofcode2022_11)
-- [Day 12: Hill Climbing Algorithm](adventofcode2022_12)
-- [Day 13: Distress Signal](adventofcode2022_13)
-- [Day 14: xxxxxxx](adventofcode2022_14)
+[Problem](https://adventofcode.com/2022/day/14)
 
+#### Usage 
+
+```bash
+cargo run
+```
+
+#### Output
+
+```
+Advent of Code 2022 - Day 14: xxxxxxx
+
+part 1 [example] xxxxxxx: 0
+part 1 [puzzle] xxxxxxx: 0
+part 2 [example] xxxxxxx: 0
+part 2 [puzzle] xxxxxxx: 0
+```
 #### License
 ```
 Copyright (c) 2022 Juan Medina
