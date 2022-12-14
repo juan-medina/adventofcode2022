@@ -100,12 +100,9 @@ pub fn draw_line(map: &mut Vec<Vec<MapValue>>, from: &Point, to: &Point) {
     }
 }
 
-use crate::draw::Draw;
-
-pub fn drop_sand(sand_drop: Point, map: &mut Vec<Vec<MapValue>>, to_drop: bool, draw: &mut Draw) -> bool {
+pub fn drop_sand(sand_drop: Point, map: &mut Vec<Vec<MapValue>>, to_drop: bool) -> bool {
     if to_drop {
         if map[sand_drop.y as usize][sand_drop.x as usize] != Empty {
-            draw.frame(&map, &sand_drop);
             return false;
         }
     }
@@ -127,12 +124,10 @@ pub fn drop_sand(sand_drop: Point, map: &mut Vec<Vec<MapValue>>, to_drop: bool, 
             let value = map[point.y as usize][point.x as usize];
             if value == Empty {
                 cur_point = point;
-                draw.frame(&map, &point);
                 continue 'search;
             }
         }
         map[cur_point.y as usize][cur_point.x as usize] = Sand;
-        draw.frame(&map, &cur_point);
         return true;
     }
 }

@@ -22,12 +22,10 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
 use adventofcode2022_lib::utils::{Example, RunType};
-use crate::points::Point;
 
 mod map;
 mod parser;
 mod points;
-mod draw;
 
 const NUM: &'static usize = &14;
 const NAME: &'static str = "Regolith Reservoir";
@@ -46,15 +44,9 @@ fn solve_day_14(filename: &str, run_type: RunType) -> usize {
     };
     let (sand_drop, mut map) = map::create(&points_sets, to_drop_point);
 
-    let mut draw = draw::Draw::new();
-
     let mut counter = 0;
-    while map::drop_sand(sand_drop, &mut map, to_drop_point, &mut draw) {
+    while map::drop_sand(sand_drop, &mut map, to_drop_point) {
         counter += 1;
-    }
-
-    for _ in 0..30 {
-        draw.frame(&map, &Point::new(0,0));
     }
 
     counter
