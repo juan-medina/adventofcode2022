@@ -23,17 +23,33 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 use adventofcode2022_lib::utils::{Example, RunType};
 
+mod map;
+mod parser;
+mod points;
+
 const NUM: &'static usize = &14;
-const NAME: &'static str = "xxxxxxx";
-const OUTPUT: &'static [&'static str] = &["xxxxxxx", "xxxxxxx"];
-const FILE: &'static str = "xxxxxxx";
+const NAME: &'static str = "Regolith Reservoir";
+const OUTPUT: &'static [&'static str] = &["units sand resting", "units until clog"];
+const FILE: &'static str = "lines";
 
 fn main() {
     Example::new(NUM, NAME, OUTPUT, FILE, solve_day_14).run_all();
 }
 
-fn solve_day_14(_filename: &str, _run_type: RunType) -> usize {
-    0
+fn solve_day_14(filename: &str, run_type: RunType) -> usize {
+    let points_sets = parser::parse(filename);
+    let to_drop_point = match run_type {
+        RunType::Part1 => false,
+        RunType::Part2 => true,
+    };
+    let (sand_drop, mut map) = map::create(&points_sets, to_drop_point);
+
+    let mut counter = 0;
+    while map::drop_sand(sand_drop, &mut map, to_drop_point) {
+        counter += 1;
+    }
+
+    counter
 }
 
 #[cfg(test)]
@@ -44,12 +60,12 @@ mod tests {
     #[test]
     fn test_part_1() {
         let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_14);
-        assert_eq!(0, example.run_part(FileType::ExampleFile, RunType::Part1));
+        assert_eq!(24, example.run_part(FileType::ExampleFile, RunType::Part1));
     }
 
     #[test]
     fn test_part_2() {
         let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_14);
-        assert_eq!(0, example.run_part(FileType::ExampleFile, RunType::Part2));
+        assert_eq!(93, example.run_part(FileType::ExampleFile, RunType::Part2));
     }
 }

@@ -30,3 +30,4 @@ edition = "2021"
 
 [dependencies]
 adventofcode2022_lib = { path = "../adventofcode2022_lib" }
+regex = "1"

@@ -1,30 +1,4 @@
-### Advent of Code 2022
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-
-#### Day 14: Regolith Reservoir
-
-[Problem](https://adventofcode.com/2022/day/14)
-
-#### Usage 
-
-```bash
-cargo run
-```
-
-#### Output
-
-```
-Advent of Code 2022 - Day 14: Regolith Reservoir
-
-part 1 [example] units sand resting: 24
-part 1 [puzzle] units sand resting: 799
-part 2 [example] units until clog: 93
-part 2 [puzzle] units until clog: 29076
-```
-#### License
-```
+/***
 Copyright (c) 2022 Juan Medina
 
 Permission is hereby granted, free of charge, to any person obtaining
@@ -45,4 +19,26 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-```
+***/
+
+use crate::points::{Point, Points};
+use adventofcode2022_lib::utils::read_file;
+use regex::Regex;
+
+pub fn parse(filename: &str) -> Vec<Points> {
+    let mut points_sets: Vec<Points> = Vec::new();
+
+    let re_parse = Regex::new(r"(\d+,\d+)").unwrap();
+
+    for line in read_file(filename) {
+        let mut points: Points = Vec::new();
+        for capture in re_parse.captures_iter(&line) {
+            let (left, right) = &capture[0].split_once(",").unwrap();
+            let point = Point::new(left.parse::<i32>().unwrap(), right.parse::<i32>().unwrap());
+            points.push(point);
+        }
+        points_sets.push(points);
+    }
+
+    points_sets
+}

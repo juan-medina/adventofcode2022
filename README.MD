@@ -19,7 +19,7 @@ Examples for [Advent of Code 2022](https://adventofcode.com/2022) done in [Rust]
 - [Day 11: Monkey in the Middle](adventofcode2022_11)
 - [Day 12: Hill Climbing Algorithm](adventofcode2022_12)
 - [Day 13: Distress Signal](adventofcode2022_13)
-- [Day 14: xxxxxxx](adventofcode2022_14)
+- [ Day 14: Regolith Reservoir](adventofcode2022_14)
 
 #### License
 ```
