@@ -66,12 +66,12 @@ mod tests {
     #[test]
     fn test_part_1() {
         let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_15);
-        assert_eq!(26, example.run_part(FileType::ExampleFile, RunType::Part1));
+        assert_eq!("row 10 = 26", example.run_part(FileType::ExampleFile, RunType::Part1));
     }
 
     #[test]
     fn test_part_2() {
         let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_15);
-        assert_eq!(26, example.run_part(FileType::ExampleFile, RunType::Part2));
+        assert_eq!("row 10 = 26", example.run_part(FileType::ExampleFile, RunType::Part2));
     }
 }
