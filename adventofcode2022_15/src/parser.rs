@@ -21,10 +21,10 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
-use regex::Regex;
-use adventofcode2022_lib::utils::read_file;
 use crate::sensor;
 use crate::sensor::Sensor;
+use adventofcode2022_lib::utils::read_file;
+use regex::Regex;
 
 #[derive(Debug, Clone, PartialEq, Eq)]
 pub struct Parser {
@@ -33,12 +33,17 @@ pub struct Parser {
 
 impl Parser {
     fn new(file_name: &str) -> Self {
-        Self { file_name: String::from(file_name) }
+        Self {
+            file_name: String::from(file_name),
+        }
     }
     pub fn parse(self) -> Vec<Sensor> {
         let mut sensors: Vec<Sensor> = Vec::new();
 
-        let re_parse = Regex::new(r"Sensor at x=(-?\d+), y=(-?\d+): closest beacon is at x=(-?\d+), y=(-?\d+)").unwrap();
+        let re_parse = Regex::new(
+            r"Sensor at x=(-?\d+), y=(-?\d+): closest beacon is at x=(-?\d+), y=(-?\d+)",
+        )
+        .unwrap();
 
         for line in read_file(self.file_name.as_str()) {
             let caps = re_parse.captures(&line).unwrap();

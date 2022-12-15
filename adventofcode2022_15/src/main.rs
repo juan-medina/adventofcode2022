@@ -21,30 +21,41 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
-mod parser;
-mod sensor;
-mod point;
 mod map;
+mod parser;
+mod point;
+mod sensor;
 
-use adventofcode2022_lib::utils::{Example, RunType};
-
+use adventofcode2022_lib::utils::{Example, FileType, RunType};
 
 const NUM: &'static usize = &15;
 const NAME: &'static str = "Beacon Exclusion Zone";
-const OUTPUT: &'static [&'static str] = &["positions with not beacons at y=10", "xxxx"];
+const OUTPUT: &'static [&'static str] = &["positions with not beacons on", "xxxx"];
 const FILE: &'static str = "sensors";
 
 fn main() {
     Example::new(NUM, NAME, OUTPUT, FILE, solve_day_15).run_all();
 }
 
-fn solve_day_15(filename: &str, _run_type: RunType) -> usize {
+fn solve_day_15(filename: &str, _run_type: RunType, file_type: FileType) -> String {
     let parser = parser::new(filename);
     let sensors = parser.parse();
     let mut map = map::new(sensors);
-    map.fill();
-    //map.draw();
-    map.get_blocked_at_row(10)
+
+    let min_row = match file_type {
+        FileType::ExampleFile => 10,
+        FileType::PuzzleFile => 2000000,
+    };
+
+    let max_row = match file_type {
+        FileType::ExampleFile => 10,
+        FileType::PuzzleFile => 2000000,
+    };
+
+    map.fill(min_row, max_row);
+    let value = map.get_blocked_at_row(min_row);
+
+    format!("row {} = {}", min_row, value)
 }
 
 #[cfg(test)]
@@ -61,6 +72,6 @@ mod tests {
     #[test]
     fn test_part_2() {
         let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_15);
-        assert_eq!(0, example.run_part(FileType::ExampleFile, RunType::Part2));
+        assert_eq!(26, example.run_part(FileType::ExampleFile, RunType::Part2));
     }
 }

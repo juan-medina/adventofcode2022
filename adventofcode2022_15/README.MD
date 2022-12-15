@@ -18,6 +18,10 @@ cargo run
 ```
 Advent of Code 2022 - Day 15: Beacon Exclusion Zone
 
+part 1 [example] positions with not beacons on: row 10 = 26
+part 1 [puzzle] positions with not beacons on: row 2000000 = 5508234
+part 2 [example] xxxx: row 10 = 26
+part 2 [puzzle] xxxx: row 2000000 = 5508234
 ```
 #### License
 ```
