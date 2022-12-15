@@ -24,38 +24,47 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 mod map;
 mod parser;
 mod point;
+mod ranges;
 mod sensor;
 
+use adventofcode2022_lib::utils::RunType::{Part1, Part2};
 use adventofcode2022_lib::utils::{Example, FileType, RunType};
 
 const NUM: &'static usize = &15;
 const NAME: &'static str = "Beacon Exclusion Zone";
-const OUTPUT: &'static [&'static str] = &["positions with not beacons on", "xxxx"];
+const OUTPUT: &'static [&'static str] = &["positions with not beacons on", "hidden beacon"];
 const FILE: &'static str = "sensors";
 
 fn main() {
     Example::new(NUM, NAME, OUTPUT, FILE, solve_day_15).run_all();
 }
 
-fn solve_day_15(filename: &str, _run_type: RunType, file_type: FileType) -> String {
+fn solve_day_15(filename: &str, run_type: RunType, file_type: FileType) -> String {
     let parser = parser::new(filename);
     let sensors = parser.parse();
-    let mut map = map::new(sensors);
+    let map = map::new(sensors);
 
-    let min_row = match file_type {
-        FileType::ExampleFile => 10,
-        FileType::PuzzleFile => 2000000,
+    return match run_type {
+        Part1 => {
+            let row = match file_type {
+                FileType::ExampleFile => 10,
+                FileType::PuzzleFile => 2000000,
+            };
+
+            let positions = map.positions_with_no_beacons(row);
+
+            format!("row {} = {}", row, positions)
+        }
+        Part2 => {
+            let max = match file_type {
+                FileType::ExampleFile => 20,
+                FileType::PuzzleFile => 4000000,
+            };
+            let freq = map.get_frequency_hidden_beacon(max);
+
+            format!("freq {}", freq)
+        }
     };
-
-    let max_row = match file_type {
-        FileType::ExampleFile => 10,
-        FileType::PuzzleFile => 2000000,
-    };
-
-    map.fill(min_row, max_row);
-    let value = map.get_blocked_at_row(min_row);
-
-    format!("row {} = {}", min_row, value)
 }
 
 #[cfg(test)]
@@ -66,12 +75,18 @@ mod tests {
     #[test]
     fn test_part_1() {
         let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_15);
-        assert_eq!("row 10 = 26", example.run_part(FileType::ExampleFile, RunType::Part1));
+        assert_eq!(
+            "row 10 = 26",
+            example.run_part(FileType::ExampleFile, RunType::Part1)
+        );
     }
 
     #[test]
     fn test_part_2() {
         let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_15);
-        assert_eq!("row 10 = 26", example.run_part(FileType::ExampleFile, RunType::Part2));
+        assert_eq!(
+            "freq 56000011",
+            example.run_part(FileType::ExampleFile, RunType::Part2)
+        );
     }
 }

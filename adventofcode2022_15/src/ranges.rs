@@ -1,30 +1,4 @@
-### Advent of Code 2022
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-
-#### Day 15: Beacon Exclusion Zone
-
-[Problem](https://adventofcode.com/2022/day/14)
-
-#### Usage 
-
-```bash
-cargo run
-```
-
-#### Output
-
-```
-Advent of Code 2022 - Day 15: Beacon Exclusion Zone
-
-part 1 [example] positions with not beacons on: row 10 = 26
-part 1 [puzzle] positions with not beacons on: row 2000000 = 5508234
-part 2 [example] hidden beacon: freq 56000011
-part 2 [puzzle] hidden beacon: freq 10457634860779
-```
-#### License
-```
+/***
 Copyright (c) 2022 Juan Medina
 
 Permission is hereby granted, free of charge, to any person obtaining
@@ -45,4 +19,30 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-```
+***/
+
+#[derive(Debug, Clone, Copy)]
+pub struct Range {
+    pub start: i32,
+    pub end: i32,
+}
+impl Default for Range {
+    fn default() -> Range {
+        Range { start: 0, end: 0 }
+    }
+}
+impl Range {
+    pub fn contains(&self, location: i32) -> bool {
+        return location >= self.start && location <= self.end;
+    }
+    pub fn touches(&self, location: i32) -> bool {
+        return location >= self.start - 1 && location <= self.end + 1;
+    }
+    pub fn size(&self) -> u32 {
+        return (self.start - self.end).abs() as u32 + 1u32;
+    }
+}
+
+pub fn new() -> Range {
+    Range::default()
+}

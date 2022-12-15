@@ -21,13 +21,42 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
-use crate::point;
 use crate::point::Point;
+use crate::ranges::Range;
+use crate::{point, ranges};
 
 #[derive(Debug, Copy, Clone, PartialEq, Eq)]
 pub struct Sensor {
     pub at: Point,
     pub closest_beacon: Point,
+}
+
+impl Sensor {
+    pub fn get_range_in_row(&self, row: i32) -> (bool, Range) {
+        let mut range: Range = ranges::new();
+
+        let overlap = self.get_sensor_radius_on_row(row);
+        let visible = if overlap < 0 { false } else { true };
+
+        range.start = if visible { self.at.x - overlap } else { 0 };
+        range.end = if visible { self.at.x + overlap } else { 0 };
+
+        return (visible, range);
+    }
+
+    fn get_sensor_radius_on_row(&self, row: i32) -> i32 {
+        let distance = self.distance() as i32;
+
+        let row_delta = (self.at.y - row).abs();
+
+        return distance - row_delta;
+    }
+
+    fn distance(&self) -> u32 {
+        let x_delta = (self.at.x - self.closest_beacon.x).abs() as u32;
+        let y_delta = (self.at.y - self.closest_beacon.y).abs() as u32;
+        return x_delta + y_delta;
+    }
 }
 
 impl Sensor {
