@@ -25,7 +25,7 @@ use adventofcode2022_lib::utils;
 use regex::Regex;
 use std::collections::LinkedList;
 
-use adventofcode2022_lib::utils::{Example, RunType};
+use adventofcode2022_lib::utils::{Example, FileType, RunType};
 
 const NUM: &'static usize = &5;
 const NAME: &'static str = "Supply Stacks";
@@ -43,7 +43,7 @@ fn main() {
     Example::new(NUM, NAME, OUTPUT, FILE, solve_day_5).run_all();
 }
 
-fn solve_day_5(filename: &str, run_type: RunType) -> String {
+fn solve_day_5(filename: &str, run_type: RunType, _: FileType) -> String {
     // choose crane model on run type
     let crane_model: CraneModel = match run_type {
         RunType::Part1 => CraneModel::CrateMover9000,

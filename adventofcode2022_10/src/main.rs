@@ -21,7 +21,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
-use adventofcode2022_lib::utils::{read_file, Example, RunType};
+use adventofcode2022_lib::utils::{read_file, Example, FileType, RunType};
 
 const NUM: &'static usize = &10;
 const NAME: &'static str = "Cathode-Ray Tube";
@@ -32,7 +32,7 @@ fn main() {
     Example::new(NUM, NAME, OUTPUT, FILE, solve_day_10).run_all();
 }
 
-fn solve_day_10(filename: &str, run_type: RunType) -> String {
+fn solve_day_10(filename: &str, run_type: RunType, _: FileType) -> String {
     let mut x_register: i32 = 1;
     let mut cycle: usize = 1;
     let mut total_strength: i32 = 0;
@@ -131,7 +131,8 @@ mod tests {
     #[test]
     fn test_part_2() {
         let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_10);
-        assert_eq!("
+        assert_eq!(
+            "
 ██░░██░░██░░██░░██░░██░░██░░██░░██░░██░░
 ███░░░███░░░███░░░███░░░███░░░███░░░███░
 ████░░░░████░░░░████░░░░████░░░░████░░░░

@@ -22,7 +22,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
 use adventofcode2022_lib::utils;
-use adventofcode2022_lib::utils::{Example, RunType};
+use adventofcode2022_lib::utils::{Example, FileType, RunType};
 
 mod ranges;
 
@@ -41,7 +41,7 @@ enum CheckType {
     Overlap,
 }
 
-fn solve_day_4(filename: &str, run_type: RunType) -> u32 {
+fn solve_day_4(filename: &str, run_type: RunType, _: FileType) -> u32 {
     // what type of check we do
     let check_type: CheckType = match run_type {
         RunType::Part1 => CheckType::FullyContains,
@@ -72,8 +72,8 @@ fn solve_day_4(filename: &str, run_type: RunType) -> u32 {
 
 #[cfg(test)]
 mod tests {
-    use adventofcode2022_lib::utils::FileType;
     use crate::*;
+    use adventofcode2022_lib::utils::FileType;
 
     #[test]
     fn test_part_1() {

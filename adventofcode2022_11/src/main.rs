@@ -24,7 +24,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 mod monkey;
 
 use crate::monkey::Monkey;
-use adventofcode2022_lib::utils::{read_file, Example, RunType};
+use adventofcode2022_lib::utils::{read_file, Example, FileType, RunType};
 
 const NUM: &'static usize = &11;
 const NAME: &'static str = "Monkey in the Middle";
@@ -35,7 +35,7 @@ fn main() {
     Example::new(NUM, NAME, OUTPUT, FILE, solve_day_11).run_all();
 }
 
-fn solve_day_11(filename: &str, run_type: RunType) -> usize {
+fn solve_day_11(filename: &str, run_type: RunType, _: FileType) -> usize {
     let mut count = 0;
     let mut monkeys: Vec<Monkey> = Vec::new();
 

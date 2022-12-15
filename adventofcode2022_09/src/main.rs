@@ -21,7 +21,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
-use adventofcode2022_lib::utils::{read_file, Example, RunType};
+use adventofcode2022_lib::utils::{read_file, Example, FileType, RunType};
 use std::collections::HashMap;
 mod move_step;
 use move_step::Pos;
@@ -35,7 +35,7 @@ fn main() {
     Example::new(NUM, NAME, OUTPUT, FILE, solve_day_9).run_all();
 }
 
-fn solve_day_9(filename: &str, run_type: RunType) -> usize {
+fn solve_day_9(filename: &str, run_type: RunType, _: FileType) -> usize {
     let lines = read_file(filename);
 
     let start_pos = Pos { x: 0, y: 0 };

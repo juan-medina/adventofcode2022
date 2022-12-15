@@ -23,7 +23,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 use adventofcode2022_lib::utils;
 
-use adventofcode2022_lib::utils::{Example, RunType};
+use adventofcode2022_lib::utils::{Example, FileType, RunType};
 
 const NUM: &'static usize = &3;
 const NAME: &'static str = "Rucksack Reorganization";
@@ -34,7 +34,7 @@ fn main() {
     Example::new(NUM, NAME, OUTPUT, FILE, solve_day_3).run_all();
 }
 
-fn solve_day_3(filename: &str, run_type: RunType) -> u32 {
+fn solve_day_3(filename: &str, run_type: RunType, _: FileType) -> u32 {
     // how many rucksacks we have for group
     let rucksacks_per_group: usize = match run_type {
         RunType::Part1 => 1,

@@ -24,7 +24,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 use adventofcode2022_lib::utils;
 use std::str::FromStr;
 
-use adventofcode2022_lib::utils::{Example, RunType};
+use adventofcode2022_lib::utils::{Example, FileType, RunType};
 
 use r#move::Move;
 use strategy::Strategy;
@@ -43,7 +43,7 @@ fn main() {
     Example::new(NUM, NAME, OUTPUT, FILE, solve_day_2).run_all();
 }
 
-fn solve_day_2(filename: &str, run_type: RunType) -> u32 {
+fn solve_day_2(filename: &str, run_type: RunType, _: FileType) -> u32 {
     // total points
     let mut total_points: u32 = 0;
 

@@ -22,7 +22,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
 use adventofcode2022_lib::utils;
-use adventofcode2022_lib::utils::{Example, RunType};
+use adventofcode2022_lib::utils::{Example, FileType, RunType};
 
 const NUM: &'static usize = &1;
 const NAME: &'static str = "Calorie Counting";
@@ -33,7 +33,7 @@ fn main() {
     Example::new(NUM, NAME, OUTPUT, FILE, solve_day_1).run_all();
 }
 
-fn solve_day_1(filename: &str, run_type: RunType) -> u32 {
+fn solve_day_1(filename: &str, run_type: RunType, _: FileType) -> u32 {
     // change the top values depending of Part 1 or 2
     let top: usize = match run_type {
         RunType::Part1 => 1,

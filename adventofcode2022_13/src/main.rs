@@ -21,7 +21,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
-use adventofcode2022_lib::utils::{Example, RunType};
+use adventofcode2022_lib::utils::{Example, FileType, RunType};
 
 mod item;
 mod parser;
@@ -35,7 +35,7 @@ fn main() {
     Example::new(NUM, NAME, OUTPUT, FILE, solve_day_13).run_all();
 }
 
-fn solve_day_13(filename: &str, run_type: RunType) -> usize {
+fn solve_day_13(filename: &str, run_type: RunType, _: FileType) -> usize {
     let mut result = parser::parse(filename);
 
     let mut total = 0usize;

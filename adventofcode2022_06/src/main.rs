@@ -21,7 +21,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
-use adventofcode2022_lib::utils::{has_duplicates, read_whole_file, Example, RunType};
+use adventofcode2022_lib::utils::{has_duplicates, read_whole_file, Example, FileType, RunType};
 
 enum MarkerType {
     Packet = 4,
@@ -37,7 +37,7 @@ fn main() {
     Example::new(NUM, NAME, OUTPUT, FILE, solve_day_6).run_all();
 }
 
-fn solve_day_6(filename: &str, run_type: RunType) -> usize {
+fn solve_day_6(filename: &str, run_type: RunType, _: FileType) -> usize {
     let marker_type: MarkerType = match run_type {
         RunType::Part1 => MarkerType::Packet,
         RunType::Part2 => MarkerType::Message,

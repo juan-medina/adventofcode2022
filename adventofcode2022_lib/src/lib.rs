@@ -83,7 +83,7 @@ pub mod utils {
         }
     }
 
-    type RunFunction<T> = fn(&str, RunType) -> T;
+    type RunFunction<T> = fn(&str, RunType, FileType) -> T;
 
     pub struct Example<T: Any + Display> {
         number: usize,
@@ -113,7 +113,7 @@ pub mod utils {
 
         pub fn run_part(&self, file_type: FileType, run_type: RunType) -> T {
             let file_name = format!("data/{}_{}.dat", self.file, file_type);
-            (self.func)(&file_name, run_type)
+            (self.func)(&file_name, run_type, file_type)
         }
 
         pub fn run_all(&self) {
@@ -211,7 +211,7 @@ mod tests {
         assert_eq!(5, read_file("data/test_puzzle.dat").len());
     }
 
-    fn count_lines_or_characters(filename: &str, run_type: RunType) -> usize {
+    fn count_lines_or_characters(filename: &str, run_type: RunType, _file_type: FileType) -> usize {
         match run_type {
             RunType::Part1 => {
                 let lines = read_file(filename);

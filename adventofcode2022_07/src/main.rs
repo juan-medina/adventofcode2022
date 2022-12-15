@@ -21,7 +21,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
-use adventofcode2022_lib::utils::{read_file, Example, RunType};
+use adventofcode2022_lib::utils::{read_file, Example, FileType, RunType};
 use std::collections::{HashMap, LinkedList};
 
 use regex::Regex;
@@ -35,7 +35,7 @@ fn main() {
     Example::new(NUM, NAME, OUTPUT, FILE, solve_day_7).run_all();
 }
 
-fn solve_day_7(filename: &str, _run_type: RunType) -> u32 {
+fn solve_day_7(filename: &str, _run_type: RunType, _: FileType) -> u32 {
     // represent a cd command
     let re_cd_cmd = Regex::new(r"(?m)^\$ cd ([/.a-z]+)").unwrap();
     // represent a file

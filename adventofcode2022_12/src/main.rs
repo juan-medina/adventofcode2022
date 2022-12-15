@@ -21,7 +21,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
-use adventofcode2022_lib::utils::{Example, RunType};
+use adventofcode2022_lib::utils::{Example, FileType, RunType};
 use std::collections::VecDeque;
 
 mod map;
@@ -37,7 +37,7 @@ fn main() {
     Example::new(NUM, NAME, OUTPUT, FILE, solve_day_12).run_all();
 }
 
-fn solve_day_12(filename: &str, run_type: RunType) -> usize {
+fn solve_day_12(filename: &str, run_type: RunType, _: FileType) -> usize {
     let mut shorter_path = usize::MAX;
 
     let (first_step, map) = map::get_map(filename);

@@ -21,7 +21,9 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
-use adventofcode2022_lib::utils::{get_range_in, get_range_out, read_file, Example, RunType};
+use adventofcode2022_lib::utils::{
+    get_range_in, get_range_out, read_file, Example, FileType, RunType,
+};
 
 const NUM: &'static usize = &8;
 const NAME: &'static str = "Treetop Tree House";
@@ -32,7 +34,7 @@ fn main() {
     Example::new(NUM, NAME, OUTPUT, FILE, solve_day_8).run_all();
 }
 
-fn solve_day_8(filename: &str, run_type: RunType) -> u32 {
+fn solve_day_8(filename: &str, run_type: RunType, _: FileType) -> u32 {
     let mut forest: Vec<Vec<u32>> = Vec::new();
 
     for lines in read_file(filename) {
