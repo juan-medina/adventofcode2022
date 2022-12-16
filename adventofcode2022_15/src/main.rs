@@ -70,7 +70,6 @@ fn solve_day_15(filename: &str, run_type: RunType, file_type: FileType) -> Strin
 #[cfg(test)]
 mod tests {
     use crate::*;
-    use adventofcode2022_lib::utils::FileType;
 
     #[test]
     fn test_part_1() {
