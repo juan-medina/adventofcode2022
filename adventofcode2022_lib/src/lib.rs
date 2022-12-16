@@ -24,7 +24,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 pub mod utils {
     use std::{
         any::Any,
-        cmp, fmt,
+        fmt,
         fmt::Display,
         fs::File,
         io::{BufRead, BufReader, Read},
@@ -176,46 +176,6 @@ pub mod utils {
         }
         v
     }
-
-    pub fn merge_overlapping(vec: &Vec<Vec<i32>>) -> Vec<Vec<i32>> {
-        let mut clone = vec.clone();
-        clone.sort_by(|a, b| a[0].cmp(&b[0]));
-
-        let mut result: Vec<Vec<i32>> = Vec::new();
-        result.push(clone[0].clone());
-
-        for i in 1..clone.len() {
-            let current: Vec<i32> = clone[i].clone();
-            let j: usize = result.len() - 1;
-
-            if current[0] >= result[j][0] && current[0] <= result[j][1] {
-                result[j][1] = cmp::max(current[1], result[j][1]);
-            } else {
-                result.push(current);
-            }
-        }
-        result
-    }
-
-    pub fn find_gap(vec: &Vec<Vec<i32>>) -> i32 {
-        let mut clone = vec.clone();
-
-        let first_pair = clone.drain(0..1).next().unwrap();
-
-        let mut previous_right = first_pair[1];
-
-        for i in clone {
-            let left = i[0];
-            let right = i[1];
-
-            if previous_right + 1 == left - 1 {
-                return previous_right + 1;
-            } else {
-                previous_right = right;
-            }
-        }
-        i32::MIN
-    }
 }
 
 #[cfg(test)]
@@ -280,33 +240,5 @@ mod tests {
         let example = Example::new(NUM, NAME, OUTPUT, FILE, count_lines_or_characters);
         assert_eq!(1, example.run_part(FileType::ExampleFile, RunType::Part1));
         assert_eq!(19, example.run_part(FileType::ExampleFile, RunType::Part2));
-    }
-
-    #[test]
-    fn test_merge_overlapping() {
-        let vec: Vec<Vec<i32>> = vec![
-            vec![89, 90],
-            vec![-10, 20],
-            vec![-50, 0],
-            vec![70, 90],
-            vec![90, 91],
-            vec![90, 95],
-        ];
-
-        let expect: Vec<Vec<i32>> = vec![vec![-50, 20], vec![70, 95]];
-
-        assert_eq!(expect, merge_overlapping(&vec));
-    }
-
-    #[test]
-    fn test_find_gap() {
-        let vec_1: Vec<Vec<i32>> = vec![vec![-4, 10], vec![12, 20], vec![21, 30], vec![31, 40]];
-        assert_eq!(11, find_gap(&vec_1));
-
-        let vec_2: Vec<Vec<i32>> = vec![vec![-4, 11], vec![12, 20], vec![22, 30], vec![31, 40]];
-        assert_eq!(21, find_gap(&vec_2));
-
-        let vec_3: Vec<Vec<i32>> = vec![vec![-4, 10], vec![11, 20], vec![21, 30], vec![32, 40]];
-        assert_eq!(31, find_gap(&vec_3));
     }
 }
