@@ -5,7 +5,7 @@
 
 #### Day 15: Beacon Exclusion Zone
 
-[Problem](https://adventofcode.com/2022/day/14)
+[Problem](https://adventofcode.com/2022/day/15)
 
 #### Usage 
 
