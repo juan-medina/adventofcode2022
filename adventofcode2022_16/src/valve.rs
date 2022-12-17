@@ -1,30 +1,4 @@
-### Advent of Code 2022
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-
-#### Day 16: Proboscidea Volcanium
-
-[Problem](https://adventofcode.com/2022/day/16)
-
-#### Usage 
-
-```bash
-cargo run
-```
-
-#### Output
-
-```
-Advent of Code 2022 - Day 16: Proboscidea Volcanium
-
-part 1 [example] most pressure released: 1651
-part 1 [puzzle] most pressure released: 1944
-part 2 [example] most pressure released: 1707
-part 2 [puzzle] most pressure released: 2679
-```
-#### License
-```
+/***
 Copyright (c) 2022 Juan Medina
 
 Permission is hereby granted, free of charge, to any person obtaining
@@ -45,4 +19,36 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-```
+***/
+
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub struct Valve {
+    pub name: String,
+    pub rate: u32,
+    pub tunnels_indexes: Vec<usize>,
+    pub index: usize,
+}
+
+impl Valve {
+    pub fn index_from_name(name: &str) -> usize {
+        let chars = name.as_bytes();
+        (chars[0] - b'A') as usize * 26 + (chars[1] - b'A') as usize
+    }
+
+    fn new(name: &str, rate: u32) -> Self {
+        Self {
+            name: String::from(name),
+            index: Self::index_from_name(name),
+            tunnels_indexes: Vec::new(),
+            rate: rate,
+        }
+    }
+
+    pub fn add_tunnel(&mut self, index: usize) {
+        self.tunnels_indexes.push(index);
+    }
+}
+
+pub fn new(name: &str, rate: u32) -> Valve {
+    Valve::new(name, rate)
+}

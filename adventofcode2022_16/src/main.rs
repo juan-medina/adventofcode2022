@@ -21,6 +21,10 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***/
 
+mod cave;
+mod parser;
+mod valve;
+
 use adventofcode2022_lib::utils::{Example, FileType, RunType};
 
 const NUM: &'static usize = &16;
@@ -32,8 +36,13 @@ fn main() {
     Example::new(NUM, NAME, OUTPUT, FILE, solve_day_16).run_all();
 }
 
-fn solve_day_16(_filename: &str, _run_type: RunType, _file_type: FileType) -> u32 {
-    0
+fn solve_day_16(filename: &str, run_type: RunType, _file_type: FileType) -> u32 {
+    let mut cave = cave::new(parser::new(filename).parse());
+
+    match run_type {
+        RunType::Part1 => cave.max_pressure(false),
+        RunType::Part2 => cave.max_pressure(true),
+    }
 }
 
 #[cfg(test)]
@@ -43,12 +52,18 @@ mod tests {
     #[test]
     fn test_part_1() {
         let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_16);
-        assert_eq!(0,example.run_part(FileType::ExampleFile, RunType::Part1));
+        assert_eq!(
+            1651,
+            example.run_part(FileType::ExampleFile, RunType::Part1)
+        );
     }
 
     #[test]
     fn test_part_2() {
         let example = Example::new(NUM, NAME, OUTPUT, FILE, solve_day_16);
-        assert_eq!(0,example.run_part(FileType::ExampleFile, RunType::Part2));
+        assert_eq!(
+            1707,
+            example.run_part(FileType::ExampleFile, RunType::Part2)
+        );
     }
 }
